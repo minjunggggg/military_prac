@@ -1053,18 +1053,19 @@ $(document).ready(function () {
         //target_blank : 새창이동 인 경우의 탭
         var tab_id = $(this).attr("data-tab");
         var tab_idx = $(this).index();
+        var $wrap = $(this).closest(".box_calcwrap");
 
         if ($(this).hasClass("tab_linkmove")) {
             return;
         }
 
-        $(".subs .notice-tab .tab").removeClass("active");
-        $(".subs .notice-tab .tab > a").attr("title", "");
-        $(".subs .notices").removeClass("active");
+        $wrap.find(".notice-tab .tab").removeClass("active");
+        $wrap.find(".notice-tab .tab > a").attr("title", "");
+        $wrap.find(".notices").removeClass("active");
 
         $(this).addClass("active");
-        $(this).find(" > a").attr("title", "선택됨");
-        $("#" + tab_id).addClass("active");
+        $(this).find("> a").attr("title", "선택됨");
+        $wrap.find("#" + tab_id).addClass("active");
     });
 
     $(window).load(function () {

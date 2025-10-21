@@ -9934,6 +9934,10 @@ min-height: 30px;
     font-weight: bold;
 }
 
+.list_half_cardnoti > li .box_line .line span.long_menu { 
+    font-size: 20px;
+}
+
 .list_half_cardnoti > li .box_img {
     padding-top: 40px;
 }
