@@ -38,15 +38,15 @@ $(document).ready(function () {
     });
 
     /********** 메인 이벤트 팝업 슬라이드 (신규) ***********/
-    $(".main_imgarea_slider").slick({
-        dots: true,
-        infinite: true,
-        autoplay: true,
-        speed: 300,
-        slidesToShow: 1,
-        prevArrow: $(".main_imgarea_indicator .slick-prev"),
-        nextArrow: $(".main_imgarea_indicator .slick-next"),
-    });
+    // $(".main_imgarea_slider").slick({
+    //     dots: true,
+    //     infinite: true,
+    //     autoplay: true,
+    //     speed: 300,
+    //     slidesToShow: 1,
+    //     prevArrow: $(".main_imgarea_indicator .slick-prev"),
+    //     nextArrow: $(".main_imgarea_indicator .slick-next"),
+    // });
 
     $(".main_imgarea_slider .slick-dots").wrapAll("<div class='box_popbtns'></div>");
     $(".box_popbtns").prepend("<a href='javascript:;' class='btn_popcontrol'><span class='blind'>슬라이드 멈추기</span></a>");
@@ -68,22 +68,22 @@ $(document).ready(function () {
         }
     });
 
-    $(".visual .v-slider").slick({
-        // 메인 슬라이드
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: true,
-        prevArrow: $(".v-prev"),
-        nextArrow: $(".v-next"),
-        dots: true,
-        autoplay: true,
-        pauseOnFocus: false,
-        pauseOnHover: false,
-        fade: true,
-        //speed: 700
-        speed: 300,
-    });
+    // $(".visual .v-slider").slick({
+    //     // 메인 슬라이드
+    //     infinite: true,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     arrows: true,
+    //     prevArrow: $(".v-prev"),
+    //     nextArrow: $(".v-next"),
+    //     dots: true,
+    //     autoplay: true,
+    //     pauseOnFocus: false,
+    //     pauseOnHover: false,
+    //     fade: true,
+    //     //speed: 700
+    //     speed: 300,
+    // });
 
     $(".v-prev").click(function () {
         $(".visual .v-slider").slick("slickPrev");
@@ -157,55 +157,55 @@ $(document).ready(function () {
         $(".two-area .tab-slider").slick("setPosition");
     });
 
-    $(".two-area:not(.new-two-area) .tab-slider").slick({
-        // 저축대여 슬라이드
-        infinite: true,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        arrows: true,
-        prevArrow: "<button type='button' class='two-prev'>이전</button>",
-        nextArrow: "<button type='button' class='two-next'>다음</button>",
-        dots: false,
-        autoplay: false,
-        speed: 700,
-        responsive: [
-            {
-                breakpoint: 1341,
-                settings: {
-                    slidesToShow: 3,
-                },
-            },
-            {
-                breakpoint: 1025,
-                settings: {
-                    slidesToShow: 2,
-                },
-            },
-            {
-                breakpoint: 1001,
-                settings: {
-                    slidesToShow: 2,
-                    dots: true,
-                },
-            },
-            /*{  
-                            breakpoint: 521,
-                            settings: {
-                                slidesToShow: 4,
-                                arrows : false,
-                                dots : true,
-                            } 
-                        },
-                        {  
-                            breakpoint: 436,
-                            settings: {
-                                slidesToShow: 3,
-                                arrows : false,
-                                dots : true,
-                            } 
-                        }*/
-        ],
-    });
+    // $(".two-area:not(.new-two-area) .tab-slider").slick({
+    //     // 저축대여 슬라이드
+    //     infinite: true,
+    //     slidesToShow: 4,
+    //     slidesToScroll: 1,
+    //     arrows: true,
+    //     prevArrow: "<button type='button' class='two-prev'>이전</button>",
+    //     nextArrow: "<button type='button' class='two-next'>다음</button>",
+    //     dots: false,
+    //     autoplay: false,
+    //     speed: 700,
+    //     responsive: [
+    //         {
+    //             breakpoint: 1341,
+    //             settings: {
+    //                 slidesToShow: 3,
+    //             },
+    //         },
+    //         {
+    //             breakpoint: 1025,
+    //             settings: {
+    //                 slidesToShow: 2,
+    //             },
+    //         },
+    //         {
+    //             breakpoint: 1001,
+    //             settings: {
+    //                 slidesToShow: 2,
+    //                 dots: true,
+    //             },
+    //         },
+    //         /*{
+    //                         breakpoint: 521,
+    //                         settings: {
+    //                             slidesToShow: 4,
+    //                             arrows : false,
+    //                             dots : true,
+    //                         }
+    //                     },
+    //                     {
+    //                         breakpoint: 436,
+    //                         settings: {
+    //                             slidesToShow: 3,
+    //                             arrows : false,
+    //                             dots : true,
+    //                         }
+    //                     }*/
+    //     ],
+    // });
 
     $(".two-area.new-two-area .tab-slider").slick({
         // 저축대여 슬라이드
@@ -288,21 +288,21 @@ $(document).ready(function () {
         $("#" + tab_id).addClass("active");
     });
 
-    $(".for-area .banner").slick({
-        // 플러스되는 소식 슬라이드
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: true,
-        prevArrow: $(".for-prev"),
-        nextArrow: $(".for-next"),
-        dots: true,
-        autoplay: true,
-        fade: true,
-        pauseOnFocus: false,
-        pauseOnHover: false,
-        speed: 300,
-    });
+    // $(".for-area .banner").slick({
+    //     // 플러스되는 소식 슬라이드
+    //     infinite: true,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     arrows: true,
+    //     prevArrow: $(".for-prev"),
+    //     nextArrow: $(".for-next"),
+    //     dots: true,
+    //     autoplay: true,
+    //     fade: true,
+    //     pauseOnFocus: false,
+    //     pauseOnHover: false,
+    //     speed: 300,
+    // });
     $(".for-area .b-Pause").click(function () {
         // 플러스되는 소식 슬라이드 정지
         $(".for-area .banner").slick("slickPause");
@@ -316,33 +316,33 @@ $(document).ready(function () {
         $(".b-Pause").css("display", "block");
     });
 
-    $(".five-area .sns-slider").slick({
-        // sns 슬라이드
-        infinite: true,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        arrows: true,
-        prevArrow: "<button type='button' class='five-prev'>이전</button>",
-        nextArrow: "<button type='button' class='five-next'>다음</button>",
-        dots: true,
-        autoplay: false,
-        autoplayspeed: 1000,
-        speed: 300,
-        responsive: [
-            {
-                breakpoint: 1241,
-                settings: {
-                    slidesToShow: 3,
-                },
-            },
-            {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 2,
-                },
-            },
-        ],
-    });
+    // $(".five-area .sns-slider").slick({
+    //     // sns 슬라이드
+    //     infinite: true,
+    //     slidesToShow: 4,
+    //     slidesToScroll: 1,
+    //     arrows: true,
+    //     prevArrow: "<button type='button' class='five-prev'>이전</button>",
+    //     nextArrow: "<button type='button' class='five-next'>다음</button>",
+    //     dots: true,
+    //     autoplay: false,
+    //     autoplayspeed: 1000,
+    //     speed: 300,
+    //     responsive: [
+    //         {
+    //             breakpoint: 1241,
+    //             settings: {
+    //                 slidesToShow: 3,
+    //             },
+    //         },
+    //         {
+    //             breakpoint: 992,
+    //             settings: {
+    //                 slidesToShow: 2,
+    //             },
+    //         },
+    //     ],
+    // });
 
     /* 메인 페이지 스크롤 이벤트
     if($(window).width() >= 1024) {

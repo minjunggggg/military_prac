@@ -27,19 +27,19 @@ $(document).ready(function () {
         // 금액표시 E
     });
 
-    $(".login_single_slider").slick({
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: true,
-        prevArrow: $(".btn_lprev"),
-        nextArrow: $(".btn_lnext"),
-        dots: true,
-        speed: 300,
-        autoplay: true,
-        pauseOnFocus: false,
-        pauseOnHover: false,
-    });
+    // $(".login_single_slider").slick({
+    //     infinite: true,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     arrows: true,
+    //     prevArrow: $(".btn_lprev"),
+    //     nextArrow: $(".btn_lnext"),
+    //     dots: true,
+    //     speed: 300,
+    //     autoplay: true,
+    //     pauseOnFocus: false,
+    //     pauseOnHover: false,
+    // });
 
     $(".login_single_slider .slick-dots").wrap('<div class="login_controlarea"></div>');
     $(".login_controlarea").append('<button type="button" class="btn_lcontrol l-Pause"><span class="blind">슬라이드 정지</span></button>');
