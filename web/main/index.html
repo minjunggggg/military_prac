@@ -10,6 +10,7 @@
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="format-detection" content="telephone=no" />
         <!-- Google tag (gtag.js1) -->
+        <!-- 민정: 보안 토큰 코드로 예상 -->
         <script>
             var ZA6On = {
                 wC58h: "396beeb32e917d70c90f8ff5b498a029c2ee54b5317230854ecddb61f9eb7ea80ed5e1741514724a3d015b651a4e56a648935710b4289f797e8ae6cbd43ef216eedefb3dec781d34f9a9ea145ba99ab6f70f2c7a1a3294523aee981aa1b487b5208c095b9b2edc71b007ea66feb6c8de9b6519557581e78eceabe7bbf7dd9e405d1bdb157e8cabd6b62899dab2070eac941145bd23d9ea203eead90b397b1715c51e12ba7b505aa111021f8e1138b9afb76f86df114b10400365e14bf5fb0e90c056aede6ea500c8c6af65f0e3b1f3b0075ca27f2826d516a0a71cf691efadf08b9a385dc793ec352a2f2fc79d03601fbf9f17e420e9e0f045134942c95df658",
@@ -36,14 +37,13 @@
         </script>
         <script src="/web/main/index.do?evfw=skXNC32pzRa8PpPN" charset="utf-8"></script>
         <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XEE7291BM3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-  gtag('config', 'G-XEE7291BM3');
-</script>
- -->
+            gtag('config', 'G-XEE7291BM3');
+        </script> -->
         <meta charset="UTF-8" />
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -77,6 +77,7 @@
         <script type="text/javascript" src="/cubersc/template/user/js/content.js"></script>
         <script type="text/javascript" src="/cubersc/template/kuvdev/js/quickChat.js"></script>
 
+        <!-- 민정: 출력 용 코드로 추측, jsp로 삽입되어 html에서는 주석처리해도 화면에 나타나서 삭제 -->
         <!-- 캡쳐기능 E -->
 
         <script type="text/javascript">
@@ -96,10 +97,10 @@
         <script src="/wizvera/delfino/delfino_site.js?251020_1616" charset="utf-8"></script>
 
         <!--
-<script src="/wizvera/certgate/certgate_config.js?251020_1616" charset="utf-8"></script>
-<script src="/wizvera/certgate/certgate_common.js?251020_1616" charset="utf-8"></script>
-<script src="/wizvera/certgate/certgate.js?251020_1616" charset="utf-8"></script>
--->
+        <script src="/wizvera/certgate/certgate_config.js?251020_1616" charset="utf-8"></script>
+        <script src="/wizvera/certgate/certgate_common.js?251020_1616" charset="utf-8"></script>
+        <script src="/wizvera/certgate/certgate.js?251020_1616" charset="utf-8"></script>
+        -->
 
         <script src="/chat/resources/js/crypto-js.min.js" type="text/javascript"></script>
 
@@ -119,17 +120,20 @@
         <!-- <script src="https://scert.ez-iok.com/stdauth/ds_auth_ptb/asset/js/ptb_ezauth_proc.js"></script> 개발 -->
         <!-- <script type="text/javascript" src="/cubersc/template/kuvdev/js/ptb_ezauth_proc.js"></script> -->
         <script>
-            /*     function init_popup_auth() {
-        // 1. 간편인증-표준창 인증요청  
-        // eziok_std_process(간편인증-표준창 인증요청 생성 URL, 웹브라우져타입[WB:웹브라우져, MB:모바일웹, MWV:모바일웹View], callback함수명)
-        eziok_std_process("https://www.mmaa.or.kr/eziok/request_auth.jsp", "WB", "printResult");
-    }
- */
+            /* function init_popup_auth() {
+            // 1. 간편인증-표준창 인증요청  
+            // eziok_std_process(간편인증-표준창 인증요청 생성 URL, 웹브라우져타입[WB:웹브라우져, MB:모바일웹, MWV:모바일웹View], callback함수명)
+            eziok_std_process("https://www.mmaa.or.kr/eziok/request_auth.jsp", "WB", "printResult");
+            } */
             /* 2. 간편인증-표준창 결과 수신 callback 함수 예시  */
             function printResult(data) {
                 fn_login("ci");
             }
         </script>
+        <script type="text/javascript" src="https://cert.ez-iok.com/stdauth/ds_auth_ptb/asset/js/ptb_ezauth_index.js?1761184476583"></script>
+
+        <!-- 민정: jsp 대신 임시 추가 -->
+        <script type="text/javascript" src="/cubersc/template/user/js/main.js"></script>
     </head>
     <body>
         <!-- header -->
@@ -853,12 +857,7 @@
                     </div>
 
                     <div class="bottom">
-                        <!-- 
-				
-				
-					<a href="/web/main/index.do">군인공제회 CMS</a>
-		        
-		         -->
+                        <!-- <a href="/web/main/index.do">군인공제회 CMS</a> -->
 
                         <a href="/web/main/index.do" class="logo img_p" title="군인공제회 메인 페이지로 이동"><img src="/cubersc/template/user/img/h_logo.png" alt="군인공제회 로고" /></a>
                         <a href="/web/main/index.do" class="logo img_m" title="군인공제회 메인 페이지로 이동"><img src="/cubersc/template/user/img/h_logo-m.png" alt="군인공제회 로고" /></a>
@@ -3435,7 +3434,7 @@
                             <div class="h-wincont">
                                 <div class="box_imgarea">
                                     <div class="box_img" tabindex="0">
-                                        <a href="/web/contents/notice.do?schM=view&amp;id=721279">
+                                        <a href="javascript:void(0)">
                                             <img src="/cubersc/template/user/img/sub/mainpopup_warningInfo1-PC.jpg" class="img_p" alt="" />
                                             <img src="/cubersc/template/user/img/sub/mainpopup_warningInfo1-m.jpg" class="img_m" alt="" />
                                         </a>
