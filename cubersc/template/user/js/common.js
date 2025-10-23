@@ -871,21 +871,21 @@ $(document).ready(function () {
     });
 
     /* 마이페이지 모바일 박스 슬라이드 */
-    $(".subs .mobmy").slick({
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        centerMode: true,
-        centerPadding: "30px",
-        arrows: false,
-        dots: true,
-        autoplay: false,
-        speed: 700,
-    });
+    // $(".subs .mobmy").slick({
+    //     infinite: true,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     centerMode: true,
+    //     centerPadding: "30px",
+    //     arrows: false,
+    //     dots: true,
+    //     autoplay: false,
+    //     speed: 700,
+    // });
 
-    $(".subs .mobmy").on("afterChange", function () {
-        setMatchHeightBox();
-    });
+    // $(".subs .mobmy").on("afterChange", function () {
+    //     setMatchHeightBox();
+    // });
 
     /** 마이페이지 금액 표시하기 토글 **/
 

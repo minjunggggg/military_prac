@@ -23,15 +23,16 @@
 
 */
 
-$(document).ready(function () {
-    // 초기화
-    ML4WebVKey.init();
-});
+// 민정: ML4WebVKey 주석처리
+// $(document).ready(function () {
+//     // 초기화
+//     ML4WebVKey.init();
+// });
 
 /////////////////////////////////////////// 기본 존재 스크립트 cms) 시작
-function showKeyboard(elementId) {
-    ML4WebVKey.showKeyboard(elementId);
-}
+// function showKeyboard(elementId) {
+//     ML4WebVKey.showKeyboard(elementId);
+// }
 
 //<![CDATA[
 
