@@ -13,8 +13,8 @@
 .top_category_type .list_topcategory li .active { background: #3b3772; color: #fff !important; font-weight: bold !important; } 
 
 .box_onlym_btns .select_top_category { transition: none; font-size: 14px; color: #666;padding: 8px 14px; display: block; box-sizing: border-box;}
-.box_onlym_btns .select_top_category:after { content: ''; margin-top: 1px; background: url(/cubersc/template/user/img/dep_icon1.png) no-repeat;width: 10px; height: 6px; display: inline-block; position: absolute; right: 0; top: 50%; transform: translateY(-50%);}
-.box_onlym_btns.active  .select_top_category:after { content: ''; background: url(/cubersc/template/user/img/dep_icon2.png) no-repeat;width: 10px; height: 6px; display: inline-block; position: absolute; right: 0; top: 50%; transform: translateY(-50%);}
+.box_onlym_btns .select_top_category:after { content: ''; margin-top: 1px; background: url(../img/dep_icon1.png) no-repeat;width: 10px; height: 6px; display: inline-block; position: absolute; right: 0; top: 50%; transform: translateY(-50%);}
+.box_onlym_btns.active  .select_top_category:after { content: ''; background: url(../img/dep_icon2.png) no-repeat;width: 10px; height: 6px; display: inline-block; position: absolute; right: 0; top: 50%; transform: translateY(-50%);}
 .box_onlym_btns .top_category_type .list_topcategory {display: none; background: #fff; width:100%;padding: 5px 0; margin-top:5px; box-shadow: 3px 3px 10px 0px rgba(47, 46, 44, 0.25); border-radius: 10px; position: absolute; top: 100%;}
 .box_onlym_btns.active  .top_category_type .list_topcategory {display: block;}
 .box_onlym_btns .top_category_type .list_topcategory li, .box_onlym_btns .top_category_type .list_topcategory li .active { margin-right: 0; background: #fff !important; color: #666 !important; display: block;  padding: 10px 14px;}
@@ -24,7 +24,7 @@
 .search-all-mainpage .h_search { max-width: 1200px; margin: 0 auto; display: flex; justify-content: center; } 
 .search-all-mainpage .h_search input { position: relative; box-shadow: 3px 4px 12px 1px rgba(47, 46, 44, 0.25); border: 0; padding: 18px 60px 18px 35px; border-radius: 100px; font-size: 20px; line-height: 28px; box-sizing: border-box; width: inherit; height: inherit; } 
 .search-all-mainpage .h_search form { width: 530px; height: 54px; position: relative; } 
-.search-all-mainpage .h_search .srch-btn-mainpage { width: 54px; height: 54px; position: absolute; right: 0; top: 0; display: inline-block; background: #fff url('/cubersc/template/user/img/ico_main_search.png') center center no-repeat; box-shadow: 3px 3px 10px 0px rgba(47, 46, 44, 0.25); 
+.search-all-mainpage .h_search .srch-btn-mainpage { width: 54px; height: 54px; position: absolute; right: 0; top: 0; display: inline-block; background: #fff url('../img/ico_main_search.png') center center no-repeat; box-shadow: 3px 3px 10px 0px rgba(47, 46, 44, 0.25); 
 border-radius:100%; z-index:3; cursor: pointer;} 
 
      
@@ -66,8 +66,8 @@ border-radius:100%; z-index:3; cursor: pointer;}
 .box_midwrap .box_alignwrap .link_ico {display: block;color: #000;font-size: 16px;margin-top: 8px;font-weight: 500;}
 .box_midwrap .box_alignwrap .link_ico:hover {text-decoration:underline;}
 .box_midwrap .box_alignwrap .link_ico i {width: 16px;height: 16px;display: inline-block;vertical-align: top;margin: 1px 10px 2px 0;}
-.box_midwrap .box_alignwrap .link_ico.link_mypage i {background: url(/cubersc/template/user/img/ico_login_user.png) center center no-repeat;background-size: contain;}
-.box_midwrap .box_alignwrap .link_ico.link_myinfomodify i {background: url(/cubersc/template/user/img/ico_login_modify.png) center center no-repeat;background-size: contain;}
+.box_midwrap .box_alignwrap .link_ico.link_mypage i {background: url(../img/ico_login_user.png) center center no-repeat;background-size: contain;}
+.box_midwrap .box_alignwrap .link_ico.link_myinfomodify i {background: url(../img/ico_login_modify.png) center center no-repeat;background-size: contain;}
 
 
 
@@ -102,7 +102,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
     height: 28px;
     font-size: 0;
     border: 0;
-    background: url(/cubersc/template/user/img/hp_prev.png) center center no-repeat;
+    background: url(../img/hp_prev.png) center center no-repeat;
     z-index: 1;
     cursor: pointer;
 }
@@ -116,7 +116,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
     height: 28px;
     font-size: 0;
     border: 0;
-    background: url(/cubersc/template/user/img/hp_next.png) center center no-repeat;
+    background: url(../img/hp_next.png) center center no-repeat;
     z-index: 1;
     cursor: pointer;
 }
@@ -131,7 +131,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
     height: 28px;
     font-size: 0;
     border: 0;
-    background: url(/cubersc/template/user/img/hp_prev.png) center center no-repeat;
+    background: url(../img/hp_prev.png) center center no-repeat;
     z-index: 1;
     cursor: pointer;
 }
@@ -145,7 +145,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
     height: 28px;
     font-size: 0;
     border: 0;
-    background: url(/cubersc/template/user/img/hp_next.png) center center no-repeat;
+    background: url(../img/hp_next.png) center center no-repeat;
     z-index: 1;
     cursor: pointer;
 }
@@ -162,7 +162,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
     display: inline-block;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/hp_close.png) center center no-repeat;
+    background: url(../img/hp_close.png) center center no-repeat;
     background-size: cover;
     cursor: pointer;
     width: 28px;
@@ -198,7 +198,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
     height: 14px;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/mobmenu_close.png) center center no-repeat;
+    background: url(../img/mobmenu_close.png) center center no-repeat;
     cursor: pointer;
     position: relative;
     right: 15px;
@@ -252,7 +252,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
     right: 0;
     width: 14px;
     height: 8px;
-    background: url(/cubersc/template/user/img/sub/s3_mybox_bottom.png) center center no-repeat;
+    background: url(../img/sub/s3_mybox_bottom.png) center center no-repeat;
     background-size: cover;
     transform: rotate(-90deg);
     display: inline-block;
@@ -296,7 +296,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
 #containers .small-txt li::before {
     display: block;
     content: '';
-    background: url(/cubersc/template/user/img/sub/med-bull.png) center center no-repeat;
+    background: url(../img/sub/med-bull.png) center center no-repeat;
     position: absolute;
     left: 0;
     height: 15px;
@@ -311,7 +311,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
     left: 3px;
     width: 8px;
     height: 8px;
-    background: url(/cubersc/template/user/img/sub/sss-bul.png) center center no-repeat;
+    background: url(../img/sub/sss-bul.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -375,7 +375,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
     width: 13px;
     height: 13px;
     display: inline-block;
-    background: url(/cubersc/template/user/img/sub/nav_print_pp.png) center center no-repeat;
+    background: url(../img/sub/nav_print_pp.png) center center no-repeat;
     background-size: contain;
     margin-left: 8px;
     -webkit-transition: all .3s ease;
@@ -383,7 +383,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
 }
 
 .greyline-btn.excel i {
-    background: url(/cubersc/template/user/img/sub/no-exc.png) center center no-repeat;
+    background: url(../img/sub/no-exc.png) center center no-repeat;
     background-size: contain;
 }
 
@@ -398,8 +398,8 @@ border-radius:100%; z-index:3; cursor: pointer;}
     border-color: #83b377;
 }
 .greyline-btn:hover {background:#383b73; color:#fff;}
-.greyline-btn:hover i {background: url(/cubersc/template/user/img/sub/nav_print_w.png) center center no-repeat;	 background-size: contain;}
-.greyline-btn.excel:hover i { background: url(/cubersc/template/user/img/sub/no-exc_w.png) center center no-repeat;background-size: contain;}
+.greyline-btn:hover i {background: url(../img/sub/nav_print_w.png) center center no-repeat;	 background-size: contain;}
+.greyline-btn.excel:hover i { background: url(../img/sub/no-exc_w.png) center center no-repeat;background-size: contain;}
 
 #containers .subs h1 {
     margin-bottom: 70px;
@@ -548,7 +548,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
     height: 38px;
     font-size: 0;
     padding: 0;
-    background: url(/cubersc/template/user/img/simul_close.png) center center no-repeat;
+    background: url(../img/simul_close.png) center center no-repeat;
     cursor: pointer;
 }
 
@@ -669,7 +669,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
     right: 30px;
     width: 8px;
     height: 8px;
-    background: url(/cubersc/template/user/img/sub/sss-bul.png) center center no-repeat;
+    background: url(../img/sub/sss-bul.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -722,7 +722,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
     color: #333;
     padding: 0 0 0 10px;
     /* border: 1px solid #eee; */
-    /* background: #fff url(/cubersc/template/user/img/simul_select_icon.png) right center no-repeat; */
+    /* background: #fff url(../img/simul_select_icon.png) right center no-repeat; */
     /* -webkit-appearance: none; */
     -moz-appearance: none;
     /* appearance: none; */
@@ -868,7 +868,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
     height: 60px;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/top_button.png) center center no-repeat;
+    background: url(../img/top_button.png) center center no-repeat;
     background-size: cover;
     cursor: pointer;
     opacity: 0;
@@ -887,7 +887,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
 	height: 40px;
 	font-size: 0;
 	border: none;
-	background: url(/cubersc/template/user/img/go_back.png) center center no-repeat;
+	background: url(../img/go_back.png) center center no-repeat;
 	background-size: contain;
 	cursor: pointer;
 	opacity: 1;
@@ -909,7 +909,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
     height: 60px;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/top_help.png) center center no-repeat;
+    background: url(../img/top_help.png) center center no-repeat;
     background-size: cover;
     cursor: pointer;
     opacity: 0;
@@ -933,7 +933,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
     height: 60px;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/m_simulation.png) center center no-repeat;
+    background: url(../img/m_simulation.png) center center no-repeat;
     background-size: cover;
     cursor: pointer;
     opacity: 0;
@@ -956,8 +956,8 @@ border-radius:100%; z-index:3; cursor: pointer;}
     top:122px;
     border-radius: 5px 0 0 5px;
 }
-.quick:before {content:'';background: url(/cubersc/template/user/img/ico_quickbefore01.png) no-repeat;width: 36px;height: 41px;display: inline-block;position: absolute;top: -40px;right: 0;z-index: 10;}
-.quick:after {content:'';background: url(/cubersc/template/user/img/ico_quickbefore02.png) no-repeat;width: 36px;height: 41px;display: inline-block;position: absolute;bottom: -40px;right: 0px;}
+.quick:before {content:'';background: url(../img/ico_quickbefore01.png) no-repeat;width: 36px;height: 41px;display: inline-block;position: absolute;top: -40px;right: 0;z-index: 10;}
+.quick:after {content:'';background: url(../img/ico_quickbefore02.png) no-repeat;width: 36px;height: 41px;display: inline-block;position: absolute;bottom: -40px;right: 0px;}
 
 
 .quick .quick-tit {
@@ -965,7 +965,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
     /* height: 49px; */
     padding: 45px 0 15px;
     border-bottom: none;
-    background: #0083a0 url(/cubersc/template/user/img/q_baricon2.png) center 15px no-repeat;
+    background: #0083a0 url(../img/q_baricon2.png) center 15px no-repeat;
     margin: 0 auto;
     cursor: pointer;
     border-radius: 10px 0 0 0;
@@ -1011,100 +1011,100 @@ border-radius:100%; z-index:3; cursor: pointer;}
 }
 
 .quick li.q1 > a {
-    background: url(/cubersc/template/user/img/q_icon0.png) center 15px no-repeat;
+    background: url(../img/q_icon0.png) center 15px no-repeat;
 }
 
 .quick li.q2 > a {
-    background: url(/cubersc/template/user/img/q_icon1.png) center 15px no-repeat;
+    background: url(../img/q_icon1.png) center 15px no-repeat;
 }
 
 .quick li.q3 > a {
-    background: url(/cubersc/template/user/img/q_icon2.png) center 12px no-repeat;
+    background: url(../img/q_icon2.png) center 12px no-repeat;
     background-size: 36px 36px;
 }
 
 .quick li.q4 > a {
-    background: url(/cubersc/template/user/img/q_icon3.png) center 15px no-repeat;
+    background: url(../img/q_icon3.png) center 15px no-repeat;
 }
 
 .quick li.q5 > a {
-    background: url(/cubersc/template/user/img/q_icon4.png) center 15px no-repeat;
+    background: url(../img/q_icon4.png) center 15px no-repeat;
 }
 
 .quick li.q6 > a {
-    background: url(/cubersc/template/user/img/q_icon5.png) center 15px no-repeat;
+    background: url(../img/q_icon5.png) center 15px no-repeat;
 }
 
 .quick li.q7 > a {
-    background: url(/cubersc/template/user/img/q_icon6.png) center 15px no-repeat;
+    background: url(../img/q_icon6.png) center 15px no-repeat;
 }
 
 .quick li.q8 > a {
-    background: url(/cubersc/template/user/img/q_icon7.png) center 12px no-repeat;
+    background: url(../img/q_icon7.png) center 12px no-repeat;
 }
 
 .quick li.q9 > a {
-    background: url(/cubersc/template/user/img/q_icon8.png) center 15px no-repeat;
+    background: url(../img/q_icon8.png) center 15px no-repeat;
 }
 
 .quick li.q10 > a {
-    background: url(/cubersc/template/user/img/q_icon9.png) center 15px no-repeat;
+    background: url(../img/q_icon9.png) center 15px no-repeat;
 }
 
 .quick li.q11 > a {
-    background: url(/cubersc/template/user/img/q_icon10.png) center 15px no-repeat;
+    background: url(../img/q_icon10.png) center 15px no-repeat;
 }
 
 .quick li.q12 > a {
-    background: url(/cubersc/template/user/img/q_icon11.png) center 15px no-repeat;
+    background: url(../img/q_icon11.png) center 15px no-repeat;
 }
 
 .quick li.q13 > a {
-    background: url(/cubersc/template/user/img/q_icon12.png) center 15px no-repeat;
+    background: url(../img/q_icon12.png) center 15px no-repeat;
 }
 
 .quick li.q14 > a {
-    background: url(/cubersc/template/user/img/q_icon13.png) center 15px no-repeat;
+    background: url(../img/q_icon13.png) center 15px no-repeat;
 }
 
 .quick li.q15 > a {
-    background: url(/cubersc/template/user/img/q_icon14.png) center 15px no-repeat;
+    background: url(../img/q_icon14.png) center 15px no-repeat;
 }
 
 .quick li.q16 > a {
-    background: url(/cubersc/template/user/img/q_icon15.png) center 15px no-repeat;
+    background: url(../img/q_icon15.png) center 15px no-repeat;
 }
 
 .quick li.q17 > a {
-    background: url(/cubersc/template/user/img/q_icon16.png) center 15px no-repeat;
+    background: url(../img/q_icon16.png) center 15px no-repeat;
 }
 
 .quick li.q18 > a {
-    background: url(/cubersc/template/user/img/q_icon17.png) center 15px no-repeat;
+    background: url(../img/q_icon17.png) center 15px no-repeat;
 }
 
 .quick li.q19 > a {
-    background: url(/cubersc/template/user/img/q_icon18.png) center 15px no-repeat;
+    background: url(../img/q_icon18.png) center 15px no-repeat;
 }
 
 .quick li.q20 > a {
-    background: url(/cubersc/template/user/img/q_icon19.png) center 15px no-repeat;
+    background: url(../img/q_icon19.png) center 15px no-repeat;
 }
 
 .quick li.q21 > a {
-    background: url(/cubersc/template/user/img/q_icon20.png) center 15px no-repeat;
+    background: url(../img/q_icon20.png) center 15px no-repeat;
 }
 
 .quick li.q22 > a {
-    background: url(/cubersc/template/user/img/q_icon21.png) center 15px no-repeat;
+    background: url(../img/q_icon21.png) center 15px no-repeat;
 }
 
 .quick li.q23 > a {
-    background: url(/cubersc/template/user/img/q_icon22.png) center 15px no-repeat;
+    background: url(../img/q_icon22.png) center 15px no-repeat;
 }
 
 .quick li.q25 > a {
-    background: url(/cubersc/template/user/img/q_icon25.png) center 15px no-repeat;
+    background: url(../img/q_icon25.png) center 15px no-repeat;
 }
 
 
@@ -1129,7 +1129,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
     border-bottom-left-radius: 10px;
     background: #fff;
     cursor: pointer;
-    background: #fff url(/cubersc/template/user/img/q_button_close.png) center center no-repeat;
+    background: #fff url(../img/q_button_close.png) center center no-repeat;
 }
 
 
@@ -1140,7 +1140,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
     right: 0;
     width: 11px;
     height: 11px;
-    background: url(/cubersc/template/user/img/ico_qbtn_before01.png) center center no-repeat;
+    background: url(../img/ico_qbtn_before01.png) center center no-repeat;
 }
 .quick .quick-button:after {
     content: '';
@@ -1149,7 +1149,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
     right: 0;
     width: 11px;
     height: 11px;
-    background: url(/cubersc/template/user/img/ico_qbtn_before02.png) center center no-repeat;
+    background: url(../img/ico_qbtn_before02.png) center center no-repeat;
 }
 
 .quick.close {
@@ -1159,7 +1159,7 @@ border-radius:100%; z-index:3; cursor: pointer;}
 }
 
 .quick.close .quick-button {
-    background: #fff url(/cubersc/template/user/img/q_button_close2.png) center center no-repeat;
+    background: #fff url(../img/q_button_close2.png) center center no-repeat;
 }
 
 .visual {
@@ -1314,8 +1314,8 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
     transition: all .5s;
 }
 
-/* .visual .v-slider .slide.one .sli_text:after{top:7px; left:377px; width:578px; height:418px; background:url(/cubersc/template/user/img/visual1_box.png) center center no-repeat; background-size:cover;}
-.visual .v-slider .slide.two .sli_text:after{top:9px; left:456px; width:355px; height:371px; background:url(/cubersc/template/user/img/visual2_box.png) center center no-repeat; background-size:cover;} */
+/* .visual .v-slider .slide.one .sli_text:after{top:7px; left:377px; width:578px; height:418px; background:url(../img/visual1_box.png) center center no-repeat; background-size:cover;}
+.visual .v-slider .slide.two .sli_text:after{top:9px; left:456px; width:355px; height:371px; background:url(../img/visual2_box.png) center center no-repeat; background-size:cover;} */
 .visual .v-slider .sli_tit {
     display: block;
     font-size: 46px;
@@ -1457,7 +1457,7 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
     height: 12px;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/v_pause.png) center center no-repeat;
+    background: url(../img/v_pause.png) center center no-repeat;
     background-size: cover;
     cursor: pointer;
 }
@@ -1468,7 +1468,7 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
     height: 12px;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/v_play.png) center center no-repeat;
+    background: url(../img/v_play.png) center center no-repeat;
     background-size: cover;
     cursor: pointer;
 }
@@ -1479,7 +1479,7 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
     font-size: 0;
     border: none;
     margin-left: 14px;
-    background: url(/cubersc/template/user/img/v_prev.png) center center no-repeat;
+    background: url(../img/v_prev.png) center center no-repeat;
     cursor: pointer;
 }
 
@@ -1488,7 +1488,7 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
     height: 15px;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/v_next.png) center center no-repeat;
+    background: url(../img/v_next.png) center center no-repeat;
     cursor: pointer;
 }
 
@@ -1708,13 +1708,13 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
 .visual .login-box .tab-content button.btn3 {
     font-family: 'Noto Sans KR';
     color: #fff;
-    background: #03c65a url(/cubersc/template/user/img/login_naver.png) 15px center no-repeat;
+    background: #03c65a url(../img/login_naver.png) 15px center no-repeat;
 }
 
 .visual .login-box .tab-content button.btn4 {
     font-family: 'Noto Sans KR';
     color: #191919;
-    background: #fee500 url(/cubersc/template/user/img/login_kakao.png) 15px center no-repeat;
+    background: #fee500 url(../img/login_kakao.png) 15px center no-repeat;
 }
 
 .visual .login-box .tab-content .text {
@@ -1797,7 +1797,7 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
 }
 
 .visual .login-box #login3 button.btn2 {
-    background: #f2f2f2 url(/cubersc/template/user/img/login_ip.png) 15px center no-repeat;
+    background: #f2f2f2 url(../img/login_ip.png) 15px center no-repeat;
 }
 
 .visual .scrolldown {
@@ -1812,7 +1812,7 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
     animation: topbottom 1.5s linear 0s infinite;
     width: 16px;
     height: 23px;
-    background: url(/cubersc/template/user/img/scroll_down.png) center center no-repeat;
+    background: url(../img/scroll_down.png) center center no-repeat;
     font-size: 0;
 }
 
@@ -1880,36 +1880,36 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
 }
 
 .fav-list .one li:nth-child(1) a {
-    background: #fff url(/cubersc/template/user/img/fav_icon_new1.png) center 24px no-repeat;
+    background: #fff url(../img/fav_icon_new1.png) center 24px no-repeat;
 }
 
 .fav-list .one li:nth-child(2) a {
-    background: #fff url(/cubersc/template/user/img/fav_icon_new2.png) center 24px no-repeat;
+    background: #fff url(../img/fav_icon_new2.png) center 24px no-repeat;
 }
 
 
 .fav-list .one li:nth-child(3) a {
-    background: #fff url(/cubersc/template/user/img/fav_icon1.png) center 24px no-repeat;
+    background: #fff url(../img/fav_icon1.png) center 24px no-repeat;
 }
 
 .fav-list .one li:nth-child(4) a {
-    background: #fff url(/cubersc/template/user/img/fav_icon2.png) center 24px no-repeat;
+    background: #fff url(../img/fav_icon2.png) center 24px no-repeat;
 }
  
 .fav-list .two li:nth-child(1) a {
-    background: #fff url(/cubersc/template/user/img/fav_icon3.png) center 24px no-repeat;
+    background: #fff url(../img/fav_icon3.png) center 24px no-repeat;
 }
 
 .fav-list .two li:nth-child(2) a {
-    background: #fff url(/cubersc/template/user/img/fav_icon4.png) center 24px no-repeat;
+    background: #fff url(../img/fav_icon4.png) center 24px no-repeat;
 }
 
 .fav-list .two li:nth-child(3) a {
-    background: #fff url(/cubersc/template/user/img/fav_icon5.png) center 24px no-repeat;
+    background: #fff url(../img/fav_icon5.png) center 24px no-repeat;
 }
 
 .fav-list .two li:nth-child(4) a {
-    background: #fff url(/cubersc/template/user/img/fav_icon6.png) center 24px no-repeat;
+    background: #fff url(../img/fav_icon6.png) center 24px no-repeat;
 }
 
 .fav-list .one li a:hover {
@@ -2039,7 +2039,7 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
     width: 30px;
     height: 30px;
     border-radius: 100px;
-    background: url(/cubersc/template/user/img/more.png) center center no-repeat;
+    background: url(../img/more.png) center center no-repeat;
     box-shadow: 3px 3px 10px 0px rgba(47, 46, 44, 0.25);
 }
 
@@ -2155,11 +2155,11 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
 .two-area .content .card .cardbox:hover .text-r2 { transition: opacity 1s; opacity: 1;}
 .two-area .content .card .cardbox .text-r2 {opacity:0;font-size: 16px;text-align: right;margin-right: 8px;transition: color, 0.5s;color: #fff;position: absolute;bottom: 25px;right: 0px;}
 .two-area .content .card .cardbox .text-r2 .txt_rarr { padding-right: 15px; }
-.two-area .content .card .cardbox .text-r2 .txt_rarr:after { content: ''; background: url(/cubersc/template/user/img/sub/ico_more_rarr.png) no-repeat; width: 7px; height: 12px; background-size: contain; display: inline-block; vertical-align: top; margin: 3px 0 0 5px; }
-.two-area .content .card .cardbox .text-r2.dark .txt_rarr:after { background: url(/cubersc/template/user/img/sub/ico_more_rarr_bk.png) no-repeat;}
+.two-area .content .card .cardbox .text-r2 .txt_rarr:after { content: ''; background: url(../img/sub/ico_more_rarr.png) no-repeat; width: 7px; height: 12px; background-size: contain; display: inline-block; vertical-align: top; margin: 3px 0 0 5px; }
+.two-area .content .card .cardbox .text-r2.dark .txt_rarr:after { background: url(../img/sub/ico_more_rarr_bk.png) no-repeat;}
 .two-area .content .card .cardbox .text-r2.dark {  opacity: 1; color: #000;}
 .two-area .content .card .cardbox.in2:hover .text-r2.dark { color: #fff;}
-.two-area .content .card .cardbox.in2:hover .text-r2.dark .txt_rarr:after { background: url(/cubersc/template/user/img/sub/ico_more_rarr.png) no-repeat; transition: opacity 1s;}
+.two-area .content .card .cardbox.in2:hover .text-r2.dark .txt_rarr:after { background: url(../img/sub/ico_more_rarr.png) no-repeat; transition: opacity 1s;}
 
 .two-area .content .card .cardbox .tits b {
     display: block;
@@ -2278,7 +2278,7 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
     height: 52px;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/two_prev.png) center center no-repeat;
+    background: url(../img/two_prev.png) center center no-repeat;
     background-size: cover;
     cursor: pointer;
     transition: background 0.5s;
@@ -2295,7 +2295,7 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
     height: 52px;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/two_next.png) center center no-repeat;
+    background: url(../img/two_next.png) center center no-repeat;
     background-size: cover;
     cursor: pointer;
     transition: background 0.5s;
@@ -2303,13 +2303,13 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
 }
 
 .two-area .content .tab-slider.active .two-prev:hover {
-    background: url(/cubersc/template/user/img/two_prev_hover.png) center center no-repeat;
+    background: url(../img/two_prev_hover.png) center center no-repeat;
     background-size: cover;
     transition: background 0.5s;
 }
 
 .two-area .content .tab-slider.active .two-next:hover {
-    background: url(/cubersc/template/user/img/two_next_hover.png) center center no-repeat;
+    background: url(../img/two_next_hover.png) center center no-repeat;
     background-size: cover;
     transition: background 0.5s;
 }
@@ -2357,10 +2357,10 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
 .content2.hover .card .cardbox.in1 {color: #fff;background: #383b73;/* transition: color, background, transform, box-shadow, 0.5s;*/     transform: translateY(0);}
 .content2.hover .card .cardbox.in1 .start {color: #383b73;background: #fff;transition: color, background, 0.5s;}
 .content2.hover .card .cardbox .tits, .content2.hover .card .cardbox .tits b, .content2.hover .card .cardbox .text-r, .content2.hover .card .cardbox .text-r span:nth-child(2){color: #fff;transition: color, 0.5s; }
-.content2.hover .v-Play2 {background: url(/cubersc/template/user/img/v_play_w.png) center center no-repeat; background-size: contain;}
-.content2.hover .v-prev2 {background: url(/cubersc/template/user/img/v_prev_w.png) center center no-repeat; background-size: contain;}
-.content2.hover .v-next2 {background: url(/cubersc/template/user/img/v_next_w.png) center center no-repeat; background-size: contain;}
-.content2.hover .v-Pause2 {background: url(/cubersc/template/user/img/v_pause_w.png) center center no-repeat; background-size: contain;}
+.content2.hover .v-Play2 {background: url(../img/v_play_w.png) center center no-repeat; background-size: contain;}
+.content2.hover .v-prev2 {background: url(../img/v_prev_w.png) center center no-repeat; background-size: contain;}
+.content2.hover .v-next2 {background: url(../img/v_next_w.png) center center no-repeat; background-size: contain;}
+.content2.hover .v-Pause2 {background: url(../img/v_pause_w.png) center center no-repeat; background-size: contain;}
 .content2.hover .box_kvcontwrap2 {color:#fff;}
 
 
@@ -2425,7 +2425,7 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
     right: 24px;
     width: 94px;
     height: 72px;
-    background: url(/cubersc/template/user/img/thr_icon1.png) center center no-repeat;
+    background: url(../img/thr_icon1.png) center center no-repeat;
     background-size: cover;
     transition: background, 0.5s;
 }
@@ -2437,7 +2437,7 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
     right: 24px;
     width: 72px;
     height: 72px;
-    background: url(/cubersc/template/user/img/thr_icon2.png) center center no-repeat;
+    background: url(../img/thr_icon2.png) center center no-repeat;
     background-size: cover;
     transition: background, 0.5s;
 }
@@ -2498,13 +2498,13 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
 }
 
 .thr-area .left .boxs .box:nth-child(1) a:hover:after {
-    background: url(/cubersc/template/user/img/thr_icon1_hover.png) center center no-repeat;
+    background: url(../img/thr_icon1_hover.png) center center no-repeat;
     background-size: cover;
     transition: background, 0.5s;
 }
 
 .thr-area .left .boxs .box:nth-child(2) a:hover:after {
-    background: url(/cubersc/template/user/img/thr_icon2_hover.png) center center no-repeat;
+    background: url(../img/thr_icon2_hover.png) center center no-repeat;
     background-size: cover;
     transition: background, 0.5s;
 }
@@ -2555,7 +2555,7 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
 
 /*.thr-area .right .box.current{opacity:1; transform:translateX(0px); transition:opacity 2s, transform 1s;}*/
 /* 20230224
-.thr-area .right .box:after{content:''; position:absolute; bottom:0; left:18px; width:150px; height:207px; background:url(/cubersc/template/user/img/thr_img1.png) center top no-repeat; background-size:cover;}
+.thr-area .right .box:after{content:''; position:absolute; bottom:0; left:18px; width:150px; height:207px; background:url(../img/thr_img1.png) center top no-repeat; background-size:cover;}
 .thr-area .right .ct_box{width:calc(100% - 168px); margin:30px 0; transition:width .5s;}
 .thr-area .right .ct_box .ct_li{display:inline-block; position:relative; width:calc(50% - 14px); height:76px; margin:0 20px 18px 0; border-radius:15px; border:2px solid #fff; background:#fff; box-shadow:3px 3px 10px 0px rgba(51, 51, 51, 0.25); transition:border .5s;}
 .thr-area .right .ct_box .ct_li:nth-child(2), .thr-area .right .ct_box .ct_li:nth-child(4){margin-right:0;}
@@ -2563,16 +2563,16 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
 .thr-area .right .ct_box .ct_li a{display:block; width:calc(100% - 26px); height:100%; padding:0 13px;}
 .thr-area .right .ct_box .ct_li span{display:block; font-family:'Noto Sans KR'; font-size:18px; font-weight:bold; line-height:18px; color:#666; padding-top:14px; transition:color .5s;}
 .thr-area .right .ct_box .ct_li:after{content:''; position:absolute; bottom:12px; right:12px; width:35px; height:35px; transition:background .5s;}
-.thr-area .right .ct_box .ct_li:nth-child(1):after{background:url(/cubersc/template/user/img/ct_icon1.png) center center no-repeat; background-size:cover;}
-.thr-area .right .ct_box .ct_li:nth-child(2):after{background:url(/cubersc/template/user/img/ct_icon2.png) center center no-repeat; background-size:cover;}
-.thr-area .right .ct_box .ct_li:nth-child(3):after{background:url(/cubersc/template/user/img/ct_icon3.png) center center no-repeat; background-size:cover;}
-.thr-area .right .ct_box .ct_li:nth-child(4):after{background:url(/cubersc/template/user/img/ct_icon4.png) center center no-repeat; background-size:cover;}
+.thr-area .right .ct_box .ct_li:nth-child(1):after{background:url(../img/ct_icon1.png) center center no-repeat; background-size:cover;}
+.thr-area .right .ct_box .ct_li:nth-child(2):after{background:url(../img/ct_icon2.png) center center no-repeat; background-size:cover;}
+.thr-area .right .ct_box .ct_li:nth-child(3):after{background:url(../img/ct_icon3.png) center center no-repeat; background-size:cover;}
+.thr-area .right .ct_box .ct_li:nth-child(4):after{background:url(../img/ct_icon4.png) center center no-repeat; background-size:cover;}
 .thr-area .right .ct_box .ct_li:hover{border:2px solid #c6002c; transition:border .5s;}
 .thr-area .right .ct_box .ct_li:hover span{color:#c6002c; transition:color .5s;}
-.thr-area .right .ct_box .ct_li:hover:nth-child(1):after{background:url(/cubersc/template/user/img/ct_icon1_h.png) center center no-repeat;}
-.thr-area .right .ct_box .ct_li:hover:nth-child(2):after{background:url(/cubersc/template/user/img/ct_icon2_h.png) center center no-repeat;}
-.thr-area .right .ct_box .ct_li:hover:nth-child(3):after{background:url(/cubersc/template/user/img/ct_icon3_h.png) center center no-repeat;}
-.thr-area .right .ct_box .ct_li:hover:nth-child(4):after{background:url(/cubersc/template/user/img/ct_icon4_h.png) center center no-repeat;}
+.thr-area .right .ct_box .ct_li:hover:nth-child(1):after{background:url(../img/ct_icon1_h.png) center center no-repeat;}
+.thr-area .right .ct_box .ct_li:hover:nth-child(2):after{background:url(../img/ct_icon2_h.png) center center no-repeat;}
+.thr-area .right .ct_box .ct_li:hover:nth-child(3):after{background:url(../img/ct_icon3_h.png) center center no-repeat;}
+.thr-area .right .ct_box .ct_li:hover:nth-child(4):after{background:url(../img/ct_icon4_h.png) center center no-repeat;}
 */
 .thr-area .right .box:after {
     content: '';
@@ -2581,7 +2581,7 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
     left: 18px;
     width: 150px;
     height: 207px;
-    background: url(/cubersc/template/user/img/thr_img1.png) center top no-repeat;
+    background: url(../img/thr_img1.png) center top no-repeat;
 }
 
 .thr-area .right .box:before {
@@ -2591,7 +2591,7 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
     right: 0;
     width: 58px;
     height: 79px;
-    background: url(/cubersc/template/user/img/thr_img2.png) center top no-repeat;
+    background: url(../img/thr_img2.png) center top no-repeat;
     z-index: 1;
 }
 
@@ -2777,7 +2777,7 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
     width: 30px;
     height: 30px;
     border-radius: 100px;
-    background: url(/cubersc/template/user/img/more.png) center center no-repeat;
+    background: url(../img/more.png) center center no-repeat;
     box-shadow: 3px 3px 10px 0px rgba(47, 46, 44, 0.25);
 }
 
@@ -2978,7 +2978,7 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
     display: block;
     width: 100%;
     height: 100%;
-    background: url(/cubersc/template/user/img/banner_pause.png) center center no-repeat;
+    background: url(../img/banner_pause.png) center center no-repeat;
     background-size: cover;
     cursor: pointer;
 }
@@ -2987,7 +2987,7 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
     display: none;
     width: 100%;
     height: 100%;
-    background: url(/cubersc/template/user/img/banner_play.png) center center no-repeat;
+    background: url(../img/banner_play.png) center center no-repeat;
     background-size: cover;
     cursor: pointer;
 }
@@ -3001,7 +3001,7 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
     font-size: 0;
     border: none;
     border-radius: 100px;
-    background: url(/cubersc/template/user/img/banner_prev.png) center center no-repeat;
+    background: url(../img/banner_prev.png) center center no-repeat;
     background-size: cover;
     box-shadow: 3px 3px 10px 0px rgba(47, 46, 44, 0.25);
     cursor: pointer;
@@ -3016,7 +3016,7 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
     font-size: 0;
     border: none;
     border-radius: 100px;
-    background: url(/cubersc/template/user/img/banner_next.png) center center no-repeat;
+    background: url(../img/banner_next.png) center center no-repeat;
     background-size: cover;
     box-shadow: 3px 3px 10px 0px rgba(47, 46, 44, 0.25);
     cursor: pointer;
@@ -3083,46 +3083,46 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
 }
 
 .five-area .sns-top .sns-list .sns-sicon .blog:after {
-    background: url(/cubersc/template/user/img/five_icon_blog.png) center center no-repeat;
+    background: url(../img/five_icon_blog.png) center center no-repeat;
     background-size: cover;
 }
 
 .five-area .sns-top .sns-list .sns-sicon .fb:after {
-    background: url(/cubersc/template/user/img/five_icon_f.png) center center no-repeat;
+    background: url(../img/five_icon_f.png) center center no-repeat;
     background-size: cover;
 }
 
 .five-area .sns-top .sns-list .sns-sicon .ins:after {
-    background: url(/cubersc/template/user/img/five_icon_in.png) center center no-repeat;
+    background: url(../img/five_icon_in.png) center center no-repeat;
     background-size: cover;
 }
 
 .five-area .sns-top .sns-list .sns-sicon .you:after {
-    background: url(/cubersc/template/user/img/five_icon_you.png) center center no-repeat;
+    background: url(../img/five_icon_you.png) center center no-repeat;
     background-size: cover;
 }
 
 .five-area .sns-top .sns-list .sns-sicon .kakao:after {
-    background: url(/cubersc/template/user/img/five_icon_kakao.png) center center no-repeat;
+    background: url(../img/five_icon_kakao.png) center center no-repeat;
     background-size: cover;
 }
 
 .five-area .sns-top .sns-list .sns-sicon .snss:after {
-    background: url(/cubersc/template/user/img/five_icon_sns.png) center center no-repeat;
+    background: url(../img/five_icon_sns.png) center center no-repeat;
     background-size: cover;
 }
 
 .five-area .sns-top .sns-list .sns-sicon .news:after {
-    background: url(/cubersc/template/user/img/five_icon_news.png) center center no-repeat;
+    background: url(../img/five_icon_news.png) center center no-repeat;
     background-size: cover;
 }
 
-/* .five-area .sns-top .sns-list .sns-sicon li:nth-child(2):after{background:url(/cubersc/template/user/img/five_icon_f.png) center center no-repeat; background-size:cover;}
-.five-area .sns-top .sns-list .sns-sicon li:nth-child(3):after{background:url(/cubersc/template/user/img/five_icon_in.png) center center no-repeat; background-size:cover;}
-.five-area .sns-top .sns-list .sns-sicon li:nth-child(4):after{background:url(/cubersc/template/user/img/five_icon_you.png) center center no-repeat; background-size:cover;}
-.five-area .sns-top .sns-list .sns-sicon li:nth-child(5):after{background:url(/cubersc/template/user/img/five_icon_kakao.png) center center no-repeat; background-size:cover;}
-.five-area .sns-top .sns-list .sns-sicon li:nth-child(6):after{background:url(/cubersc/template/user/img/five_icon_sns.png) center center no-repeat; background-size:cover;}
-.five-area .sns-top .sns-list .sns-sicon li:nth-child(7):after{background:url(/cubersc/template/user/img/five_icon_news.png) center center no-repeat; background-size:cover;} */
+/* .five-area .sns-top .sns-list .sns-sicon li:nth-child(2):after{background:url(../img/five_icon_f.png) center center no-repeat; background-size:cover;}
+.five-area .sns-top .sns-list .sns-sicon li:nth-child(3):after{background:url(../img/five_icon_in.png) center center no-repeat; background-size:cover;}
+.five-area .sns-top .sns-list .sns-sicon li:nth-child(4):after{background:url(../img/five_icon_you.png) center center no-repeat; background-size:cover;}
+.five-area .sns-top .sns-list .sns-sicon li:nth-child(5):after{background:url(../img/five_icon_kakao.png) center center no-repeat; background-size:cover;}
+.five-area .sns-top .sns-list .sns-sicon li:nth-child(6):after{background:url(../img/five_icon_sns.png) center center no-repeat; background-size:cover;}
+.five-area .sns-top .sns-list .sns-sicon li:nth-child(7):after{background:url(../img/five_icon_news.png) center center no-repeat; background-size:cover;} */
 .five-area .sns-top .sns-list .sns-sicon a span {
     padding-left: 50px;
 }
@@ -3182,7 +3182,7 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
     height: 32px;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/sns_prev.png) center center no-repeat;
+    background: url(../img/sns_prev.png) center center no-repeat;
     background-size: cover;
     z-index: 5;
     cursor: pointer;
@@ -3196,7 +3196,7 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
     height: 32px;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/sns_next.png) center center no-repeat;
+    background: url(../img/sns_next.png) center center no-repeat;
     background-size: cover;
     z-index: 5;
     cursor: pointer;
@@ -4110,7 +4110,7 @@ input.chk_top:checked + label:before {
         left: -10px;
         width: 32px;
         height: 83px;
-        background: url(/cubersc/template/user/img/m_two_prev.png) center center no-repeat;
+        background: url(../img/m_two_prev.png) center center no-repeat;
         background-size: cover;
         transition: none;
     }
@@ -4125,13 +4125,13 @@ input.chk_top:checked + label:before {
         right: -10px;
         width: 32px;
         height: 83px;
-        background: url(/cubersc/template/user/img/m_two_next.png) center center no-repeat;
+        background: url(../img/m_two_next.png) center center no-repeat;
         background-size: cover;
         transition: none;
     }
 
     .two-area .content .tab-slider.active .two-next:hover {
-        background: url(/cubersc/template/user/img/m_two_next.png) center center no-repeat;
+        background: url(../img/m_two_next.png) center center no-repeat;
         background-size: cover;
         transition: none;
     }
@@ -4303,12 +4303,12 @@ input.chk_top:checked + label:before {
     }
 
     .thr-area .left .boxs .box:nth-child(1) a:hover:after {
-        background: url(/cubersc/template/user/img/thr_icon1.png) center center no-repeat;
+        background: url(../img/thr_icon1.png) center center no-repeat;
         background-size: cover;
     }
 
     .thr-area .left .boxs .box:nth-child(2) a:hover:after {
-        background: url(/cubersc/template/user/img/thr_icon2.png) center center no-repeat;
+        background: url(../img/thr_icon2.png) center center no-repeat;
         background-size: cover;
     }
 
@@ -4614,7 +4614,7 @@ input.chk_top:checked + label:before {
         width: 50px;
         height: 50px;
         transition: none;
-        background: url(/cubersc/template/user/img/thr_icon1_hover.png) center center no-repeat;
+        background: url(../img/thr_icon1_hover.png) center center no-repeat;
         background-size: cover;
     }
 
@@ -4627,17 +4627,17 @@ input.chk_top:checked + label:before {
         width: 50px;
         height: 50px;
         transition: none;
-        background: url(/cubersc/template/user/img/thr_icon2_hover.png) center center no-repeat;
+        background: url(../img/thr_icon2_hover.png) center center no-repeat;
         background-size: cover;
     }
 
     .thr-area .left .boxs .box:nth-child(1) a:hover:after {
-        background: url(/cubersc/template/user/img/thr_icon1_hover.png) center center no-repeat;
+        background: url(../img/thr_icon1_hover.png) center center no-repeat;
         background-size: cover;
     }
 
     .thr-area .left .boxs .box:nth-child(2) a:hover:after {
-        background: url(/cubersc/template/user/img/thr_icon2_hover.png) center center no-repeat;
+        background: url(../img/thr_icon2_hover.png) center center no-repeat;
         background-size: cover;
     }
 
@@ -4816,11 +4816,11 @@ input.chk_top:checked + label:before {
 .cont_halfarea strong { position: relative;font-weight: bold; font-size: 18px; line-height: 28px; padding-bottom: 30px; display: block; }
 .cont_halfbox .box_icoarea {position: absolute; right: 0;}
 .cont_halfbox .box_ico { width: 30px; height: 31px; background: url("/cubersc/template/user/img/sub/ico_sale_apartment.png") no-repeat; display: inline-block; background-size: contain; }
-.cont_halfbox .box_ico.ofs { background: url(/cubersc/template/user/img/sub/ico_sale_officetels.png) no-repeat; width: 35px; height: 30px; background-size: contain;}
-.cont_halfbox .box_ico.str { background: url(/cubersc/template/user/img/sub/ico_sale_store.png) no-repeat; width: 30px; height: 30px; background-size: contain;}
+.cont_halfbox .box_ico.ofs { background: url(../img/sub/ico_sale_officetels.png) no-repeat; width: 35px; height: 30px; background-size: contain;}
+.cont_halfbox .box_ico.str { background: url(../img/sub/ico_sale_store.png) no-repeat; width: 30px; height: 30px; background-size: contain;}
 .cont_descbox { overflow: hidden; }
 .cont_descbox .tit { position: relative; display:block;text-align: left;}
-.cont_descbox .tit:before { content: ''; width: 8px; height: 8px; background: url(/cubersc/template/user/img/sub/sss-bul.png) center center no-repeat; background-size: cover; display: inline-block; margin-right: 10px; }
+.cont_descbox .tit:before { content: ''; width: 8px; height: 8px; background: url(../img/sub/sss-bul.png) center center no-repeat; background-size: cover; display: inline-block; margin-right: 10px; }
 .cont_descbox .txt {padding-left: 25px;text-align: left;display: block;}
 .cont_descbox .txt:before {content: '-';padding-right: 5px;margin-left: -15px;}
 .cont_descbox .txt em { display: block;}
@@ -4972,10 +4972,10 @@ input.chk_top:checked + label:before {
 
 
     .two-area .content .card .cardbox .text-r2 {font-size: 14px;bottom: 10px; margin-right: 0;}
-    .two-area .content .card .cardbox .text-r2 .txt_rarr:after { background: url(/cubersc/template/user/img/sub/ico_more_rarr_bk.png) no-repeat; margin: 2px 0 0 5px;}
+    .two-area .content .card .cardbox .text-r2 .txt_rarr:after { background: url(../img/sub/ico_more_rarr_bk.png) no-repeat; margin: 2px 0 0 5px;}
 
     .two-area .content .card .cardbox .text-r2.dark  .txt_rarr{font-size: 14px;bottom: 10px; margin-right: 0;}
-    .two-area .content .card .cardbox .text-r2.dark .txt_rarr:after { background: url(/cubersc/template/user/img/sub/ico_more_rarr_bk.png) no-repeat !important; margin: 2px 0 0 5px;}
+    .two-area .content .card .cardbox .text-r2.dark .txt_rarr:after { background: url(../img/sub/ico_more_rarr_bk.png) no-repeat !important; margin: 2px 0 0 5px;}
 
 
 
@@ -5158,7 +5158,7 @@ input.chk_top:checked + label:before {
         width: 50px;
         height: 50px;
         transition: none;
-        background: url(/cubersc/template/user/img/thr_icon1_hover.png) center center no-repeat;
+        background: url(../img/thr_icon1_hover.png) center center no-repeat;
         background-size: cover;
     }
 
@@ -5171,17 +5171,17 @@ input.chk_top:checked + label:before {
         width: 50px;
         height: 50px;
         transition: none;
-        background: url(/cubersc/template/user/img/thr_icon2_hover.png) center center no-repeat;
+        background: url(../img/thr_icon2_hover.png) center center no-repeat;
         background-size: cover;
     }
 
     .thr-area .left .boxs .box:nth-child(1) a:hover:after {
-        background: url(/cubersc/template/user/img/thr_icon1_hover.png) center center no-repeat;
+        background: url(../img/thr_icon1_hover.png) center center no-repeat;
         background-size: cover;
     }
 
     .thr-area .left .boxs .box:nth-child(2) a:hover:after {
-        background: url(/cubersc/template/user/img/thr_icon2_hover.png) center center no-repeat;
+        background: url(../img/thr_icon2_hover.png) center center no-repeat;
         background-size: cover;
     }
 

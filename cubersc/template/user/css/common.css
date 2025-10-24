@@ -60,7 +60,7 @@ hr {
 }
 
 :root {
-    --hp_pause: url(/cubersc/template/user/img/hp_pause_w1.png) center center no-repeat;
+    --hp_pause: url(../img/hp_pause_w1.png) center center no-repeat;
     /*--s: /images/;*/
 }
 
@@ -223,7 +223,7 @@ input[type="date"]:after, input.jqdate:after {
     content: '';
     width: 20px;
     height: 19px;
-    background: #fff url(/cubersc/template/user/img/sub/ico_calendar.png) center center /contain;
+    background: #fff url(../img/sub/ico_calendar.png) center center /contain;
     transform: translateY(-50%);
     z-index: 0;
     background-repeat: no-repeat;
@@ -257,7 +257,7 @@ input[type="date"]:after, input.jqdate:after {
     right: 10px;
     width: 20px;
     height: 19px;
-    background: #fff url(/cubersc/template/user/img/sub/ico_calendar.png) center center /contain;
+    background: #fff url(../img/sub/ico_calendar.png) center center /contain;
     transform: translateY(-50%);
     z-index: 0;
     background-repeat: no-repeat;
@@ -425,7 +425,7 @@ mark {
 .btn_down:after {
     content: '';
     transition: 0.5s;
-    background: url(/cubersc/template/user/img/ico_down_pp.png) no-repeat;
+    background: url(../img/ico_down_pp.png) no-repeat;
     width: 16px;
     height: 15px;
     display: inline-block;
@@ -439,7 +439,7 @@ mark {
 }
 
 .btn_down:hover:after {
-    background: url(/cubersc/template/user/img/ico_down_w.png) no-repeat;
+    background: url(../img/ico_down_w.png) no-repeat;
 }
 
 .btn_linkmove {
@@ -463,7 +463,7 @@ mark {
     vertical-align: top;
     margin-left: 5px;
     margin-top: 2px;
-    background: url(/cubersc/template/user/img/ico_link_bl.png) center center no-repeat !important;
+    background: url(../img/ico_link_bl.png) center center no-repeat !important;
     width: 12px !important;
     height: 12px !important;
     background-size: contain !important;
@@ -475,7 +475,7 @@ mark {
 }
 
 .btn_linkmove:hover:after {
-    background: url(/cubersc/template/user/img/ico_link_w.png) center center no-repeat !important;
+    background: url(../img/ico_link_w.png) center center no-repeat !important;
     width: 12px !important;
     height: 12px !important;
     background-size: contain !important;
@@ -499,7 +499,7 @@ mark {
     vertical-align: inherit;
     margin-left: 5px;
     margin-top: 2px;
-    background: url(/cubersc/template/user/img/sub/ico_rarr_bl.png) center center no-repeat !important;
+    background: url(../img/sub/ico_rarr_bl.png) center center no-repeat !important;
     width: 12px !important;
     height: 12px !important;
     background-size: contain !important;
@@ -511,7 +511,7 @@ mark {
 }
 
 .btn_checkarr:hover:after {
-    background: url(/cubersc/template/user/img/sub/ico_rarr_w.png) center center no-repeat !important;
+    background: url(../img/sub/ico_rarr_w.png) center center no-repeat !important;
     width: 12px !important;
     height: 12px !important;
     background-size: contain !important;
@@ -523,7 +523,7 @@ mark {
 }
 
 .btn_checkarr.grey:after {
-    background: url(/cubersc/template/user/img/sub/ico_rarr_gr.png) center center no-repeat !important;
+    background: url(../img/sub/ico_rarr_gr.png) center center no-repeat !important;
 }
 
 .btn_checkarr.grey:hover {
@@ -532,7 +532,7 @@ mark {
 }
 
 .btn_checkarr.grey:hover:after {
-    background: url(/cubersc/template/user/img/sub/ico_rarr_w.png) center center no-repeat !important;
+    background: url(../img/sub/ico_rarr_w.png) center center no-repeat !important;
 }
 
 .btn_downfile {
@@ -554,7 +554,7 @@ mark {
     vertical-align: top;
     margin-left: 5px;
     margin-top: 2px;
-    background: url(/cubersc/template/user/img/ico_down_pp.png) center -1px no-repeat;
+    background: url(../img/ico_down_pp.png) center -1px no-repeat;
     width: 15px;
     height: 13px;
     background-size: contain;
@@ -566,7 +566,7 @@ mark {
 }
 
 .btn_downfile:hover:after {
-    background: url(/cubersc/template/user/img/ico_down_w.png) center -1px no-repeat;
+    background: url(../img/ico_down_w.png) center -1px no-repeat;
     background-size: contain;
     width: 15px;
     height: 13px;
@@ -767,7 +767,7 @@ a.mgl {margin-left: 5px;}
     right: 23%;
     width: 165px;
     height: 200px;
-    background: url(/cubersc/template/user/img/menu_img1.png) center center no-repeat;
+    background: url(../img/menu_img1.png) center center no-repeat;
 }
 
 #header .h_wrap .bottom .h_menu .dep1:nth-child(2) .depth-title:after {
@@ -775,7 +775,7 @@ a.mgl {margin-left: 5px;}
     right: 23%;
     width: 165px;
     height: 160px;
-    background: url(/cubersc/template/user/img/menu_img2.png) center center no-repeat;
+    background: url(../img/menu_img2.png) center center no-repeat;
 }
 
 #header .h_wrap .bottom .h_menu .dep1:nth-child(3) .depth-title:after {
@@ -783,7 +783,7 @@ a.mgl {margin-left: 5px;}
     right: 23%;
     width: 165px;
     height: 172px;
-    background: url(/cubersc/template/user/img/menu_img3.png) center center no-repeat;
+    background: url(../img/menu_img3.png) center center no-repeat;
 }
 
 #header .h_wrap .bottom .h_menu .dep1:nth-child(4) .depth-title:after {
@@ -791,7 +791,7 @@ a.mgl {margin-left: 5px;}
     right: 23%;
     width: 164px;
     height: 169px;
-    background: url(/cubersc/template/user/img/menu_img4.png) center center no-repeat;
+    background: url(../img/menu_img4.png) center center no-repeat;
 }
 
 #header .h_wrap .bottom .h_menu .dep1:nth-child(5) .depth-title:after {
@@ -799,7 +799,7 @@ a.mgl {margin-left: 5px;}
     right: 18%;
     width: 184px;
     height: 212px;
-    background: url(/cubersc/template/user/img/menu_img5.png) center center no-repeat;
+    background: url(../img/menu_img5.png) center center no-repeat;
 }
 
 #header .h_wrap .bottom .h_menu .dep1:nth-child(6) .depth-title:after {
@@ -807,7 +807,7 @@ a.mgl {margin-left: 5px;}
     right: 23%;
     width: 165px;
     height: 142px;
-    background: url(/cubersc/template/user/img/menu_img6.png) center center no-repeat;
+    background: url(../img/menu_img6.png) center center no-repeat;
 }
 
 #header .h_wrap .bottom .h_menu .dep1:nth-child(7) .depth-title:after {
@@ -815,7 +815,7 @@ a.mgl {margin-left: 5px;}
     right: 23%;
     width: 165px;
     height: 133px;
-    background: url(/cubersc/template/user/img/menu_img7.png) center center no-repeat;
+    background: url(../img/menu_img7.png) center center no-repeat;
 }
 
 #header .h_wrap .bottom .h_menu .depth-title p {
@@ -862,7 +862,7 @@ a.mgl {margin-left: 5px;}
     width: calc(25% - 36px);
     transition: width .5s;
     margin: 30px 48px 20px 0;
-    background: url(/cubersc/template/user/img/dep_icon1.png) right 6px no-repeat;
+    background: url(../img/dep_icon1.png) right 6px no-repeat;
     transition: background .5s;
 }
 
@@ -891,7 +891,7 @@ a.mgl {margin-left: 5px;}
 
 #header .h_wrap .bottom .h_menu .depth-bg .dep2-list .dep2s .dep2:hover {
     transition: background .5s;
-    background: url(/cubersc/template/user/img/dep_icon1_hover.png) right 6px no-repeat;
+    background: url(../img/dep_icon1_hover.png) right 6px no-repeat;
 }
 
 #header .h_wrap .bottom .h_menu .depth-bg .dep2-list .dep2s .dep2:hover:after {
@@ -962,12 +962,12 @@ a.mgl {margin-left: 5px;}
     transform: translateY(-50%);
     width: 8px;
     height: 8px;
-    background: url(/cubersc/template/user/img/dep_icon_bottom.png) center center no-repeat;
+    background: url(../img/dep_icon_bottom.png) center center no-repeat;
     cursor: pointer;
 }
 
 #header .h_wrap .bottom .h_menu .depth-bg .dep3-list .dep3s .dep3.open > .in:after {
-    background: url(/cubersc/template/user/img/dep_icon_top.png) center center no-repeat;
+    background: url(../img/dep_icon_top.png) center center no-repeat;
 }
 
 #header .h_wrap .bottom .h_menu .depth-bg .dep3-list .dep3s .dep3.ws a {
@@ -1046,12 +1046,12 @@ a.mgl {margin-left: 5px;}
     transform: translateY(-50%);
     width: 16px;
     height: 16px;
-    background: url(/cubersc/template/user/img/newpage.png) center center no-repeat;
+    background: url(../img/newpage.png) center center no-repeat;
     background-size: cover;
 }
 
 #header .h_wrap .bottom .h_menu .depth-bg .dep2-list .dep2s a[target="_blank"]:hover:before {
-    background: url(/cubersc/template/user/img/newpage_hover.png) center center no-repeat;
+    background: url(../img/newpage_hover.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -1104,7 +1104,7 @@ a.mgl {margin-left: 5px;}
     height: 28px;
     font-size: 0;
     border: 0;
-    background: url(/cubersc/template/user/img/hp_prev.png) center center no-repeat;
+    background: url(../img/hp_prev.png) center center no-repeat;
     z-index: 1;
     cursor: pointer;
 }
@@ -1118,7 +1118,7 @@ a.mgl {margin-left: 5px;}
     height: 28px;
     font-size: 0;
     border: 0;
-    background: url(/cubersc/template/user/img/hp_next.png) center center no-repeat;
+    background: url(../img/hp_next.png) center center no-repeat;
     z-index: 1;
     cursor: pointer;
 }
@@ -1239,7 +1239,7 @@ a.mgl {margin-left: 5px;}
     height: 13px;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/hp_play_w1.png) center center no-repeat;
+    background: url(../img/hp_play_w1.png) center center no-repeat;
     background-size: cover;
     cursor: pointer;
 }
@@ -1276,7 +1276,7 @@ a.mgl {margin-left: 5px;}
     height: 18px;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/hp_close.png) center center no-repeat;
+    background: url(../img/hp_close.png) center center no-repeat;
     background-size: cover;
     cursor: pointer;
 }
@@ -1315,7 +1315,7 @@ a.mgl {margin-left: 5px;}
     height: 12px;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/hp_play_w1.png) center center no-repeat;
+    background: url(../img/hp_play_w1.png) center center no-repeat;
     background-size: cover;
     cursor: pointer;
     margin-bottom: 4px;
@@ -1353,7 +1353,7 @@ a.mgl {margin-left: 5px;}
     height: 25px;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/hp_close.png) center center no-repeat;
+    background: url(../img/hp_close.png) center center no-repeat;
     background-size: cover;
     cursor: pointer;
 }
@@ -1595,14 +1595,14 @@ a.mgl {margin-left: 5px;}
 
 #header .h_wrap .bottom .h_button .search {
     overflow: hidden;
-    background: url(/cubersc/template/user/img/h_search_icon.png) center center no-repeat;
+    background: url(../img/h_search_icon.png) center center no-repeat;
     background-size: cover;
     transition: all .5s;
     margin-right: 0;
 }
 
 #header .h_wrap .bottom .h_button .search.on {
-    background: url(/cubersc/template/user/img/h_nosearch_icon.png) center center no-repeat;
+    background: url(../img/h_nosearch_icon.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -1656,7 +1656,7 @@ a.mgl {margin-left: 5px;}
     width: 28px;
     height: 28px;
     border: none;
-    background: url(/cubersc/template/user/img/search_icon.png) center center no-repeat;
+    background: url(../img/search_icon.png) center center no-repeat;
     cursor: pointer;
     background-size: contain;
 }
@@ -1723,13 +1723,13 @@ a.mgl {margin-left: 5px;}
     margin-right: 0;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/h_menu_icon.png) center center no-repeat;
+    background: url(../img/h_menu_icon.png) center center no-repeat;
     background-size: cover;
 }
 
 #header .h_wrap .bottom .h_button .mob-menu {
     display: none;
-    background: url(/cubersc/template/user/img/h_menu_icon.png) center center no-repeat;
+    background: url(../img/h_menu_icon.png) center center no-repeat;
     background-size: cover;
     position: relative;
     z-index: 5;
@@ -1856,7 +1856,7 @@ a.mgl {margin-left: 5px;}
     font-size: 0;
     border: none;
     margin-left: 45px;
-    background: url(/cubersc/template/user/img/mobmenu_close.png) center center no-repeat;
+    background: url(../img/mobmenu_close.png) center center no-repeat;
     cursor: pointer;
     position: absolute;
     right: 25px;
@@ -1870,7 +1870,7 @@ a.mgl {margin-left: 5px;}
     height: 14px;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/mobmenu_edit.png) center center no-repeat;
+    background: url(../img/mobmenu_edit.png) center center no-repeat;
     cursor: pointer;
     margin-top: 20px;
     position: absolute;
@@ -1968,7 +1968,7 @@ a.mgl {margin-left: 5px;}
     right: 0;
     width: 10px;
     height: 6px;
-    background: url(/cubersc/template/user/img/m_dep_icon.png) center center no-repeat;
+    background: url(../img/m_dep_icon.png) center center no-repeat;
 }
 
 #header .moblie-menu .m-menu .content .dep2-list .dep2s .dep2 > a[target="_blank"]:after {
@@ -1999,7 +1999,7 @@ a.mgl {margin-left: 5px;}
 }
 
 #header .moblie-menu .m-menu .content .dep2-list .dep2s .dep2.on:after {
-    background: url(/cubersc/template/user/img/m_dep_icon_on.png) center center no-repeat;
+    background: url(../img/m_dep_icon_on.png) center center no-repeat;
 }
 
 #header .moblie-menu .m-menu .content .dep2-list .dep2s .dep2.on:before {
@@ -2056,7 +2056,7 @@ a.mgl {margin-left: 5px;}
     right: 0;
     width: 8px;
     height: 8px;
-    background: url(/cubersc/template/user/img/dep_icon_bottom.png) center center no-repeat;
+    background: url(../img/dep_icon_bottom.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -2065,7 +2065,7 @@ a.mgl {margin-left: 5px;}
 }
 
 #header .moblie-menu .m-menu .content .dep3-list .dep3s .dep3.open.on > a:after {
-    background: url(/cubersc/template/user/img/dep_icon_top.png) center center no-repeat;
+    background: url(../img/dep_icon_top.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -2154,12 +2154,12 @@ a.mgl {margin-left: 5px;}
     transform: translateY(-50%);
     width: 16px;
     height: 16px;
-    background: url(/cubersc/template/user/img/newpage.png) center center no-repeat;
+    background: url(../img/newpage.png) center center no-repeat;
     background-size: cover;
 }
 
 #header .moblie-menu .m-menu .content .dep2-list .dep2s a[target="_blank"]:hover:before {
-    background: url(/cubersc/template/user/img/newpage_hover.png) center center no-repeat;
+    background: url(../img/newpage_hover.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -2313,7 +2313,7 @@ a.mgl {margin-left: 5px;}
     height: 32px;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/f_dorpdown_icon.png) right center no-repeat;
+    background: url(../img/f_dorpdown_icon.png) right center no-repeat;
     cursor: pointer;
 }
 
@@ -2465,13 +2465,13 @@ a.mgl {margin-left: 5px;}
     width: 100%;
     max-width: 1200px;
     height: 1200px;
-    background: url(/cubersc/template/user/img/sub/img_bg_musinsa.jpg);
+    background: url(../img/sub/img_bg_musinsa.jpg);
     margin-top: 60px;
 }
 
 .box_musinsa_bgarea.type2 {
     height: 2000px;
-    background: #f2f2f2 url(/cubersc/template/user/img/sub/img_bg_musinsa_type2.jpg) no-repeat;    
+    background: #f2f2f2 url(../img/sub/img_bg_musinsa_type2.jpg) no-repeat;    
 }
 
 .box_musinsa_bgarea.hidden {
@@ -2529,7 +2529,7 @@ a.mgl {margin-left: 5px;}
 }
 
 .box_coupon_area .list_couponarea li {
-    background: url(/cubersc/template/user/img/sub/img_musinsa_coupon.png) no-repeat;
+    background: url(../img/sub/img_musinsa_coupon.png) no-repeat;
     width: 513px;
     height: 298px;
     background-size: cover;
@@ -2588,12 +2588,12 @@ a.mgl {margin-left: 5px;}
     top: -30px;
     width: 105px;
     height: 105px;
-    background: url(/cubersc/template/user/img/sub/badge_musinsa_type1.png);
+    background: url(../img/sub/badge_musinsa_type1.png);
     background-size: cover;
 }
 
 .list_couponarea li .box_l .badge.badge_2 {
-    background: url(/cubersc/template/user/img/sub/badge_musinsa_type2.png);
+    background: url(../img/sub/badge_musinsa_type2.png);
     background-size: cover;
 }
 
@@ -2673,7 +2673,7 @@ a.mgl {margin-left: 5px;}
     height: 25px;
     display: inline-block;
     vertical-align: top;
-    background: url(/cubersc/template/user/img/sub/ico_notii.png) no-repeat;
+    background: url(../img/sub/ico_notii.png) no-repeat;
     margin: 8px 3px 0 0;
 }
 
@@ -2749,7 +2749,7 @@ a.mgl {margin-left: 5px;}
     border: 1px solid #dbdbdb;
     border-radius: 10px;
     padding: 5px 30px 5px 10px;
-    background: url(/cubersc/template/user/img/sub/s3_mybox_bottom.png) calc(100% - 5px) center / 10px no-repeat rgb(255, 255, 255);
+    background: url(../img/sub/s3_mybox_bottom.png) calc(100% - 5px) center / 10px no-repeat rgb(255, 255, 255);
     background-size: 10px;
 }
 
@@ -2866,14 +2866,14 @@ a.mgl {margin-left: 5px;}
 }
 
 .date-picker-wrapper table .caption .prev {
-    background: url(/cubersc/template/user/img/sub/ico_date_arr_prev.png) no-repeat;
+    background: url(../img/sub/ico_date_arr_prev.png) no-repeat;
     width: 5px;
     height: 16px;
     display: inline-block;
 }
 
 .date-picker-wrapper table .caption .next {
-    background: url(/cubersc/template/user/img/sub/ico_date_arr_next.png) no-repeat;
+    background: url(../img/sub/ico_date_arr_next.png) no-repeat;
     width: 5px;
     height: 16px;
     display: inline-block;
@@ -2881,13 +2881,13 @@ a.mgl {margin-left: 5px;}
 
 .date-picker-wrapper table .caption .prev:hover {
     background-color: transparent;
-    background: url(/cubersc/template/user/img/sub/ico_date_arr_prev_hover.png) no-repeat;
+    background: url(../img/sub/ico_date_arr_prev_hover.png) no-repeat;
     background-size: contain;
 }
 
 .date-picker-wrapper table .caption .next:hover {
     background-color: transparent;
-    background: url(/cubersc/template/user/img/sub/ico_date_arr_next_hover.png) no-repeat;
+    background: url(../img/sub/ico_date_arr_next_hover.png) no-repeat;
     background-size: contain;
 }
 
@@ -2906,7 +2906,7 @@ a.mgl {margin-left: 5px;}
     font-size: 0;
     padding: 0;
     background-color: transparent;
-    background: url(/cubersc/template/user/img/sub/ico_date_close.png) no-repeat !important;
+    background: url(../img/sub/ico_date_close.png) no-repeat !important;
     background-size: contain !important;
     width: 20px;
     height: 20px;
@@ -2973,7 +2973,7 @@ a.mgl {margin-left: 5px;}
     right: 10px;
     width: 20px;
     height: 19px;
-    background: #fff url(/cubersc/template/user/img/sub/ico_calendar.png) center center /contain;
+    background: #fff url(../img/sub/ico_calendar.png) center center /contain;
     transform: translateY(-50%);
     z-index: 0;
     background-repeat: no-repeat;
@@ -3144,7 +3144,7 @@ a.mgl {margin-left: 5px;}
     vertical-align: top;
     margin-left: 5px;
     margin-top: 2px;
-    background: url(/cubersc/template/user/img/ico_down_pp.png) center -1px no-repeat;
+    background: url(../img/ico_down_pp.png) center -1px no-repeat;
     width: 15px;
     height: 13px;
     background-size: contain;
@@ -3156,7 +3156,7 @@ a.mgl {margin-left: 5px;}
 }
 
 .box_pdfarea a:hover:after {
-    background: url(/cubersc/template/user/img/ico_down_w.png) center -1px no-repeat;
+    background: url(../img/ico_down_w.png) center -1px no-repeat;
     background-size: contain;
     width: 15px;
     height: 13px;
@@ -3174,7 +3174,7 @@ a.mgl {margin-left: 5px;}
     padding: 108px 0 0 84px;
 }
 
-/* .sub-visual { background:url(/cubersc/template/user/img/sub/visual1.png) center center no-repeat; background-size:cover; }  */
+/* .sub-visual { background:url(../img/sub/visual1.png) center center no-repeat; background-size:cover; }  */
 /* .subs .sub-visual.renew { padding: 0 0 155px; position: relative; }  */
 .subs .m_tabswiper {
     margin-top: 70px;
@@ -3341,7 +3341,7 @@ table.tbl_infotype_rowspan td.border_r {
     position: absolute;
     right: 25px;
     bottom: 0;
-    background: url(/cubersc/template/user/img/sub/ico_new_notice_b.png) center center no-repeat;
+    background: url(../img/sub/ico_new_notice_b.png) center center no-repeat;
     width: 141px;
     height: 63px;
 }
@@ -3402,7 +3402,7 @@ table.tbl_infotype_rowspan td.border_r {
     left: 0;
     width: 14px;
     height: 14px;
-    background: url(/cubersc/template/user/img/sub/ico_new_notice_before.png) center center no-repeat;
+    background: url(../img/sub/ico_new_notice_before.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -3509,7 +3509,7 @@ table.tbl_infotype_rowspan td.border_r {
     position: absolute;
     left: 25px;
     bottom: -40px;
-    background: url(/cubersc/template/user/img/sub/ico_new_notice_airplane.png) center center no-repeat;
+    background: url(../img/sub/ico_new_notice_airplane.png) center center no-repeat;
     width: 210px;
     height: 142px;
     background-size: contain;
@@ -3712,7 +3712,7 @@ table.tbl_infotype_rowspan td.border_r {
     position: absolute;
     left: -15px;
     top: 50%;
-    background: url(/cubersc/template/user/img/sub/ico_list_board_steps.png) no-repeat;
+    background: url(../img/sub/ico_list_board_steps.png) no-repeat;
     display: inline-block;
     transform: translateY(-50%);
 }
@@ -3935,7 +3935,7 @@ table.tbl_infotype_rowspan td.border_r {
 .box_btmborder_tit h3::after {
     content: "";
     display: block;
-    background: url(/cubersc/template/user/img/sub/h1-bullet.png) no-repeat center;
+    background: url(../img/sub/h1-bullet.png) no-repeat center;
     background-size: cover;
     width: 50px;
     height: 5px;
@@ -3990,7 +3990,7 @@ table.tbl_infotype_rowspan td.border_r {
     display: none;
     width: 41px;
     height: 41px;
-    background: url(/cubersc/template/user/img/backpage.png) center center no-repeat;
+    background: url(../img/backpage.png) center center no-repeat;
 }
 
 .subs .nav .nav-tabs .home {
@@ -4005,7 +4005,7 @@ table.tbl_infotype_rowspan td.border_r {
     height: 100%;
     font-size: 0;
     padding: 0;
-    background: url(/cubersc/template/user/img/sub/nav_home.png) center center no-repeat;
+    background: url(../img/sub/nav_home.png) center center no-repeat;
 }
 
 .subs .nav .nav-tabs .home:after {
@@ -4045,7 +4045,7 @@ table.tbl_infotype_rowspan td.border_r {
     right: 5px;
     width: 6px;
     height: 10px;
-    background: url(/cubersc/template/user/img/sub/nav_list.png) center center no-repeat;
+    background: url(../img/sub/nav_list.png) center center no-repeat;
 }
 
 .subs .nav .nav-list .nav3s li.on > a span {
@@ -4187,7 +4187,7 @@ table.tbl_infotype_rowspan td.border_r {
 .subs .nav .nav-list ul.open > li.on:after {
     width: 10px;
     height: 6px;
-    background: url(/cubersc/template/user/img/sub/nav_list_on.png) center center no-repeat;
+    background: url(../img/sub/nav_list_on.png) center center no-repeat;
 }
 
 .subs .nav .nav-list ul.open > li.on > a span {
@@ -4223,17 +4223,17 @@ table.tbl_infotype_rowspan td.border_r {
 }
 
 .subs .nav .nav-btn li.n-url {
-    background: url(/cubersc/template/user/img/sub/nav_url.png) center center no-repeat;
+    background: url(../img/sub/nav_url.png) center center no-repeat;
 }
 
 .subs .nav .nav-btn li.n-link {
     position: relative;
     margin: 0 1px;
-    background: url(/cubersc/template/user/img/sub/nav_link.png) center center no-repeat;
+    background: url(../img/sub/nav_link.png) center center no-repeat;
 }
 
 .subs .nav .nav-btn li.n-print {
-    background: url(/cubersc/template/user/img/sub/nav_print.png) center center no-repeat;
+    background: url(../img/sub/nav_print.png) center center no-repeat;
     padding-right: 0;
 }
 
@@ -4266,26 +4266,26 @@ table.tbl_infotype_rowspan td.border_r {
 }
 
 .subs .nav .nav-btn li.n-link .links li {
-    background: url(/cubersc/template/user/img/sub/nav_link.png) center center no-repeat;
+    background: url(../img/sub/nav_link.png) center center no-repeat;
 }
 
 .subs .nav .nav-btn li.n-link .links li.naver {
-    background: url(/cubersc/template/user/img/icons/icon-naver.png) center center no-repeat;
+    background: url(../img/icons/icon-naver.png) center center no-repeat;
     background-size: 30px;
 }
 
 .subs .nav .nav-btn li.n-link .links li.facebook {
-    background: url(/cubersc/template/user/img/icons/icon-facebook.png) center center no-repeat;
+    background: url(../img/icons/icon-facebook.png) center center no-repeat;
     background-size: 30px;
 }
 
 .subs .nav .nav-btn li.n-link .links li.twitter {
-    background: url(/cubersc/template/user/img/icons/icon-twitter.png) center center no-repeat;
+    background: url(../img/icons/icon-twitter.png) center center no-repeat;
     background-size: 30px;
 }
 
 .subs .nav .nav-btn li.n-link .links li.kakao {
-    background: url(/cubersc/template/user/img/icons/icon-kakao.png) center center no-repeat;
+    background: url(../img/icons/icon-kakao.png) center center no-repeat;
     background-size: 30px;
 }
 
@@ -4412,7 +4412,7 @@ table.tbl_infotype_rowspan td.border_r {
     display: inline-block;
     width: 20px;
     height: 8px;
-    background: url(/cubersc/template/user/img/sub/ico_card_arrbtm.png) center center no-repeat;
+    background: url(../img/sub/ico_card_arrbtm.png) center center no-repeat;
 }
 
 .box_more.active .btn_accord:after {
@@ -4547,7 +4547,7 @@ table.tbl_infotype_rowspan td.border_r {
     left: 0;
     width: 10px;
     height: 15px;
-    background: url(/cubersc/template/user/img/sub/tit_sub_icon1.png) center center no-repeat;
+    background: url(../img/sub/tit_sub_icon1.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -4661,7 +4661,7 @@ table.tbl_infotype_rowspan td.border_r {
     left: 0;
     width: 8px;
     height: 8px;
-    background: url(/cubersc/template/user/img/sub/sss-bul.png) center center no-repeat;
+    background: url(../img/sub/sss-bul.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -4745,7 +4745,7 @@ table.tbl_infotype_rowspan td.border_r {
     left: 0;
     width: 10px;
     height: 15px;
-    background: url(/cubersc/template/user/img/sub/tit_sub_icon1.png) center center no-repeat;
+    background: url(../img/sub/tit_sub_icon1.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -4946,7 +4946,7 @@ min-height: 30px;
     left: 0;
     width: 8px;
     height: 8px;
-    background: url(/cubersc/template/user/img/sub/sss-bul.png) center center no-repeat;
+    background: url(../img/sub/sss-bul.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -5154,7 +5154,7 @@ min-height: 30px;
     left: 0;
     width: 8px;
     height: 8px;
-    background: url(/cubersc/template/user/img/sub/sss-bul.png) center center no-repeat;
+    background: url(../img/sub/sss-bul.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -5193,7 +5193,7 @@ min-height: 30px;
     display: inline-block !important;
     vertical-align: top !important;
     margin: 9px 0 0 8px;
-    background: url(/cubersc/template/user/img/ico_link_bl.png) center center no-repeat !important;
+    background: url(../img/ico_link_bl.png) center center no-repeat !important;
     width: 12px !important;
     height: 12px !important;
     background-size: contain !important;
@@ -5207,7 +5207,7 @@ min-height: 30px;
 }
 
 .subss_add .btn_link:hover:after {
-    background: url(/cubersc/template/user/img/ico_link_w.png) center center no-repeat !important;
+    background: url(../img/ico_link_w.png) center center no-repeat !important;
     width: 12px !important;
     height: 12px !important;
     background-size: contain !important;
@@ -5221,7 +5221,7 @@ min-height: 30px;
 }
 
 .subs .box_bordernotice_wrap .sub_tit:after {
-    background: url(/cubersc/template/user/img/sub/ico_noti.png) center center no-repeat;
+    background: url(../img/sub/ico_noti.png) center center no-repeat;
     width: 24px;
     height: 24px;
     background-size: contain;
@@ -5240,7 +5240,7 @@ min-height: 30px;
 
 .subs .box_bordernotice_wrap.center_type .sub_tit:before {
     content: '';
-    background: url(/cubersc/template/user/img/sub/ico_noti_centertype.png) center center no-repeat;
+    background: url(../img/sub/ico_noti_centertype.png) center center no-repeat;
     width: 18px;
     height: 18px;
     background-size: contain;
@@ -5283,7 +5283,7 @@ min-height: 30px;
     content: '';
     vertical-align: middle;
     position: static;
-    background: url(/cubersc/template/user/img/sub/sss-bul.png) center center no-repeat;
+    background: url(../img/sub/sss-bul.png) center center no-repeat;
     background-size: cover;
     display: inline-block;
     width: 7px;
@@ -5377,7 +5377,7 @@ min-height: 30px;
     left: 0;
     width: 8px;
     height: 8px;
-    background: url(/cubersc/template/user/img/sub/sss-bul.png) center center no-repeat;
+    background: url(../img/sub/sss-bul.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -5512,7 +5512,7 @@ min-height: 30px;
     width: 7px;
     height: 13px;
     display: inline-block;
-    background: url(/cubersc/template/user/img/sub/ico_btnnextarr.png) center center no-repeat;
+    background: url(../img/sub/ico_btnnextarr.png) center center no-repeat;
     margin-left: 7px;
 }
 
@@ -5705,7 +5705,7 @@ min-height: 30px;
     position: absolute;
     right: -40px;
     top: 50%;
-    background: #fff url(/cubersc/template/user/img/sub/ico_brr.png) no-repeat center center;
+    background: #fff url(../img/sub/ico_brr.png) no-repeat center center;
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -5822,7 +5822,7 @@ min-height: 30px;
 }
 
 .subs .box_bordernotice_wrap .sub_tit:after {
-    background: url(/cubersc/template/user/img/sub/ico_noti.png) center center no-repeat;
+    background: url(../img/sub/ico_noti.png) center center no-repeat;
     width: 24px;
     height: 24px;
     background-size: contain;
@@ -5841,7 +5841,7 @@ min-height: 30px;
 
 .subs .box_bordernotice_wrap.center_type .sub_tit:before {
     content: '';
-    background: url(/cubersc/template/user/img/sub/ico_noti_centertype.png) center center no-repeat;
+    background: url(../img/sub/ico_noti_centertype.png) center center no-repeat;
     width: 18px;
     height: 18px;
     background-size: contain;
@@ -5879,7 +5879,7 @@ min-height: 30px;
     content: '';
     vertical-align: middle;
     position: static;
-    background: url(/cubersc/template/user/img/sub/sss-bul.png) center center no-repeat;
+    background: url(../img/sub/sss-bul.png) center center no-repeat;
     background-size: cover;
     display: inline-block;
     width: 7px;
@@ -5925,7 +5925,7 @@ min-height: 30px;
     content: '';
     width: 30px;
     height: 30px;
-    background: url(/cubersc/template/user/img/sub/ico_joinguide.png);
+    background: url(../img/sub/ico_joinguide.png);
     position: absolute;
     top: 50%;
     right: 0;
@@ -6041,13 +6041,13 @@ min-height: 30px;
     cursor: pointer;
     width: 24px;
     height: 24px;
-    background: url(/cubersc/template/user/img/sub/check1.png) no-repeat;
+    background: url(../img/sub/check1.png) no-repeat;
     background-size: contain !important;
     position: relative;
 }
 
 .box_agree_checkarea input[type='checkbox']:checked+label {
-    background: url(/cubersc/template/user/img/sub/select-red.png) no-repeat;
+    background: url(../img/sub/select-red.png) no-repeat;
     background-size: contain !important;
 }
 
@@ -6310,7 +6310,7 @@ min-height: 30px;
     left: 0;
     width: 16px;
     height: 16px;
-    background: url(/cubersc/template/user/img/sub/tit_icon1.png) center center no-repeat;
+    background: url(../img/sub/tit_icon1.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -6921,7 +6921,7 @@ min-height: 30px;
     content: '';
     width: 100%;
     height: 78px;
-    background: url(/cubersc/template/user/img/sub/img_bg_gradient_bk.png);
+    background: url(../img/sub/img_bg_gradient_bk.png);
     background-repeat: repeat;
     position: absolute;
     left: 0;
@@ -6935,7 +6935,7 @@ min-height: 30px;
     left: 10px;
     width: 98px;
     height: 112px;
-    background: url(/cubersc/template/user/img/sub/badge_discnt.png);
+    background: url(../img/sub/badge_discnt.png);
     background-size: contain;
     text-align: center;
     color: #fff;
@@ -6943,7 +6943,7 @@ min-height: 30px;
 
 .box_cardquarter_wrap .badge_discnt:after {
     content: '';
-    background: url(/cubersc/template/user/img/sub/badge_discnt_after.png) no-repeat;
+    background: url(../img/sub/badge_discnt_after.png) no-repeat;
     position: absolute;
     top: 0px;
     right: 2px;
@@ -7035,11 +7035,11 @@ min-height: 30px;
 }
 
 .box_cardquarter_wrap .box_btm .ico_address:before {
-    background: url(/cubersc/template/user/img/sub/ico_map.png) center center no-repeat;
+    background: url(../img/sub/ico_map.png) center center no-repeat;
 }
 
 .box_cardquarter_wrap .box_btm .ico_call:before {
-    background: url(/cubersc/template/user/img/sub/ico_call.png) center center no-repeat;
+    background: url(../img/sub/ico_call.png) center center no-repeat;
 }
 
 .list_imgbtn_thumbwrap {
@@ -7208,7 +7208,7 @@ min-height: 30px;
 }
 
 .btn_newico.btn_iconavy span:before {
-    background: url(/cubersc/template/user/img/sub/ico_reservation_human.png) no-repeat;
+    background: url(../img/sub/ico_reservation_human.png) no-repeat;
 }
 
 .btn_icogrey {
@@ -7217,7 +7217,7 @@ min-height: 30px;
 }
 
 .btn_newico.btn_icogrey span:before {
-    background: url(/cubersc/template/user/img/sub/ico_reservation_clock.png) no-repeat;
+    background: url(../img/sub/ico_reservation_clock.png) no-repeat;
 }
 
 .btn_icogren {
@@ -7226,7 +7226,7 @@ min-height: 30px;
 }
 
 .btn_newico.btn_icogren span:before {
-    background: url(/cubersc/template/user/img/sub/ico_reservation_dblhuman.png) no-repeat;
+    background: url(../img/sub/ico_reservation_dblhuman.png) no-repeat;
 }
 
 .box_boardpreview_thumbwrap {
@@ -7606,7 +7606,7 @@ min-height: 30px;
     left: 0;
     width: 7px;
     height: 7px;
-    background: url(/cubersc/template/user/img/sub/sss-bul.png) center center no-repeat;
+    background: url(../img/sub/sss-bul.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -7633,7 +7633,7 @@ min-height: 30px;
     top: 29px;
     left: 0;
     border-radius: 0;
-    background: url(/cubersc/template/user/img/sub/smile.png) center center no-repeat;
+    background: url(../img/sub/smile.png) center center no-repeat;
     background-size: cover;
     width: 20px;
     height: 20px;
@@ -7708,28 +7708,28 @@ min-height: 30px;
     position: absolute;
     top: 5px;
     left: 0;
-    background: url(/cubersc/template/user/img/sub/person.png) center center no-repeat;
+    background: url(../img/sub/person.png) center center no-repeat;
     background-size: cover;
     width: 20px;
     height: 20px;
 }
 
 #containers .content-all .renew .icon-bull.two::before {
-    background: url(/cubersc/template/user/img/sub/won.png) center center no-repeat;
+    background: url(../img/sub/won.png) center center no-repeat;
     top: 5px;
     width: 20px;
     height: 20px;
 }
 
 #containers .content-all .renew .icon-bull.three::before {
-    background: url(/cubersc/template/user/img/sub/calendar.png) center center no-repeat;
+    background: url(../img/sub/calendar.png) center center no-repeat;
     top: 5px;
     width: 20px;
     height: 20px;
 }
 
 #containers .content-all .renew .icon-bull.four::before {
-    background: url(/cubersc/template/user/img/sub/pen.png) center center no-repeat;
+    background: url(../img/sub/pen.png) center center no-repeat;
     top: 5px;
     width: 20px;
     height: 20px;
@@ -7740,7 +7740,7 @@ min-height: 30px;
     display: inline-block;
     width: 20px;
     height: 20px;
-    background: url(/cubersc/template/user/img/sub/money.png) center center no-repeat;
+    background: url(../img/sub/money.png) center center no-repeat;
     top: 5px;
 }
 
@@ -7978,7 +7978,7 @@ min-height: 30px;
     left: 0;
     width: 8px;
     height: 8px;
-    background: url(/cubersc/template/user/img/sub/sss-bul.png) center center no-repeat;
+    background: url(../img/sub/sss-bul.png) center center no-repeat;
     background-size: contain;
 }
 
@@ -8163,7 +8163,7 @@ min-height: 30px;
     margin-right: 3px;
 }
 
-/* .subs .no-srch .srch .selbox:after { content:''; position:absolute; top:50%; right:20px; transform:translateY(-50%); width:10px; height:6px; background:url(/cubersc/template/user/img/sub/no-srch_sel.png) center center no-repeat; background-size:cover; } 
+/* .subs .no-srch .srch .selbox:after { content:''; position:absolute; top:50%; right:20px; transform:translateY(-50%); width:10px; height:6px; background:url(../img/sub/no-srch_sel.png) center center no-repeat; background-size:cover; } 
  */
 .cont_box .no-srch {
     justify-content: flex-end !important;
@@ -8227,7 +8227,7 @@ min-height: 30px;
     transform: translateY(-50%);
     width: 17px;
     height: 18px;
-    background: url(/cubersc/template/user/img/sub/no-srch_icon.png) center center no-repeat;
+    background: url(../img/sub/no-srch_icon.png) center center no-repeat;
     background-size: contain;
 }
 
@@ -8788,7 +8788,7 @@ min-height: 30px;
     position: absolute;
     top: 0;
     right: 0;
-    background: url(/cubersc/template/user/img/sub/ico_close.png) center center no-repeat;
+    background: url(../img/sub/ico_close.png) center center no-repeat;
 }
 
 .box_cardresult ul {
@@ -8906,17 +8906,17 @@ min-height: 30px;
 }
 
 .subs .notices table .t_hwp {
-    background: url(/cubersc/template/user/img/sub/no-hwp.png) center center no-repeat;
+    background: url(../img/sub/no-hwp.png) center center no-repeat;
     background-size: cover;
 }
 
 .subs .notices table .t_pdf {
-    background: url(/cubersc/template/user/img/sub/no-pdf.png) center center no-repeat;
+    background: url(../img/sub/no-pdf.png) center center no-repeat;
     background-size: cover;
 }
 
 .subs .notices table .t_exc {
-    background: url(/cubersc/template/user/img/sub/no-exc.png) center center no-repeat;
+    background: url(../img/sub/no-exc.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -9018,17 +9018,17 @@ min-height: 30px;
 }
 
 .subs .notices .gallery .t_hwp {
-    background: url(/cubersc/template/user/img/sub/no-hwp.png) center center no-repeat;
+    background: url(../img/sub/no-hwp.png) center center no-repeat;
     background-size: cover;
 }
 
 .subs .notices .gallery .t_pdf {
-    background: url(/cubersc/template/user/img/sub/no-pdf.png) center center no-repeat;
+    background: url(../img/sub/no-pdf.png) center center no-repeat;
     background-size: cover;
 }
 
 .subs .notices .gallery .t_exc {
-    background: url(/cubersc/template/user/img/sub/no-exc.png) center center no-repeat;
+    background: url(../img/sub/no-exc.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -9077,19 +9077,19 @@ min-height: 30px;
 }
 
 .subs .paging .pg.first {
-    background: url(/cubersc/template/user/img/sub/pg-first.png) center center no-repeat;
+    background: url(../img/sub/pg-first.png) center center no-repeat;
 }
 
 .subs .paging .pg.prev {
-    background: url(/cubersc/template/user/img/sub/pg-prev.png) center center no-repeat;
+    background: url(../img/sub/pg-prev.png) center center no-repeat;
 }
 
 .subs .paging .pg.next {
-    background: url(/cubersc/template/user/img/sub/pg-next.png) center center no-repeat;
+    background: url(../img/sub/pg-next.png) center center no-repeat;
 }
 
 .subs .paging .pg.last {
-    background: url(/cubersc/template/user/img/sub/pg-last.png) center center no-repeat;
+    background: url(../img/sub/pg-last.png) center center no-repeat;
 }
 
 .subs .paging .pg.first a, .subs .paging .pg.prev a, .subs .paging .pg.next a, .subs .paging .pg.last a {
@@ -9210,7 +9210,7 @@ min-height: 30px;
     left: -25px;
     width: 12px;
     height: 16px;
-    background: url(/cubersc/template/user/img/sub/board_down.png) center center no-repeat;
+    background: url(../img/sub/board_down.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -9341,7 +9341,7 @@ min-height: 30px;
     transform: translateY(-50%);
     width: 10px;
     height: 6px;
-    background: url(/cubersc/template/user/img/sub/board_list1.png) center center no-repeat;
+    background: url(../img/sub/board_list1.png) center center no-repeat;
 }
 
 .board .b_list li:last-child p:after {
@@ -9352,7 +9352,7 @@ min-height: 30px;
     transform: translateY(-50%);
     width: 10px;
     height: 6px;
-    background: url(/cubersc/template/user/img/sub/board_list2.png) center center no-repeat;
+    background: url(../img/sub/board_list2.png) center center no-repeat;
 }
 
 .board .b_list li p:before {
@@ -9651,12 +9651,12 @@ min-height: 30px;
 
 .logins .log_box .log_btn.btn3 {
     color: #fff;
-    background: #03c65a url(/cubersc/template/user/img/login_naver.png) 15px center no-repeat;
+    background: #03c65a url(../img/login_naver.png) 15px center no-repeat;
 }
 
 .logins .log_box .log_btn.btn4 {
     color: #191919;
-    background: #fee500 url(/cubersc/template/user/img/login_kakao.png) 15px center no-repeat;
+    background: #fee500 url(../img/login_kakao.png) 15px center no-repeat;
 }
 
 .logins .log3 .log_box .log_btn {
@@ -9710,7 +9710,7 @@ min-height: 30px;
     height: 21px;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/sub/input_mouse.png) center center no-repeat;
+    background: url(../img/sub/input_mouse.png) center center no-repeat;
     background-size: cover;
     cursor: pointer;
 }
@@ -9770,7 +9770,7 @@ min-height: 30px;
     height: 21px;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/sub/input_mouse.png) center center no-repeat;
+    background: url(../img/sub/input_mouse.png) center center no-repeat;
     background-size: cover;
     cursor: pointer;
     z-index: 10;
@@ -9987,7 +9987,7 @@ min-height: 30px;
     height: 11px;
     display: inline-block;
     vertical-align: top;
-    background: url(/cubersc/template/user/img/sub/ico_redcheck.png) no-repeat;
+    background: url(../img/sub/ico_redcheck.png) no-repeat;
     position: absolute;
     left: 0;
     top: 12px;
@@ -10036,13 +10036,13 @@ min-height: 30px;
     right: 0;
     width: 14px;
     height: 8px;
-    background: url(/cubersc/template/user/img/sub/s3_mybox_bottom.png) center center no-repeat;
+    background: url(../img/sub/s3_mybox_bottom.png) center center no-repeat;
     background-size: cover;
 }
 
 .list_half_cardnoti > li .box_btm .mo_accordion_btn.on:after {
     transition: none;
-    background: url(/cubersc/template/user/img/sub/s3_mybox_top.png) center center no-repeat;
+    background: url(../img/sub/s3_mybox_top.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -10062,7 +10062,7 @@ min-height: 30px;
     left: 0;
     width: 8px;
     height: 8px;
-    background: url(/cubersc/template/user/img/sub/sss-bul.png) center center no-repeat;
+    background: url(../img/sub/sss-bul.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -10172,7 +10172,7 @@ min-height: 30px;
 
 .box_event_researchwrap .colorful:after {
     content: '';
-    background: url(/cubersc/template/user/img/sub/check1.png) no-repeat;
+    background: url(../img/sub/check1.png) no-repeat;
     width: 100%;
     height: 100%;
     display: block;
@@ -10180,7 +10180,7 @@ min-height: 30px;
 }
 
 .box_event_researchwrap .colorful.checked:after {
-    background: url(/cubersc/template/user/img/sub/select-red.png) no-repeat;
+    background: url(../img/sub/select-red.png) no-repeat;
 }
 
 .box_event_researchwrap .mycontent .box .title:after {
@@ -10333,7 +10333,7 @@ textarea.txtarea_bg {
 
 .tab-content .colorful:after {
     content: '';
-    background: url(/cubersc/template/user/img/sub/check1.png) no-repeat;
+    background: url(../img/sub/check1.png) no-repeat;
     width: 100%;
     height: 100%;
     display: block;
@@ -10341,7 +10341,7 @@ textarea.txtarea_bg {
 }
 
 .tab-content .colorful.checked:after {
-    background: url(/cubersc/template/user/img/sub/select-red.png) no-repeat;
+    background: url(../img/sub/select-red.png) no-repeat;
 }
 
 .tab-content .colorful img {
@@ -10503,7 +10503,7 @@ img.img-re.pc, img.img-re.mob {
     width: 10px;
     height: 13px;
     display: inline-block;
-    background: url(/cubersc/template/user/img/sub/ico_nminarr_btm.png) no-repeat;
+    background: url(../img/sub/ico_nminarr_btm.png) no-repeat;
     right: -6px;
     bottom: 0;
     position: absolute;
@@ -10792,7 +10792,7 @@ img.img-re.pc, img.img-re.mob {
     content: '';
     width: 6px;
     height: 6px;
-    background: url(/cubersc/template/user/img/sub/sss-bul.png) center center no-repeat;
+    background: url(../img/sub/sss-bul.png) center center no-repeat;
     background-size: cover;
     position: absolute;
     left: 0;
@@ -10851,7 +10851,7 @@ img.img-re.pc, img.img-re.mob {
 .box_linkemovewrap ul li strong:before {
     content: '';
     display: block;
-    background: url(/cubersc/template/user/img/sub/med-bull.png) center center no-repeat;
+    background: url(../img/sub/med-bull.png) center center no-repeat;
     position: absolute;
     left: 0;
     height: 15px;
@@ -10895,7 +10895,7 @@ img.img-re.pc, img.img-re.mob {
 }
 
 .link_move i {
-    background: url(/cubersc/template/user/img/sub/ico_linkmore.png) center center no-repeat;
+    background: url(../img/sub/ico_linkmore.png) center center no-repeat;
     width: 15px;
     height: 15px;
     background-size: contain;
@@ -10926,15 +10926,15 @@ img.img-re.pc, img.img-re.mob {
 }
 
 .list_lefticobox li:nth-child(1):before {
-    background: url(/cubersc/template/user/img/sub/ico_lefticobox01.png) center center no-repeat;
+    background: url(../img/sub/ico_lefticobox01.png) center center no-repeat;
 }
 
 .list_lefticobox li:nth-child(2):before {
-    background: url(/cubersc/template/user/img/sub/ico_lefticobox02.png) center center no-repeat;
+    background: url(../img/sub/ico_lefticobox02.png) center center no-repeat;
 }
 
 .list_lefticobox li:nth-child(3):before {
-    background: url(/cubersc/template/user/img/sub/ico_lefticobox03.png) center center no-repeat;
+    background: url(../img/sub/ico_lefticobox03.png) center center no-repeat;
 }
 
 .list_lefticobox li:before {
@@ -10970,32 +10970,32 @@ img.img-re.pc, img.img-re.mob {
 }
 
 .list_twoboxwrap .list_lefticobox.one li:nth-child(1):before {
-    background: url(/cubersc/template/user/img/sub/ico_lefticobox_two_01.png) center center no-repeat;
+    background: url(../img/sub/ico_lefticobox_two_01.png) center center no-repeat;
 }
 
 .list_twoboxwrap .list_lefticobox.one li:nth-child(2):before {
-    background: url(/cubersc/template/user/img/sub/ico_lefticobox_two_02.png) center center no-repeat;
+    background: url(../img/sub/ico_lefticobox_two_02.png) center center no-repeat;
 }
 
 .list_twoboxwrap .list_lefticobox.one li:nth-child(3):before {
-    background: url(/cubersc/template/user/img/sub/ico_lefticobox_two_03.png) center center no-repeat;
+    background: url(../img/sub/ico_lefticobox_two_03.png) center center no-repeat;
 }
 
 .list_twoboxwrap .list_lefticobox.two li:nth-child(1):before {
-    background: url(/cubersc/template/user/img/sub/ico_lefticobox_two_04.png) center center no-repeat;
+    background: url(../img/sub/ico_lefticobox_two_04.png) center center no-repeat;
 }
 
 .list_twoboxwrap .list_lefticobox.two li:nth-child(2):before {
-    background: url(/cubersc/template/user/img/sub/ico_lefticobox_two_05.png) center center no-repeat;
+    background: url(../img/sub/ico_lefticobox_two_05.png) center center no-repeat;
 }
 
 /* .list_lefticobox.two { display: flex; flex-wrap: wrap; } 
 .list_lefticobox.two li { width: 50%; min-height: 100px; margin-top: 40px; } 
-.list_lefticobox.two li:nth-child(1):before { background: url(/cubersc/template/user/img/sub/ico_lefticobox_two_01.png) center center no-repeat; } 
-.list_lefticobox.two li:nth-child(2):before { background: url(/cubersc/template/user/img/sub/ico_lefticobox_two_02.png) center center no-repeat; } 
-.list_lefticobox.two li:nth-child(3):before { background: url(/cubersc/template/user/img/sub/ico_lefticobox_two_03.png) center center no-repeat; } 
-.list_lefticobox.two li:nth-child(4):before { background: url(/cubersc/template/user/img/sub/ico_lefticobox_two_04.png) center center no-repeat; } 
-.list_lefticobox.two li:nth-child(5):before { background: url(/cubersc/template/user/img/sub/ico_lefticobox_two_05.png) center center no-repeat; } 
+.list_lefticobox.two li:nth-child(1):before { background: url(../img/sub/ico_lefticobox_two_01.png) center center no-repeat; } 
+.list_lefticobox.two li:nth-child(2):before { background: url(../img/sub/ico_lefticobox_two_02.png) center center no-repeat; } 
+.list_lefticobox.two li:nth-child(3):before { background: url(../img/sub/ico_lefticobox_two_03.png) center center no-repeat; } 
+.list_lefticobox.two li:nth-child(4):before { background: url(../img/sub/ico_lefticobox_two_04.png) center center no-repeat; } 
+.list_lefticobox.two li:nth-child(5):before { background: url(../img/sub/ico_lefticobox_two_05.png) center center no-repeat; } 
  */
 
 
@@ -11060,7 +11060,7 @@ img.img-re.pc, img.img-re.mob {
     left: 0;
     width: 8px;
     height: 8px;
-    background: url(/cubersc/template/user/img/sub/sss-bul.png) center center no-repeat;
+    background: url(../img/sub/sss-bul.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -11224,7 +11224,7 @@ img.img-re.pc, img.img-re.mob {
     left: -39px;
     width: 25px;
     height: 25px;
-    background: url(/cubersc/template/user/img/sub/no-pdf.png) center center no-repeat;
+    background: url(../img/sub/no-pdf.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -11408,7 +11408,7 @@ img.img-re.pc, img.img-re.mob {
     right: 14px;
     width: 12px;
     height: 15px;
-    background: url(/cubersc/template/user/img/submain/reserve_on.png) center center no-repeat;
+    background: url(../img/submain/reserve_on.png) center center no-repeat;
     background-size: contain;
 }
 
@@ -11535,16 +11535,16 @@ img.img-re.pc, img.img-re.mob {
     padding-top: 7px;
     width: 25px;
     height: 25px;
-    background: url(/cubersc/template/user/img/sub/ico_bk_map.png) center center no-repeat;
+    background: url(../img/sub/ico_bk_map.png) center center no-repeat;
     background-size: contain;
 }
 
 .box_viewtxtwrap .box_viewinfo .txt_ico.call:before {
-    background: url(/cubersc/template/user/img/sub/ico_bk_call.png) center center no-repeat;
+    background: url(../img/sub/ico_bk_call.png) center center no-repeat;
 }
 
 .box_viewtxtwrap .box_viewinfo .txt_ico.discnt:before {
-    background: url(/cubersc/template/user/img/sub/ico_bk_discnt.png) center center no-repeat;
+    background: url(../img/sub/ico_bk_discnt.png) center center no-repeat;
 }
 
 .box_viewimgwrap {
@@ -11578,7 +11578,7 @@ img.img-re.pc, img.img-re.mob {
     height: 20px;
     display: inline-block;
     vertical-align: top;
-    background: url(/cubersc/template/user/img/sub/ico_link_arrright.png) center 3px no-repeat;
+    background: url(../img/sub/ico_link_arrright.png) center 3px no-repeat;
     background-size: contain;
     margin-left: 10px;
 }
@@ -11600,13 +11600,13 @@ img.img-re.pc, img.img-re.mob {
 .sm .visual .v-slider .slide .m-img { height:420px; } 
 .sm .visual .v-slider .slide .m-img2 { height:420px; } 
 .sm .visual .v-slider .slide.sv4-1:after { background:linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(204,227,236,1) 100%); opacity:0.4; } 
-.sm .visual .v-slider .slide.sv4-1 .sli_text:after { top:22px; left:-15px; width:925px; height:549px; background:url(/cubersc/template/user/img/submain/subvisual4_box.png) center center no-repeat; background-size:cover; } 
+.sm .visual .v-slider .slide.sv4-1 .sli_text:after { top:22px; left:-15px; width:925px; height:549px; background:url(../img/submain/subvisual4_box.png) center center no-repeat; background-size:cover; } 
 .sm .visual .v-slider .slide.sv4-2:after { background:linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(204,227,236,1) 100%); opacity:0.4; } 
-.sm .visual .v-slider .slide.sv4-2 .sli_text:after { top:-18px; left:240px; width:630px; height:419px; background:url(/cubersc/template/user/img/submain/subvisual4-2_box.png) center center no-repeat; background-size:cover; } 
+.sm .visual .v-slider .slide.sv4-2 .sli_text:after { top:-18px; left:240px; width:630px; height:419px; background:url(../img/submain/subvisual4-2_box.png) center center no-repeat; background-size:cover; } 
 .sm .visual .v-slider .slide.sv7-1:after { background:linear-gradient(-90deg, rgba(255,255,255,1) 0%, rgba(255,245,245,1) 100%); } 
-.sm .visual .v-slider .slide.sv7-1 .sli_text:after { top:-80px; right:-54px; width:707px; height:531px; background:url(/cubersc/template/user/img/submain/subvisual7_box.png) center center no-repeat; background-size:cover; } 
+.sm .visual .v-slider .slide.sv7-1 .sli_text:after { top:-80px; right:-54px; width:707px; height:531px; background:url(../img/submain/subvisual7_box.png) center center no-repeat; background-size:cover; } 
 .sm .visual .v-slider .slide.sv7-2:after { background:linear-gradient(-90deg, rgba(255,255,255,1) 0%, rgba(255,245,245,1) 100%); } 
-.sm .visual .v-slider .slide.sv7-2 .sli_text:after { top:-128px; right:-208px; width:773px; height:577px; background:url(/cubersc/template/user/img/submain/subvisual7-2_box.png) center center no-repeat; background-size:cover; } 
+.sm .visual .v-slider .slide.sv7-2 .sli_text:after { top:-128px; right:-208px; width:773px; height:577px; background:url(../img/submain/subvisual7-2_box.png) center center no-repeat; background-size:cover; } 
 .sm .visual .v-slider .sli_text { top:81px; } 
  */
 .tempo_ico_list {
@@ -11718,15 +11718,15 @@ img.img-re.pc, img.img-re.mob {
 }
 
 .welfare .reservebox .boxs .b1:after {
-    background: url(/cubersc/template/user/img/submain/reserve_icon1.png) center center no-repeat;
+    background: url(../img/submain/reserve_icon1.png) center center no-repeat;
 }
 
 .welfare .reservebox .boxs .b2:after {
-    background: url(/cubersc/template/user/img/submain/reserve_icon2.png) center center no-repeat;
+    background: url(../img/submain/reserve_icon2.png) center center no-repeat;
 }
 
 .welfare .reservebox .boxs .b3:after {
-    background: url(/cubersc/template/user/img/submain/reserve_icon3.png) center center no-repeat;
+    background: url(../img/submain/reserve_icon3.png) center center no-repeat;
 }
 
 .welfare .reservebox .boxs .sel select {
@@ -11739,7 +11739,7 @@ img.img-re.pc, img.img-re.mob {
     padding-left: 51px;
     border: 1px solid #ddd;
     cursor: pointer;
-    background: #fff url(/cubersc/template/user/img/submain/reserve_on.png) center center no-repeat;
+    background: #fff url(../img/submain/reserve_on.png) center center no-repeat;
     padding-left: 50px !important;
 }
 
@@ -11772,7 +11772,7 @@ img.img-re.pc, img.img-re.mob {
     left: 16px;
     width: 36px;
     height: 39px;
-    background: url(/cubersc/template/user/img/submain/reserve_icon4.png) center center no-repeat;
+    background: url(../img/submain/reserve_icon4.png) center center no-repeat;
     background-size: contain;
 }
 
@@ -11927,7 +11927,7 @@ img.img-re.pc, img.img-re.mob {
 .daterangepicker .calendar-table .prev span {
     width: 6px;
     height: 16px;
-    background: url(/cubersc/template/user/img/submain/picker_prev.png) center center no-repeat;
+    background: url(../img/submain/picker_prev.png) center center no-repeat;
     border: none;
     transform: none;
     transition: all .5s;
@@ -11936,19 +11936,19 @@ img.img-re.pc, img.img-re.mob {
 .daterangepicker .calendar-table .next span {
     width: 6px;
     height: 16px;
-    background: url(/cubersc/template/user/img/submain/picker_next.png) center center no-repeat;
+    background: url(../img/submain/picker_next.png) center center no-repeat;
     border: none;
     transform: none;
     transition: all .5s;
 }
 
 .daterangepicker.show-calendar .prev:hover span {
-    background: url(/cubersc/template/user/img/submain/picker_prev_h.png) center center no-repeat;
+    background: url(../img/submain/picker_prev_h.png) center center no-repeat;
     transition: all .5s;
 }
 
 .daterangepicker.show-calendar .next:hover span {
-    background: url(/cubersc/template/user/img/submain/picker_next_h.png) center center no-repeat;
+    background: url(../img/submain/picker_next_h.png) center center no-repeat;
     transition: all .5s;
 }
 
@@ -12120,42 +12120,42 @@ img.img-re.pc, img.img-re.mob {
 }
 
 .welfare .fav-list2 .lis.one li:nth-child(1) .fi {
-    background: #fff url(/cubersc/template/user/img/submain/fav2_icon1.png) center center no-repeat;
+    background: #fff url(../img/submain/fav2_icon1.png) center center no-repeat;
     background-size: cover;
 }
 
 .welfare .fav-list2 .lis.one li:nth-child(2) .fi {
-    background: #fff url(/cubersc/template/user/img/submain/fav2_icon2.png) center center no-repeat;
+    background: #fff url(../img/submain/fav2_icon2.png) center center no-repeat;
     background-size: cover;
 }
 
 .welfare .fav-list2 .lis.one li:nth-child(3) .fi {
-    background: #fff url(/cubersc/template/user/img/submain/fav2_icon3.png) center center no-repeat;
+    background: #fff url(../img/submain/fav2_icon3.png) center center no-repeat;
     background-size: cover;
 }
 
 .welfare .fav-list2 .lis.one li:nth-child(4) .fi {
-    background: #fff url(/cubersc/template/user/img/submain/fav2_icon4.png) center center no-repeat;
+    background: #fff url(../img/submain/fav2_icon4.png) center center no-repeat;
     background-size: cover;
 }
 
 .welfare .fav-list2 .lis.two li:nth-child(1) .fi {
-    background: #fff url(/cubersc/template/user/img/submain/fav2_icon5.png) center center no-repeat;
+    background: #fff url(../img/submain/fav2_icon5.png) center center no-repeat;
     background-size: cover;
 }
 
 .welfare .fav-list2 .lis.two li:nth-child(2) .fi {
-    background: #fff url(/cubersc/template/user/img/submain/fav2_icon6.png) center center no-repeat;
+    background: #fff url(../img/submain/fav2_icon6.png) center center no-repeat;
     background-size: cover;
 }
 
 .welfare .fav-list2 .lis.two li:nth-child(3) .fi {
-    background: #fff url(/cubersc/template/user/img/submain/fav2_icon7.png) center center no-repeat;
+    background: #fff url(../img/submain/fav2_icon7.png) center center no-repeat;
     background-size: cover;
 }
 
 .welfare .fav-list2 .lis.two li:nth-child(4) .fi {
-    background: #fff url(/cubersc/template/user/img/submain/fav2_icon8.png) center center no-repeat;
+    background: #fff url(../img/submain/fav2_icon8.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -12244,28 +12244,28 @@ img.img-re.pc, img.img-re.mob {
 .welfare .fav-list2 .lis2 .li1:before {
     width: 75px;
     height: 71px;
-    background: url(/cubersc/template/user/img/submain/fav2_icon9.png) center center no-repeat;
+    background: url(../img/submain/fav2_icon9.png) center center no-repeat;
     background-size: cover;
 }
 
 .welfare .fav-list2 .lis2 .li2:before {
     width: 60px;
     height: 69px;
-    background: url(/cubersc/template/user/img/submain/fav2_icon10.png) center center no-repeat;
+    background: url(../img/submain/fav2_icon10.png) center center no-repeat;
     background-size: cover;
 }
 
 .welfare .fav-list2 .lis2 .li3:before {
     width: 97px;
     height: 64px;
-    background: url(/cubersc/template/user/img/submain/fav2_icon11.png) center center no-repeat;
+    background: url(../img/submain/fav2_icon11.png) center center no-repeat;
     background-size: cover;
 }
 
 .welfare .fav-list2 .lis2 .li4:before {
     width: 70px;
     height: 71px;
-    background: url(/cubersc/template/user/img/submain/fav2_icon12.png) center center no-repeat;
+    background: url(../img/submain/fav2_icon12.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -12416,7 +12416,7 @@ img.img-re.pc, img.img-re.mob {
     height: 12px;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/v_pause.png) center center no-repeat;
+    background: url(../img/v_pause.png) center center no-repeat;
     background-size: cover;
     cursor: pointer;
 }
@@ -12427,7 +12427,7 @@ img.img-re.pc, img.img-re.mob {
     height: 12px;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/v_play.png) center center no-repeat;
+    background: url(../img/v_play.png) center center no-repeat;
     background-size: cover;
     cursor: pointer;
 }
@@ -12437,7 +12437,7 @@ img.img-re.pc, img.img-re.mob {
     height: 15px;
     margin-left: 14px;
     margin-right: 10px;
-    background: url(/cubersc/template/user/img/v_prev.png) center center no-repeat;
+    background: url(../img/v_prev.png) center center no-repeat;
     cursor: pointer;
     position: static;
     border-radius: 0;
@@ -12447,7 +12447,7 @@ img.img-re.pc, img.img-re.mob {
 .welfare .for-area .right .v-control .for-next {
     width: 17px;
     height: 15px;
-    background: url(/cubersc/template/user/img/v_next.png) center center no-repeat;
+    background: url(../img/v_next.png) center center no-repeat;
     cursor: pointer;
     position: static;
     border-radius: 0;
@@ -12769,7 +12769,7 @@ img.img-re.pc, img.img-re.mob {
     width: 9px;
     height: 16px;
     display: inline-block;
-    background: url(/cubersc/template/user/img/sub/ico_tooltp_before.png) center center no-repeat;
+    background: url(../img/sub/ico_tooltp_before.png) center center no-repeat;
     position: absolute;
     left: -8px;
 }
@@ -12805,7 +12805,7 @@ img.img-re.pc, img.img-re.mob {
 }
 
 .sticky_fix_tablewrap tr td:nth-last-child(-n+5) .details:before {
-    background: url(/cubersc/template/user/img/sub/ico_tooltp_after.png) center center no-repeat;
+    background: url(../img/sub/ico_tooltp_after.png) center center no-repeat;
     position: absolute;
     left: auto;
     right: -8px;
@@ -12934,7 +12934,7 @@ img.img-re.pc, img.img-re.mob {
     height: 30px;
     display: inline-block;
     vertical-align: top;
-    background: url(/cubersc/template/user/img/sub/ico_faq_main_before.png) no-repeat;
+    background: url(../img/sub/ico_faq_main_before.png) no-repeat;
     margin-right: 10px;
     position: absolute;
     top: 0;
@@ -12943,7 +12943,7 @@ img.img-re.pc, img.img-re.mob {
 }
 
 .box_faq_accordion .faq_accordion.active span:before {
-    background: url(/cubersc/template/user/img/sub/ico_faq_main.png) no-repeat;
+    background: url(../img/sub/ico_faq_main.png) no-repeat;
 }
 
 .box_faq_accordion .faq_pinner .faq_ptit p {
@@ -12960,7 +12960,7 @@ img.img-re.pc, img.img-re.mob {
     height: 30px;
     display: inline-block;
     vertical-align: top;
-    background: url(/cubersc/template/user/img/sub/ico_faq_sub.png) no-repeat;
+    background: url(../img/sub/ico_faq_sub.png) no-repeat;
     margin-right: 10px;
     position: absolute;
     top: 0;
@@ -13219,7 +13219,7 @@ img.img-re.pc, img.img-re.mob {
     content: '';
     width: 14px;
     height: 8px;
-    background: url(/cubersc/template/user/img/sub/ico_select_arrb.png) center center no-repeat;
+    background: url(../img/sub/ico_select_arrb.png) center center no-repeat;
     float: right;
     margin-top: 5px;
 }
@@ -13451,31 +13451,31 @@ img.img-re.pc, img.img-re.mob {
 
 .intros .fav-list3 .favs:nth-child(1) .fi {
     width: 68px;
-    background: url(/cubersc/template/user/img/submain/fav3_icon1.png) center center no-repeat;
+    background: url(../img/submain/fav3_icon1.png) center center no-repeat;
     background-size: contain;
 }
 
 .intros .fav-list3 .favs:nth-child(2) .fi {
     width: 65px;
-    background: url(/cubersc/template/user/img/submain/fav3_icon2.png) center center no-repeat;
+    background: url(../img/submain/fav3_icon2.png) center center no-repeat;
     background-size: contain;
 }
 
 .intros .fav-list3 .favs:nth-child(3) .fi {
     width: 62px;
-    background: url(/cubersc/template/user/img/submain/fav3_icon3.png) center center no-repeat;
+    background: url(../img/submain/fav3_icon3.png) center center no-repeat;
     background-size: contain;
 }
 
 .intros .fav-list3 .favs:nth-child(4) .fi {
     width: 77px;
-    background: url(/cubersc/template/user/img/submain/fav3_icon4.png) center center no-repeat;
+    background: url(../img/submain/fav3_icon4.png) center center no-repeat;
     background-size: contain;
 }
 
 .intros .fav-list3 .favs:nth-child(5) .fi {
     width: 83px;
-    background: url(/cubersc/template/user/img/submain/fav3_icon5.png) center center no-repeat;
+    background: url(../img/submain/fav3_icon5.png) center center no-repeat;
     background-size: contain;
 }
 
@@ -13558,7 +13558,7 @@ img.img-re.pc, img.img-re.mob {
     width: 30px;
     height: 30px;
     border-radius: 100px;
-    background: #fff url(/cubersc/template/user/img/more.png) center center no-repeat;
+    background: #fff url(../img/more.png) center center no-repeat;
     box-shadow: 3px 3px 10px 0px rgba(47, 46, 44, 0.25);
 }
 
@@ -13677,14 +13677,14 @@ img.img-re.pc, img.img-re.mob {
 .intros .number .two .left .bi {
     width: 152px;
     height: 133px;
-    background: url(/cubersc/template/user/img/submain/num_icon1.png) center center no-repeat;
+    background: url(../img/submain/num_icon1.png) center center no-repeat;
     background-size: cover;
 }
 
 .intros .number .two .right .bi {
     width: 155px;
     height: 135px;
-    background: url(/cubersc/template/user/img/submain/num_icon2.png) center center no-repeat;
+    background: url(../img/submain/num_icon2.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -13863,55 +13863,55 @@ img.img-re.pc, img.img-re.mob {
 
 .intros .ins1 .intent:nth-child(1) .ii {
     width: 57px;
-    background: url(/cubersc/template/user/img/submain/intent_icon0.png) center center no-repeat;
+    background: url(../img/submain/intent_icon0.png) center center no-repeat;
     background-size: cover;
 }
 
 .intros .ins1 .intent:nth-child(2) .ii {
     width: 56px;
-    background: url(/cubersc/template/user/img/submain/intent_icon1.png) center center no-repeat;
+    background: url(../img/submain/intent_icon1.png) center center no-repeat;
     background-size: cover;
 }
 
 .intros .ins1 .intent:nth-child(3) .ii {
     width: 64px;
-    background: url(/cubersc/template/user/img/submain/intent_icon2.png) center center no-repeat;
+    background: url(../img/submain/intent_icon2.png) center center no-repeat;
     background-size: cover;
 }
 
 .intros .ins1 .intent:nth-child(4) .ii {
     width: 66px;
-    background: url(/cubersc/template/user/img/submain/intent_icon3.png) center center no-repeat;
+    background: url(../img/submain/intent_icon3.png) center center no-repeat;
     background-size: cover;
 }
 
 .intros .ins1 .intent:nth-child(5) .ii {
     width: 56px;
-    background: url(/cubersc/template/user/img/submain/intent_icon4.png) center center no-repeat;
+    background: url(../img/submain/intent_icon4.png) center center no-repeat;
     background-size: cover;
 }
 
 .intros .ins2 .intent:nth-child(1) .ii {
     width: 93px;
-    background: url(/cubersc/template/user/img/submain/intent_icon5.png) center center no-repeat;
+    background: url(../img/submain/intent_icon5.png) center center no-repeat;
     background-size: cover;
 }
 
 .intros .ins2 .intent:nth-child(2) .ii {
     width: 85px;
-    background: url(/cubersc/template/user/img/submain/intent_icon6.png) center center no-repeat;
+    background: url(../img/submain/intent_icon6.png) center center no-repeat;
     background-size: cover;
 }
 
 .intros .ins2 .intent:nth-child(3) .ii {
     width: 91px;
-    background: url(/cubersc/template/user/img/submain/intent_icon7.png) center center no-repeat;
+    background: url(../img/submain/intent_icon7.png) center center no-repeat;
     background-size: cover;
 }
 
 .intros .ins2 .intent:nth-child(4) .ii {
     width: 58px;
-    background: url(/cubersc/template/user/img/submain/intent_icon8.png) center center no-repeat;
+    background: url(../img/submain/intent_icon8.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -13984,31 +13984,31 @@ img.img-re.pc, img.img-re.mob {
 
 .intros .intro-fav .favs:nth-child(1) .fi {
     width: 67px;
-    background: url(/cubersc/template/user/img/submain/fav4_icon1.png) center center no-repeat;
+    background: url(../img/submain/fav4_icon1.png) center center no-repeat;
     background-size: cover;
 }
 
 .intros .intro-fav .favs:nth-child(2) .fi {
     width: 71px;
-    background: url(/cubersc/template/user/img/submain/fav4_icon2.png) center center no-repeat;
+    background: url(../img/submain/fav4_icon2.png) center center no-repeat;
     background-size: cover;
 }
 
 .intros .intro-fav .favs:nth-child(3) .fi {
     width: 63px;
-    background: url(/cubersc/template/user/img/submain/fav4_icon3.png) center center no-repeat;
+    background: url(../img/submain/fav4_icon3.png) center center no-repeat;
     background-size: cover;
 }
 
 .intros .intro-fav .favs:nth-child(4) .fi {
     width: 60px;
-    background: url(/cubersc/template/user/img/submain/fav4_icon4.png) center center no-repeat;
+    background: url(../img/submain/fav4_icon4.png) center center no-repeat;
     background-size: cover;
 }
 
 .intros .intro-fav .favs:nth-child(5) .fi {
     width: 52px;
-    background: url(/cubersc/template/user/img/submain/fav4_icon5.png) center center no-repeat;
+    background: url(../img/submain/fav4_icon5.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -14036,27 +14036,27 @@ img.img-re.pc, img.img-re.mob {
 }
 
 .intros .intro-fav .favs:nth-child(1):hover .fi {
-    background: url(/cubersc/template/user/img/submain/fav4_icon1_h.png) center center no-repeat;
+    background: url(../img/submain/fav4_icon1_h.png) center center no-repeat;
     background-size: cover;
 }
 
 .intros .intro-fav .favs:nth-child(2):hover .fi {
-    background: url(/cubersc/template/user/img/submain/fav4_icon2_h.png) center center no-repeat;
+    background: url(../img/submain/fav4_icon2_h.png) center center no-repeat;
     background-size: cover;
 }
 
 .intros .intro-fav .favs:nth-child(3):hover .fi {
-    background: url(/cubersc/template/user/img/submain/fav4_icon3_h.png) center center no-repeat;
+    background: url(../img/submain/fav4_icon3_h.png) center center no-repeat;
     background-size: cover;
 }
 
 .intros .intro-fav .favs:nth-child(4):hover .fi {
-    background: url(/cubersc/template/user/img/submain/fav4_icon4_h.png) center center no-repeat;
+    background: url(../img/submain/fav4_icon4_h.png) center center no-repeat;
     background-size: cover;
 }
 
 .intros .intro-fav .favs:nth-child(5):hover .fi {
-    background: url(/cubersc/template/user/img/submain/fav4_icon5_h.png) center center no-repeat;
+    background: url(../img/submain/fav4_icon5_h.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -14083,7 +14083,7 @@ img.img-re.pc, img.img-re.mob {
     position: absolute;
     top: 7px;
     left: 0;
-    background: url(/cubersc/template/user/img/sub/inf-img.png);
+    background: url(../img/sub/inf-img.png);
     display: block;
     width: 24px;
     height: 24px;
@@ -14130,7 +14130,7 @@ img.img-re.pc, img.img-re.mob {
     left: 0;
     width: 8px;
     height: 8px;
-    background: url(/cubersc/template/user/img/sub/sss-bul.png) center center no-repeat;
+    background: url(../img/sub/sss-bul.png) center center no-repeat;
     background-size: cover;
     display: block;
     background-size: cover;
@@ -14444,7 +14444,7 @@ img.img-re.pc, img.img-re.mob {
     left: -40px;
     top: 0;
     display: inline-block;
-    background: url(/cubersc/template/user/img/sub/ico_talk_before.png) center center no-repeat;
+    background: url(../img/sub/ico_talk_before.png) center center no-repeat;
     width: 30px;
     height: 30px;
     background-size: contain;
@@ -14456,7 +14456,7 @@ img.img-re.pc, img.img-re.mob {
     right: -40px;
     top: 0;
     display: inline-block;
-    background: url(/cubersc/template/user/img/sub/ico_talk_after.png) center center no-repeat;
+    background: url(../img/sub/ico_talk_after.png) center center no-repeat;
     width: 30px;
     height: 30px;
     background-size: contain;
@@ -14475,7 +14475,7 @@ img.img-re.pc, img.img-re.mob {
     width: 100%;
     height: 103px;
     text-align: center;
-    background: url(/cubersc/template/user/img/sub/bg_triangle.png) no-repeat center center;
+    background: url(../img/sub/bg_triangle.png) no-repeat center center;
     position: absolute;
     top: -55px;
     left: 0;
@@ -14534,7 +14534,7 @@ img.img-re.pc, img.img-re.mob {
     width: 100%;
     height: 103px;
     background-size: contain;
-    background: url(/cubersc/template/user/img/sub/bg_triangle.png) no-repeat center center;
+    background: url(../img/sub/bg_triangle.png) no-repeat center center;
     position: absolute;
     top: 100%;
     left: 0;
@@ -14880,7 +14880,7 @@ img.img-re.pc, img.img-re.mob {
 
 .box_thirdwrap ul li .txt_plus_beafter:before {
     content: '';
-    background: #fff url(/cubersc/template/user/img/sub/ico_plus.png) center center no-repeat;
+    background: #fff url(../img/sub/ico_plus.png) center center no-repeat;
     width: 20px;
     height: 20px;
     display: block;
@@ -14890,7 +14890,7 @@ img.img-re.pc, img.img-re.mob {
 
 .box_thirdwrap ul li .txt_plus_beafter:after {
     content: '';
-    background: #fff url(/cubersc/template/user/img/sub/ico_plus.png) center center no-repeat;
+    background: #fff url(../img/sub/ico_plus.png) center center no-repeat;
     width: 20px;
     height: 20px;
     display: block;
@@ -15196,7 +15196,7 @@ img.img-re.pc, img.img-re.mob {
     .box_coupon_area .list_couponarea li {
         width: 250px;
         height: 180px;
-        background: url(/cubersc/template/user/img/sub/img_musinsa_coupon-m.png) no-repeat;
+        background: url(../img/sub/img_musinsa_coupon-m.png) no-repeat;
     }
 
     .list_couponarea li .box_l .badge {
@@ -15411,7 +15411,7 @@ img.img-re.pc, img.img-re.mob {
         top: 100%;
         transform: translate(50%, -100%);
         right: 50%;
-        background: url(/cubersc/template/user/img/sub/ico_joinguide-m.png)no-repeat;
+        background: url(../img/sub/ico_joinguide-m.png)no-repeat;
         width: 22px;
         height: 22px;
         background-position-x: 2px;
@@ -18053,11 +18053,11 @@ img.img-re.pc, img.img-re.mob {
         ; }
 
     .box_cardhalf_wrap .box_btm .ico_address:before {
-        background: url(/cubersc/template/user/img/sub/ico_map-m.png) center center no-repeat;
+        background: url(../img/sub/ico_map-m.png) center center no-repeat;
     }
 
     .box_cardhalf_wrap .box_btm .ico_call:before {
-        background: url(/cubersc/template/user/img/sub/ico_call-m.png) center center no-repeat;
+        background: url(../img/sub/ico_call-m.png) center center no-repeat;
     }
 
     .box_cardhalf_wrap .box_top .txt_discount {
@@ -18128,11 +18128,11 @@ img.img-re.pc, img.img-re.mob {
         ; }
 
     .box_cardquarter_wrap .box_btm .ico_address:before {
-        background: url(/cubersc/template/user/img/sub/ico_map-m.png) center center no-repeat;
+        background: url(../img/sub/ico_map-m.png) center center no-repeat;
     }
 
     .box_cardquarter_wrap .box_btm .ico_call:before {
-        background: url(/cubersc/template/user/img/sub/ico_call-m.png) center center no-repeat;
+        background: url(../img/sub/ico_call-m.png) center center no-repeat;
     }
 
     .box_cardquarter_wrap .box_top .txt_discount {
@@ -19973,13 +19973,13 @@ img.img-re.pc, img.img-re.mob {
 
     .box_musinsa_bgarea {
         height: 1100px;
-        background: url(/cubersc/template/user/img/sub/img_bg_musinsa-m.jpg) no-repeat;
+        background: url(../img/sub/img_bg_musinsa-m.jpg) no-repeat;
         background-size: cover;
     }
 
     .box_musinsa_bgarea.type2 {
         height: 1820px;
-        background: #f2f2f2 url(/cubersc/template/user/img/sub/img_bg_musinsa_type2-m.jpg) no-repeat;
+        background: #f2f2f2 url(../img/sub/img_bg_musinsa_type2-m.jpg) no-repeat;
         background-size: contain;
         background-position: top;
     }
@@ -20046,7 +20046,7 @@ img.img-re.pc, img.img-re.mob {
     }
 
     .list_board_steps li .box_grey:before {
-        background: url(/cubersc/template/user/img/sub/ico_list_board_steps-m.png) no-repeat;
+        background: url(../img/sub/ico_list_board_steps-m.png) no-repeat;
         top: -10px;
         left: auto;
     }
@@ -21232,7 +21232,7 @@ img.img-re.pc, img.img-re.mob {
 .e_bros .e-srch select { width:80px; height:30px; line-height:30px; font-size:14px; padding-left:16px; border:1px solid #ededed; border-radius:0; transition:width .5s; } 
 .e_bros .e-srch input { width:200px; height:30px; font-size:14px; padding:0 40px 0 16px; border:1px solid #ededed; border-radius:0; transition:width .5s; } 
 .e_bros .e-srch input::placeholder { color:#8c8c8c; } 
-.e_bros .e-srch .srch a { position:absolute; top:50%; right:16px; transform:translateY(-50%); width:17px; height:18px; font-size:0; margin:0; border-radius:0; background:url(/cubersc/template/user/img/sub/no-srch_icon.png) center center no-repeat; } 
+.e_bros .e-srch .srch a { position:absolute; top:50%; right:16px; transform:translateY(-50%); width:17px; height:18px; font-size:0; margin:0; border-radius:0; background:url(../img/sub/no-srch_icon.png) center center no-repeat; } 
  */
     .e_bros .e-srch p {
         font-size: 16px;
@@ -21472,7 +21472,7 @@ img.img-re.pc, img.img-re.mob {
         content: '';
         position: absolute;
         top: 5px;
-        background: url(/cubersc/template/user/img/sub/inf-img.png);
+        background: url(../img/sub/inf-img.png);
         display: block;
         width: 16px;
         height: 16px;
@@ -22119,27 +22119,27 @@ img.img-re.pc, img.img-re.mob {
     }
 
     .intros .intro-fav .favs:nth-child(1):hover .fi {
-        background: url(/cubersc/template/user/img/submain/fav4_icon1.png) center center no-repeat;
+        background: url(../img/submain/fav4_icon1.png) center center no-repeat;
         background-size: cover;
     }
 
     .intros .intro-fav .favs:nth-child(2):hover .fi {
-        background: url(/cubersc/template/user/img/submain/fav4_icon2.png) center center no-repeat;
+        background: url(../img/submain/fav4_icon2.png) center center no-repeat;
         background-size: cover;
     }
 
     .intros .intro-fav .favs:nth-child(3):hover .fi {
-        background: url(/cubersc/template/user/img/submain/fav4_icon3.png) center center no-repeat;
+        background: url(../img/submain/fav4_icon3.png) center center no-repeat;
         background-size: cover;
     }
 
     .intros .intro-fav .favs:nth-child(4):hover .fi {
-        background: url(/cubersc/template/user/img/submain/fav4_icon4.png) center center no-repeat;
+        background: url(../img/submain/fav4_icon4.png) center center no-repeat;
         background-size: cover;
     }
 
     .intros .intro-fav .favs:nth-child(5):hover .fi {
-        background: url(/cubersc/template/user/img/submain/fav4_icon5.png) center center no-repeat;
+        background: url(../img/submain/fav4_icon5.png) center center no-repeat;
         background-size: cover;
     }
 
@@ -22296,12 +22296,12 @@ img.img-re.pc, img.img-re.mob {
     }
 
     .content-all .bg_bg .mybox:nth-child(3) .box-top .title:after {
-        background: url(/cubersc/template/user/img/sub/s3_mybox_icon3-2.png) center center no-repeat;
+        background: url(../img/sub/s3_mybox_icon3-2.png) center center no-repeat;
         background-size: cover;
     }
 
     .content-all .bg_bg .mybox:nth-child(4) .box-top .title:after {
-        background: url(/cubersc/template/user/img/sub/s3_mybox_icon3-3.png) center center no-repeat;
+        background: url(../img/sub/s3_mybox_icon3-3.png) center center no-repeat;
         background-size: 80%;
     }
 
@@ -22498,7 +22498,7 @@ img.img-re.pc, img.img-re.mob {
         padding: 111px 20px 0 20px;
     }
 
-    /* .sub-visual { background:url(/cubersc/template/user/img/sub/m_visual1.png) center center no-repeat; background-size:cover; } */
+    /* .sub-visual { background:url(../img/sub/m_visual1.png) center center no-repeat; background-size:cover; } */
     .subs .nav .nav-all {
         padding: 0 8px 0 9px;
     }

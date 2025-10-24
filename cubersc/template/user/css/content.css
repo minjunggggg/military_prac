@@ -16,7 +16,7 @@
 .help-bg.beta-img_detail .help-w {width: 80%;}
 
 .box_contarea {max-width: 1200px; width: 100%;margin: 0 auto;overflow: visible;}
-.box_contarea h1::after {content: '';display: block;position: absolute;background: url(/cubersc/template/user/img/sub/h1-bullet.png);height: 5px;width: 23px;margin-top: 20px}
+.box_contarea h1::after {content: '';display: block;position: absolute;background: url(../img/sub/h1-bullet.png);height: 5px;width: 23px;margin-top: 20px}
 .box_contarea ul { margin-top: 0; margin-bottom: 0; padding-left: 0;}
 .box_contarea .btns {margin: 50px 0 0;}
 .box_contarea .btns.left {justify-content: start; margin: 30px 0;}
@@ -47,17 +47,17 @@
 .box_contarea .boxs .box .box_list li:after {content: '';position: absolute;top: 6px;left: 0;width: 5px;height: 5px;border-radius: 100%;background: #333; } 
 .box_contarea .boxs .box .box_list li span {display: block;font-family: 'Noto Sans KR';font-size: 19px;font-weight: bold;text-align: right;padding-right:25px; line-height: 15px;color: #333;margin: 20px 0 0; } 
 .box_contarea .boxs .box>a:not(.btn_linkmove) {display: block;position: relative;width: 160px;height: 40px;font-family: 'Noto Sans KR';font-size: 18px;font-weight: bold;line-height: 40px;text-align: left;color: #fff;margin: 0 auto;margin-top: 47px;padding-left: 25px; padding:0 25px;border-radius: 20px;background: #2f5c8f; } 
-.box_contarea .boxs .box>a:not(.btn_linkmove):after {content: '';position: absolute;top: 50%;right: 26px;transform: translateY(-50%);width: 14px;height: 12px;background: url(/cubersc/template/user/img/sub/a_next.png) center center no-repeat; } 
+.box_contarea .boxs .box>a:not(.btn_linkmove):after {content: '';position: absolute;top: 50%;right: 26px;transform: translateY(-50%);width: 14px;height: 12px;background: url(../img/sub/a_next.png) center center no-repeat; } 
 .box_contarea .box_controw { width: 100%;}
 .box_contarea .box_controw.add_depth { padding-top: 100px; }
 .box_contarea .box_cardbtnwrap {  display: flex;  align-items: center;  justify-content: center; margin-top: 20px;}
 .box_contarea h2{display:block; position:relative; width:calc(100% - 27px); max-width:1173px; margin:0 auto; font-size:36px; font-weight:bold; line-height:30px; color:#000; margin-bottom:50px; padding-left:27px;}
-.box_contarea h2:after{content:''; position:absolute; top:12px; left:0; width:16px; height:16px; background:url(/cubersc/template/user/img/sub/tit_icon1.png) center center no-repeat; background-size:cover;}
+.box_contarea h2:after{content:''; position:absolute; top:12px; left:0; width:16px; height:16px; background:url(../img/sub/tit_icon1.png) center center no-repeat; background-size:cover;}
 .box_contarea .t-box h3{font-size:24px; font-weight:bold; line-height:1.2; color:#000;}
 .box_contarea .t-box h4{position:relative; display:block; font-size:22px; font-weight:bold; line-height:20px; text-align: left; color:#222; line-height: 1.3; margin-top:30px; padding-left:65px;}
 .box_contarea .h4_p{font-size:18px; font-weight:bold; line-height:24px; color:#444; margin-top:20px; padding-left:65px;}
 .box_contarea .t-box_red{display:block; position:relative; font-size:18px; font-weight:bold; color:#c6002c; margin-top:35px; padding-left:64px;}
-.box_contarea .t-box_red:after{content:''; position:absolute; top:50%; left:33px; transform:translateY(-50%); width:16px; height:16px; background:url(/cubersc/template/user/img/sub/s1_t_icons1.png) center center no-repeat;}
+.box_contarea .t-box_red:after{content:''; position:absolute; top:50%; left:33px; transform:translateY(-50%); width:16px; height:16px; background:url(../img/sub/s1_t_icons1.png) center center no-repeat;}
 .box_contarea br.mo_none{display:none;}
 .box_contarea .st-table td a:after { margin-top: 4px;}
 .box_contarea .st-table td a { display: inline-block; padding: 5px 10px;}
@@ -65,12 +65,12 @@
 
 .box_contarea .t-box{display:block; width:100%; max-width:1150px; margin:0 auto; padding-left:50px;}
 .box_contarea .t-box h4:after{content:''; position:absolute; top:6px;}
-.box_contarea .t-box h4.s1_tb1:after{left:33px; width:15px; height:20px; background:url(/cubersc/template/user/img/sub/s1_t_icon1.png) center center no-repeat;}
-.box_contarea .t-box h4.s1_tb2:after{left:30px; width:21px; height:21px; background:url(/cubersc/template/user/img/sub/s1_t_icon2.png) center center no-repeat;}
-.box_contarea .t-box h4.s1_tb3:after{left:32px; width:18px; height:23px; background:url(/cubersc/template/user/img/sub/s1_t_icon3.png) center center no-repeat;}
-.box_contarea .t-box h4.s1_tb4:after{left:32px; width:17px; height:20px; background:url(/cubersc/template/user/img/sub/s1_t_icon4.png) center center no-repeat;}
-.box_contarea .t-box h4.s1_tb5:after{left:28px; width:25px; height:23px; background:url(/cubersc/template/user/img/sub/s1_t_icon5.png) center center no-repeat;}
-.box_contarea .t-box h4.s1_tb6:after{left:30px; width:21px; height:20px; background:url(/cubersc/template/user/img/sub/s1_t_icon6.png) center center no-repeat;}
+.box_contarea .t-box h4.s1_tb1:after{left:33px; width:15px; height:20px; background:url(../img/sub/s1_t_icon1.png) center center no-repeat;}
+.box_contarea .t-box h4.s1_tb2:after{left:30px; width:21px; height:21px; background:url(../img/sub/s1_t_icon2.png) center center no-repeat;}
+.box_contarea .t-box h4.s1_tb3:after{left:32px; width:18px; height:23px; background:url(../img/sub/s1_t_icon3.png) center center no-repeat;}
+.box_contarea .t-box h4.s1_tb4:after{left:32px; width:17px; height:20px; background:url(../img/sub/s1_t_icon4.png) center center no-repeat;}
+.box_contarea .t-box h4.s1_tb5:after{left:28px; width:25px; height:23px; background:url(../img/sub/s1_t_icon5.png) center center no-repeat;}
+.box_contarea .t-box h4.s1_tb6:after{left:30px; width:21px; height:20px; background:url(../img/sub/s1_t_icon6.png) center center no-repeat;}
 
 .box_contarea .boxs.two_cards .box .box_list { width: 100%; padding: 0 20px; } 
 .box_contarea .boxs.two_cards .box .box_list { display: flex; flex-direction: column; } 
@@ -98,7 +98,7 @@
 .box_contarea .list_txtcardview { display: flex; width: 100%; overflow: hidden; margin-bottom: 20px; justify-content: space-between; }
 .box_contarea .list_txtcardview li {position:relative;font-size: 16px;line-height: 28px;text-align: center;max-width: 108px;width: 14.2%;height: auto;min-height: 116px;display: flex;align-items: center;justify-content: center;border: 1px solid #ddd;float: left;}
 .box_contarea .list_txtcardview li.active {background: #0074da; color: #fff;}
-.box_contarea .list_txtcardview li:after {content: '';background: url(/cubersc/template/user/img/sub/ico_arrnext.png) center center no-repeat;width: 8px; height: 14px; position: absolute; right: -22px;background-size: contain;}
+.box_contarea .list_txtcardview li:after {content: '';background: url(../img/sub/ico_arrnext.png) center center no-repeat;width: 8px; height: 14px; position: absolute; right: -22px;background-size: contain;}
 .box_contarea .add_notitxtbox span { display: block; margin-top: 10px; font-weight: 500; }
 .box_contarea .add_notitxtbox span em { font-weight: bold; }
 .box_contarea .box_btmborder_tit + .notice-tab {margin-top: 70px;}
@@ -146,7 +146,7 @@
     height: 40px;
     font-size: 0;
     border: none;
-    background: url(/cubersc/template/user/img/sub/ico_picwrap_more.png) center center no-repeat;
+    background: url(../img/sub/ico_picwrap_more.png) center center no-repeat;
     background-size: cover;
     display: inline-block;
     position: absolute;
@@ -184,7 +184,7 @@
     vertical-align: top;
     margin-left: 5px;
     margin-top: 2px;
-    background: url(/cubersc/template/user/img/ico_down_pp.png) center -1px no-repeat;
+    background: url(../img/ico_down_pp.png) center -1px no-repeat;
     width: 15px;
     height: 13px;
     background-size: contain;
@@ -196,7 +196,7 @@
 }
 
 .box_contarea .box_controw .box_flexible_halftbl .btn_download:hover:after {
-    background: url(/cubersc/template/user/img/ico_down_w.png) center -1px no-repeat;
+    background: url(../img/ico_down_w.png) center -1px no-repeat;
     background-size: contain;
     width: 15px;
     height: 13px;
@@ -268,7 +268,7 @@
 .box_figure_area {display: flex;justify-content: center;flex-direction: column; align-items: center;}
 .box_figure_main {position: relative;width: 300px;height: 300px;background: #f2f2f2;border-radius: 100%;display: flex;align-items: center;justify-content: center;}
 .box_figure_main:before { content: ''; width: 10px; height: 10px; background: #666; display: inline-block; border-radius: 100%; position: absolute; top: 0; left: 50%; transform: translate(-50%, -50%);}
-.box_figure_main .in_flex {width: 80%;height: 80%;box-shadow: 3px 3px 10px 0px rgba(47, 46, 44, 0.25);color: #000;border-radius: 100%;display: flex;	align-items: center;justify-content: start;	flex-direction: column; padding-top: 40px;	background: #fff url(/cubersc/template/user/img/sub/img_content_mmaabg.png) no-repeat center bottom;background-position-x: 300%;}
+.box_figure_main .in_flex {width: 80%;height: 80%;box-shadow: 3px 3px 10px 0px rgba(47, 46, 44, 0.25);color: #000;border-radius: 100%;display: flex;	align-items: center;justify-content: start;	flex-direction: column; padding-top: 40px;	background: #fff url(../img/sub/img_content_mmaabg.png) no-repeat center bottom;background-position-x: 300%;}
 .box_figure_main .in_flex strong {font-size: 30px;font-weight: bold;}
 .box_figure_main .in_flex .txt_min {font-size:22px;}
 
@@ -314,7 +314,7 @@
 .box_bgsb_wrap {padding: 30px 30px;background: #f2f8fd;font-size: 20px;  line-height: 26px; font-weight: 500; border-radius: 10px;}
 
 
-.box_contarea .form_down:after { content: ''; display: inline-block; width: 14px; height: 12px;  background: url(/cubersc/template/user/img/sub/a_down.png) center center no-repeat;}
+.box_contarea .form_down:after { content: ''; display: inline-block; width: 14px; height: 12px;  background: url(../img/sub/a_down.png) center center no-repeat;}
 .box_bgico_ban {margin-top:40px; background: #f2f2f2; padding: 30px 60px;border-radius: 10px; display: flex; align-items: center;}
 .box_bgico_ban .box .list_banin { padding-left:30px;}
 .box_bgico_ban .box .list_banin li { font-size:22px; line-height:1.3;  color:#000000; display:flex;  margin:5px 0    }
@@ -680,7 +680,7 @@
     width: 16px;
     height: 16px;
     left: 30px;
-    background: url(/cubersc/template/user/img/sub/tit_icon1.png) center center no-repeat;
+    background: url(../img/sub/tit_icon1.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -692,7 +692,7 @@
     right: 30px;
     width: 14px;
     height: 8px;
-    background: url(/cubersc/template/user/img/sub/s3_mybox_bottom.png) center center no-repeat;
+    background: url(../img/sub/s3_mybox_bottom.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -751,12 +751,12 @@
     transform: translateY(-50%);
     width: 8px;
     height: 8px;
-    background: url(/cubersc/template/user/img/sub/sss-bul.png) center center no-repeat;
+    background: url(../img/sub/sss-bul.png) center center no-repeat;
     background-size: cover;
 }
 
 .mycontent .box.on .title:before {
-    background: url(/cubersc/template/user/img/sub/s3_mybox_top.png) center center no-repeat;
+    background: url(../img/sub/s3_mybox_top.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -984,7 +984,7 @@
     display: block;
     min-width: 7px;
     min-height: 7px;
-    background: url(/cubersc/template/user/img/sub/tempo_bul.png) no-repeat center;
+    background: url(../img/sub/tempo_bul.png) no-repeat center;
     background-size: contain;
 }
 
@@ -1160,7 +1160,7 @@
     right: 12px;
     width: 5px;
     height: 10px;
-    background: url(/cubersc/template/user/img/sub/s3_mybox_arrow.png) center center no-repeat;
+    background: url(../img/sub/s3_mybox_arrow.png) center center no-repeat;
 }
 
 .tab-content .mycontent .box .box-content li.pdl {
@@ -1211,7 +1211,7 @@
     content: normal !important;
 }
 
-/* .tab-content .mycontent .box .title:after {content: '';position: absolute;top: 50%;transform: translateY(-50%);width: 16px;height: 16px;left: 30px;background: url(/cubersc/template/user/img/sub/tit_icon1.png) center center no-repeat;background-size: cover;}  */
+/* .tab-content .mycontent .box .title:after {content: '';position: absolute;top: 50%;transform: translateY(-50%);width: 16px;height: 16px;left: 30px;background: url(../img/sub/tit_icon1.png) center center no-repeat;background-size: cover;}  */
 .tab-content .mycontent .box .box-content li b {
     font-weight: bold;
 }
@@ -1365,7 +1365,7 @@
     left: 0;
     width: 10px;
     height: 15px;
-    background: url(/cubersc/template/user/img/sub/tit_sub_icon1.png) center center no-repeat;
+    background: url(../img/sub/tit_sub_icon1.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -1429,7 +1429,7 @@
     left: 0;
     width: 10px;
     height: 15px;
-    background: url(/cubersc/template/user/img/sub/tit_sub_icon1.png) center center no-repeat;
+    background: url(../img/sub/tit_sub_icon1.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -1440,7 +1440,7 @@
     left: 30px;
     width: 16px;
     height: 16px;
-    background: url(/cubersc/template/user/img/sub/tit_icon1.png) center center no-repeat;
+    background: url(../img/sub/tit_icon1.png) center center no-repeat;
     background-size: cover;
     display: inline-block;
     vertical-align: top;
@@ -1701,7 +1701,7 @@
     right: 12px;
     width: 5px;
     height: 10px;
-    background: url(/cubersc/template/user/img/sub/s3_mybox_arrow.png) center center no-repeat;
+    background: url(../img/sub/s3_mybox_arrow.png) center center no-repeat;
 }
 
 .content-all .type_col2 .mycontent .box .box-content li .btn1 {
@@ -1778,7 +1778,7 @@
     right: 12px;
     width: 5px;
     height: 10px;
-    background: url(/cubersc/template/user/img/sub/s3_mybox_arrow.png) center center no-repeat;
+    background: url(../img/sub/s3_mybox_arrow.png) center center no-repeat;
 }
 
 .content-all .b1 .mycontent .box .box-content li .btn1 {
@@ -1947,42 +1947,42 @@
 }
 
 .content-all .b1 .mybox .box-top .title:after {
-    background: url(/cubersc/template/user/img/sub/s3_mybox_icon1.png) center center no-repeat;
+    background: url(../img/sub/s3_mybox_icon1.png) center center no-repeat;
     background-size: cover;
 }
 
 .content-all .b2 .mybox .box-top .title:after {
-    background: url(/cubersc/template/user/img/sub/s3_mybox_icon2.png) center center no-repeat;
+    background: url(../img/sub/s3_mybox_icon2.png) center center no-repeat;
     background-size: cover;
 }
 
 .content-all .b3 .mybox .box-top .title:after {
-    background: url(/cubersc/template/user/img/sub/s3_mybox_icon3.png) center center no-repeat;
+    background: url(../img/sub/s3_mybox_icon3.png) center center no-repeat;
     background-size: cover;
 }
 
 .content-all .bg_sb .mybox .box-top .title:after {
-    background: url(/cubersc/template/user/img/sub/s3_mybox_icon1.png) center center no-repeat;
+    background: url(../img/sub/s3_mybox_icon1.png) center center no-repeat;
     background-size: cover;
 }
 
 .content-all .bg_pk .mybox .box-top .title:after {
-    background: url(/cubersc/template/user/img/sub/s3_mybox_icon2.png) center center no-repeat;
+    background: url(../img/sub/s3_mybox_icon2.png) center center no-repeat;
     background-size: cover;
 }
 
 .content-all .bg_bg .mybox .box-top .title:after {
-    background: url(/cubersc/template/user/img/sub/s3_mybox_icon3.png) center center no-repeat;
+    background: url(../img/sub/s3_mybox_icon3.png) center center no-repeat;
     background-size: cover;
 }
 
 .content-all .bg_bg.md .mybox .box-top .title:after {
-    background: url(/cubersc/template/user/img/sub/s3_mybox_icon3-2.png) center center no-repeat;
+    background: url(../img/sub/s3_mybox_icon3-2.png) center center no-repeat;
     background-size: cover;
 }
 
 .content-all .bg_bg.sm .mybox .box-top .title:after {
-    background: url(/cubersc/template/user/img/sub/s3_mybox_icon3-3.png) center center no-repeat;
+    background: url(../img/sub/s3_mybox_icon3-3.png) center center no-repeat;
     background-size: 80%;
 }
 
@@ -2014,7 +2014,7 @@
     right: 0;
     width: 8px;
     height: 14px;
-    background: url(/cubersc/template/user/img/sub/s3_mybox_right.png) center center no-repeat;
+    background: url(../img/sub/s3_mybox_right.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -2194,7 +2194,7 @@
     left: 5px;
     width: 14px;
     height: 24px;
-    background: url(/cubersc/template/user/img/sub/s3_v_text_icon1.png) center center no-repeat;
+    background: url(../img/sub/s3_v_text_icon1.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -2202,7 +2202,7 @@
     left: 0;
     width: 24px;
     height: 24px;
-    background: url(/cubersc/template/user/img/sub/s3_v_text_icon2.png) center center no-repeat;
+    background: url(../img/sub/s3_v_text_icon2.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -2295,7 +2295,7 @@
     left: 5px;
     width: 14px;
     height: 24px;
-    background: url(/cubersc/template/user/img/sub/s3_v_text_icon1.png) center center no-repeat;
+    background: url(../img/sub/s3_v_text_icon1.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -2303,7 +2303,7 @@
     left: 0;
     width: 24px;
     height: 24px;
-    background: url(/cubersc/template/user/img/sub/s3_v_text_icon2.png) center center no-repeat;
+    background: url(../img/sub/s3_v_text_icon2.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -2311,7 +2311,7 @@
     left: 0;
     width: 24px;
     height: 24px;
-    background: url(/cubersc/template/user/img/sub/s3_v_text_icon3.png) center center no-repeat;
+    background: url(../img/sub/s3_v_text_icon3.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -2545,7 +2545,7 @@
 .box_contarea .mycontent .box .box-content li span:before {top: 15px !important; left: -15px !important;}
 /* .box_contarea .box_controw a:not(.form_down, .bl-btn,.btn_contentnavy,.ann_a1, .single_btn) {display: block; position: relative; width: 150px; height: 30px; font-family: 'Noto Sans KR'; font-size: 14px; line-height: 30px; text-align: left; color: #fff; margin: 0 auto; margin-top: 47px; padding: 0 0 0 30px; border-radius: 20px; background: #383b73;} */
 .box_contarea .box_controw a.btn_downsquare { display: inline-block; background: #2f5c8f;border-radius: 10px;  padding: 7px 15px; line-height: 1;height: 30px; margin: 0 5px 0 0; width: auto;color:#fff;}
-.box_contarea .box_controw a.btn_downsquare:after { content: ''; background: url(/cubersc/template/user/img/sub/ico_cidown.png) center center no-repeat;width: 16px;height: 15px;display: inline-block; margin-left: 10px;}
+.box_contarea .box_controw a.btn_downsquare:after { content: ''; background: url(../img/sub/ico_cidown.png) center center no-repeat;width: 16px;height: 15px;display: inline-block; margin-left: 10px;}
 .box_contarea .box_controw.mgt { margin-top: 70px;}
 .box_contarea .box_controw .single_btn {background: #383b73; color: #fff;display: flex; align-items: center; border-radius: 10px; width: 170px;height: 50px; justify-content: center; font-size: 18px;  font-weight: 500;} 
 .box_contarea .box_desc { padding-left: 20px; padding-top: 25px; font-size: 20px; line-height: 26px;}
@@ -2568,9 +2568,9 @@
 .box_contarea .icon-wt .side-tit {color: #000; font-size: 22px; font-weight: bold;}
 .box_contarea .icon-wt .side-txt .form_left1 em {float:left; display:inline-block; padding-left: 0;}
 .box_contarea .icon-wt .side-txt .form_left1 a {display:inline-block; vertical-align:top; margin-top: 3px;}
-.box_contarea .icon-wt .side-txt .form_left1 a.down:after { width: 15px !important; height: 13px !important; background: url(/cubersc/template/user/img/ico_down_pp.png) center -1px no-repeat !important; background-size: contain !important; -webkit-transition: all .3s ease; transition: all .3s ease}
+.box_contarea .icon-wt .side-txt .form_left1 a.down:after { width: 15px !important; height: 13px !important; background: url(../img/ico_down_pp.png) center -1px no-repeat !important; background-size: contain !important; -webkit-transition: all .3s ease; transition: all .3s ease}
 .box_contarea .icon-wt .side-txt .form_left1 a:hover {background:#383b73;color:#fff;}
-.box_contarea .icon-wt .side-txt .form_left1 a.down:hover:after{width: 15px !important; height: 13px !important; background: url(/cubersc/template/user/img/ico_down_w.png) center -1px no-repeat !important;background-size: contain !important;}
+.box_contarea .icon-wt .side-txt .form_left1 a.down:hover:after{width: 15px !important; height: 13px !important; background: url(../img/ico_down_w.png) center -1px no-repeat !important;background-size: contain !important;}
 .box_contarea .icon-wt .side-txt .flex_sub a {float:right; margin-left:5px;} 
 
 
@@ -2597,13 +2597,13 @@
 
 
 .box_contarea .new_beforetype .icon-wt .side-tit {position: relative;padding-left: 20px;}
-.box_contarea .new_beforetype .icon-wt .side-tit:before {content: '';position: absolute;top: 13px;left: 0;width: 10px;height: 15px;background: url(/cubersc/template/user/img/sub/tit_sub_icon1.png) center center no-repeat;background-size: cover;}
+.box_contarea .new_beforetype .icon-wt .side-tit:before {content: '';position: absolute;top: 13px;left: 0;width: 10px;height: 15px;background: url(../img/sub/tit_sub_icon1.png) center center no-repeat;background-size: cover;}
 
 .box_contarea .new_beforetype .side-txt div:not(.side-tit, .tbl_sidecontents_wrap, .st-table, .with_btn) {position: relative;margin-left: 20px;display: block;padding-left: 12px;}
 .box_contarea .new_beforetype .side-txt div:not(.side-tit) em { margin-top: 0;}
 .box_contarea .new_beforetype .side-txt div:not(.side-tit) a { margin-top: 0;}
 .box_contarea .new_beforetype .side-txt div:not(.side-row,.side-tit, .empty, .link_btns, .with_btn) {padding-left:20px}
-.box_contarea .new_beforetype .side-txt div:not(.side-row,.side-tit, .empty, .link_btns):before {border-radius: 100%;display: inline-block;content: '';position: absolute;top: 15px;transform: translateY(-50%);left: 0;width: 8px;height: 8px;background: url(/cubersc/template/user/img/sub/sss-bul.png) center center no-repeat;background-size: cover;}
+.box_contarea .new_beforetype .side-txt div:not(.side-row,.side-tit, .empty, .link_btns):before {border-radius: 100%;display: inline-block;content: '';position: absolute;top: 15px;transform: translateY(-50%);left: 0;width: 8px;height: 8px;background: url(../img/sub/sss-bul.png) center center no-repeat;background-size: cover;}
 .box_contarea .new_beforetype .side-txt div.link_btns {margin-top:10px;}
 .box_contarea .new_beforetype .side-txt div.link_btns a:first-child {margin-left:0;}
 .box_contarea .new_beforetype .side-txt div .flex {margin-left:0;}
@@ -2635,23 +2635,23 @@
 
 .box_contarea .ann_a1 {display: block;position: relative;width: auto;height: 30px;line-height: 25px !important;font-family: 'Noto Sans KR';font-size: 14px;border: 1px solid #383b73;line-height: 28px;font-weight: 400;text-align: left;color:#383b73;margin: 0 auto;margin-top: 6px;padding: 0 15px 0 15px;border-radius: 8px;background:#fff;float: left;-webkit-transition: all .3s ease;transition: all .3s ease} 
 .box_contarea .ann_a1:hover {background: #383b73; color: #fff;}
-.box_contarea .ann_a1:after { content: '';position: static !important;width: 14px; height: 12px; background: url(/cubersc/template/user/img/ico_down_pp.png) center center no-repeat !important;background-size: contain !important;}
-.box_contarea .ann_a1:hover:after {width: 14px; height: 12px; background: url(/cubersc/template/user/img/ico_down_w.png) center center no-repeat !important;background-size: contain !important; -webkit-transition: all .3s ease; transition: all .3s ease}
+.box_contarea .ann_a1:after { content: '';position: static !important;width: 14px; height: 12px; background: url(../img/ico_down_pp.png) center center no-repeat !important;background-size: contain !important;}
+.box_contarea .ann_a1:hover:after {width: 14px; height: 12px; background: url(../img/ico_down_w.png) center center no-repeat !important;background-size: contain !important; -webkit-transition: all .3s ease; transition: all .3s ease}
 
 .box_contarea .boxs_ann .ann_a1.down { background: #fff; border-radius: 8px; color: #383b73;}
 .box_contarea .boxs_ann .ann_a1.down:hover  { background:  #383b73; color: #fff;}
-.box_contarea .boxs_ann .ann_a1.down:hover:after { width: 15px !important; height: 13px !important;background: url(/cubersc/template/user/img/ico_down_w.png) center center no-repeat !important; background-size:contain !important;}
-.box_contarea .ann_a1.down:after { width: 14px; height: 12px; background: url(/cubersc/template/user/img/ico_down_pp.png) center center no-repeat !important;background-size: contain !important;}
-.box_contarea .ann_a1.down:hover:after {width: 14px; height: 12px; background: url(/cubersc/template/user/img/ico_down_w.png) center center no-repeat !important;background-size: contain !important;}
+.box_contarea .boxs_ann .ann_a1.down:hover:after { width: 15px !important; height: 13px !important;background: url(../img/ico_down_w.png) center center no-repeat !important; background-size:contain !important;}
+.box_contarea .ann_a1.down:after { width: 14px; height: 12px; background: url(../img/ico_down_pp.png) center center no-repeat !important;background-size: contain !important;}
+.box_contarea .ann_a1.down:hover:after {width: 14px; height: 12px; background: url(../img/ico_down_w.png) center center no-repeat !important;background-size: contain !important;}
 
 .box_contarea .ann_a1.link {border-color: #2c7db3;  border-radius: 8px; background: #fff;color: #2c7db3;-webkit-transition: all .3s ease; transition: all .3s ease}
-.box_contarea .ann_a1.link:after {display: inline-block;vertical-align: top;  margin-left: 5px; background: url(/cubersc/template/user/img/ico_link_bl.png) center center no-repeat !important; width: 12px !important; height: 12px !important;  background-size: contain !important; }
+.box_contarea .ann_a1.link:after {display: inline-block;vertical-align: top;  margin-left: 5px; background: url(../img/ico_link_bl.png) center center no-repeat !important; width: 12px !important; height: 12px !important;  background-size: contain !important; }
 .box_contarea .ann_a1.link:hover {background:#2c7db3;color:#fff;}
-.box_contarea .ann_a1.link:hover:after { background: url(/cubersc/template/user/img/ico_link_w.png) center center no-repeat !important; width: 12px !important;  height: 12px !important; background-size: contain !important;}
+.box_contarea .ann_a1.link:hover:after { background: url(../img/ico_link_w.png) center center no-repeat !important; width: 12px !important;  height: 12px !important; background-size: contain !important;}
 .box_contarea .form_down {display: inline-block;position: relative;width: auto;height: 30px;font-family: 'Noto Sans KR';font-size: 14px;border: 1px solid #383b73;line-height: 28px;font-weight: 400;text-align: left;color:#383b73;margin: 0 auto;margin-top: 6px;padding: 0 15px 0 15px;border-radius: 8px;background:#fff;/* float: left; */-webkit-transition: all .3s ease;transition: all .3s ease} 
-.box_contarea .form_down:after { content: ''; position: static !important; width: 15px !important; height: 13px !important; background: url(/cubersc/template/user/img/ico_down_pp.png) center center no-repeat !important; display: inline-block !important; vertical-align: top !important; margin: 8px 0 0 5px !important; background-size: contain !important;-webkit-transition: all .3s ease; transition: all .3s ease } 
+.box_contarea .form_down:after { content: ''; position: static !important; width: 15px !important; height: 13px !important; background: url(../img/ico_down_pp.png) center center no-repeat !important; display: inline-block !important; vertical-align: top !important; margin: 8px 0 0 5px !important; background-size: contain !important;-webkit-transition: all .3s ease; transition: all .3s ease } 
 .box_contarea .form_down:hover {background: #383b73; color: #fff;}
-.box_contarea .form_down:hover:after { width: 15px !important; height: 13px !important;background: url(/cubersc/template/user/img/ico_down_w.png) center center no-repeat !important; background-size:contain !important;}
+.box_contarea .form_down:hover:after { width: 15px !important; height: 13px !important;background: url(../img/ico_down_w.png) center center no-repeat !important; background-size:contain !important;}
 
 
 .box_contarea .ann_a1.l_inline { margin: 0;}
@@ -2719,7 +2719,7 @@
 
 
 .box_bgsb_wrap { padding: 30px 30px; background: #f2f8fd; font-size: 20px; line-height: 26px; font-weight: 500; border-radius: 10px; } 
-.box_checklist strong:before { content: ''; position:absolute;left:0;background: url(/cubersc/template/user/img/sub/ico_redchk.png) no-repeat; width: 20px; height: 20px; display: inline-block; background-size: contain; margin-right: 5px; } 
+.box_checklist strong:before { content: ''; position:absolute;left:0;background: url(../img/sub/ico_redchk.png) no-repeat; width: 20px; height: 20px; display: inline-block; background-size: contain; margin-right: 5px; } 
 .box_checklist strong {position:relative;padding-left:25px; font-size: 20px; font-weight: bold; color: #000; line-height: 25px;} 
 .box_checklist strong.tit {font-size:24px;padding-left:0;}
 .box_checklist strong.tit:before {content:normal;}
@@ -2845,9 +2845,9 @@ text-align: center;  font-weight: 500;  display: inline-block; background-color:
 
 
 .box_corevalue_area .box_corevalue_row li {display:flex;padding: 20px 50px;margin: -4px 0;box-sizing: border-box;justify-content: center;}
-.box_corevalue_area .box_corevalue_row li:nth-child(1) {background: url(/cubersc/template/user/img/sub/img_bg_corevalue01.png) no-repeat;background-size: contain;background-position: center center;}
-.box_corevalue_area .box_corevalue_row li:nth-child(2) {background: url(/cubersc/template/user/img/sub/img_bg_corevalue02.png) no-repeat;background-size: contain;background-position: center center; z-index: 1; position: relative;}
-.box_corevalue_area .box_corevalue_row li:nth-child(3) {  background: url(/cubersc/template/user/img/sub/img_bg_corevalue03.png) no-repeat; background-size: contain;background-position: center center;}
+.box_corevalue_area .box_corevalue_row li:nth-child(1) {background: url(../img/sub/img_bg_corevalue01.png) no-repeat;background-size: contain;background-position: center center;}
+.box_corevalue_area .box_corevalue_row li:nth-child(2) {background: url(../img/sub/img_bg_corevalue02.png) no-repeat;background-size: contain;background-position: center center; z-index: 1; position: relative;}
+.box_corevalue_area .box_corevalue_row li:nth-child(3) {  background: url(../img/sub/img_bg_corevalue03.png) no-repeat; background-size: contain;background-position: center center;}
 .box_corevalue_area .box_mainmessage.no_before .inner span:before, .box_mainmessage.no_before .inner span:after { content:normal !important; }
 
 
@@ -2877,8 +2877,8 @@ text-align: center;  font-weight: 500;  display: inline-block; background-color:
 .box_sitemap .dep4-list>a { font-weight: bold; } 
 .box_sitemap .dep4-list .dep4s li a:before { content: '-'; margin-right: 5px; } 
 .box_sitemap .dep2s a[target="_blank"] { position: relative; display: inline; } 
-.box_sitemap .dep2s a[target="_blank"]:before { content: ''; position: absolute; top: 50%; right: -25px; margin-top: 1px; transform: translateY(-50%); width: 16px; height: 16px; background: url(/cubersc/template/user/img/newpage.png) center center no-repeat; background-size: cover; } 
-.box_sitemap .dep2s a[target="_blank"]:hover:before { background: url(/cubersc/template/user/img/newpage_hover.png) center center no-repeat; background-size: cover; } 
+.box_sitemap .dep2s a[target="_blank"]:before { content: ''; position: absolute; top: 50%; right: -25px; margin-top: 1px; transform: translateY(-50%); width: 16px; height: 16px; background: url(../img/newpage.png) center center no-repeat; background-size: cover; } 
+.box_sitemap .dep2s a[target="_blank"]:hover:before { background: url(../img/newpage_hover.png) center center no-repeat; background-size: cover; } 
 .box_sitemap .dep3s a[target="_blank"]:before { content: '' !important; width: 16px; height: 16px; } 
 
 
@@ -2898,7 +2898,7 @@ text-align: center;  font-weight: 500;  display: inline-block; background-color:
 .box_eggrow .tdesc_box .list_ddot li.grey { margin-top: 10px;}
 .box_eggrow.big .tdesc_box .list_ddot li span { color: #383b73; font-size: 24px; font-weight: bold;}
 .box_eggrow.big .tdesc_box .list_ddot li.grey span { color: #323232; font-size: 18px; font-weight: normal;}
-.box_egg_particle .box_eggrow:after {content: '';width: 45px;height: 45px;border-radius: 100%;position: absolute;left: 50%;bottom: -35px;transform: translateX(-50%);z-index: 2;background: url(/cubersc/template/user/img/sub/img_bgico_arr.png);background-size: cover;}
+.box_egg_particle .box_eggrow:after {content: '';width: 45px;height: 45px;border-radius: 100%;position: absolute;left: 50%;bottom: -35px;transform: translateX(-50%);z-index: 2;background: url(../img/sub/img_bgico_arr.png);background-size: cover;}
 .box_egg_particle .box_eggrow:last-child:after { content: normal;}
 
 
@@ -2911,7 +2911,7 @@ text-align: center;  font-weight: 500;  display: inline-block; background-color:
 .box_mainfigure {width: 100%;text-align: center;}
 .box_mainfigure.mgtb { margin: 30px auto;}
 .box_mainfigure .box_img img {display: block;margin: 0 auto;}
-.box_mainfigure .box_txtbg { width: 100%;background: url(/cubersc/template/user/img/sub/bg_triangle_b.png) no-repeat center center; width: 100%;  height: 106px; display: flex; align-items: end;  justify-content: center; margin: 30px 0 60px;}
+.box_mainfigure .box_txtbg { width: 100%;background: url(../img/sub/bg_triangle_b.png) no-repeat center center; width: 100%;  height: 106px; display: flex; align-items: end;  justify-content: center; margin: 30px 0 60px;}
 .box_mainfigure .box_txtbg.no_mgb { margin-bottom: 0;}
 .box_mainfigure .box_txtbg .tits {font-weight: 500;font-size: 26px;}
 .box_btit_area strong {  font-weight: bold; color: #383b73; font-size: 25px; padding: 30px 0 40px; display: block;}
@@ -2963,13 +2963,13 @@ text-align: center;  font-weight: 500;  display: inline-block; background-color:
 .box_plusbg_icoarea .box_cbg {font-size: 30px;font-weight: 500;padding: 35px 20px;background: rgb(187 84 120 / 87%);color: #fff;border-radius: 100px;}
 .box_plusbg_icoarea .box_cbg.pink { margin-right: -20px; position: relative; z-index: 2;    overflow: hidden; }
 .box_plusbg_icoarea .box_cbg.pink:before {content: ''; position: absolute; right: -60px;  top: 0; background: #383b73;  width: 100px; height: 100%; border-radius: 100%;}
-.box_plusbg_icoarea .box_cbg.pink:after { content: ''; background: url(/cubersc/template/user/img/sub/ico_plus_wt.png) no-repeat; width: 20px; height: 20px; display: inline-block; position: absolute;
+.box_plusbg_icoarea .box_cbg.pink:after { content: ''; background: url(../img/sub/ico_plus_wt.png) no-repeat; width: 20px; height: 20px; display: inline-block; position: absolute;
 right: 10px; top: 50%; transform: translateY(-50%);}
 .box_plusbg_icoarea .box_cbg.blue { margin-left: -20px; background: #0074dae3; position: relative; z-index: 1;}
 .box_icotxt_area .list_icotxts {display: flex;align-items: center;justify-content: center;}
 .box_icotxt_area .list_icotxts li span {display: block;margin-top: 20px;}
 .box_icotxt_area .list_icotxts li .box_txt {font-size: 20px;display: block;}
-.box_icotxt_area .list_icotxts li:after { content: ''; width: 20px; height: 20px; background: url(/cubersc/template/user/img/sub/ico_grey_plus.png) no-repeat; display: inline-block; position: absolute; right: 0; top: 50%; transform: translate(-50%, -50%);}
+.box_icotxt_area .list_icotxts li:after { content: ''; width: 20px; height: 20px; background: url(../img/sub/ico_grey_plus.png) no-repeat; display: inline-block; position: absolute; right: 0; top: 50%; transform: translate(-50%, -50%);}
 .box_icotxt_area .list_icotxts li {position: relative;padding-right: 40px;margin-top: 10px;}
 .box_icotxt_area .list_icotxts li:last-child {padding-right:0}
 .box_icotxt_area .list_icotxts li:last-child:after {content:normal}
@@ -3078,7 +3078,7 @@ right: 10px; top: 50%; transform: translateY(-50%);}
 .box_cpart .cap_bgico {position: relative;font-size: 18px;min-height: 80px;margin-top: 20px;display: flex;align-items: center;justify-content: center;background: #bb5478;color: #fff;border-radius: 20px;} 
 .box_cpart .cap_bgico:not(.none):before {content: '';width: 10px;height: 10px;background: #b85279;display: inline-block;border-radius: 100%;position: absolute;top: 50%;right: -20px;transform: translate(-50%, -50%);border: 5px solid #fff;}
 .box_cpart .cap_bgico span {position: relative;z-index:1;overflow: hidden;display: flex;align-items: center;justify-content: center;height: 80px;width: 100%;font-weight: bold;}
-.box_cpart .cap_bgico span:after {content: '';position: absolute;right: -20px;bottom: 0;background: url(/cubersc/template/user/img/sub/ico_organ_logo.png) center center no-repeat;width: 90px;height: 40px;background-size: contain;z-index: 1;} 
+.box_cpart .cap_bgico span:after {content: '';position: absolute;right: -20px;bottom: 0;background: url(../img/sub/ico_organ_logo.png) center center no-repeat;width: 90px;height: 40px;background-size: contain;z-index: 1;} 
 
 
 .box_organizations_map.midium .box_sub_mainarea.quarter.seven:before {width: 1039px;left: calc(50% - 4px);}
@@ -3165,7 +3165,7 @@ right: 10px; top: 50%; transform: translateY(-50%);}
 .mailtxt_list_rowdown li .box_icoarea strong{display: block;font-weight: bold;font-size: 24px;line-height: 26px;}
 .mailtxt_list_rowdown li .box_icoarea .ico_mail{padding-top:10px;}
 .mailtxt_list_rowdown li .box_icoarea .ico_mail span {color:#999;font-weight:bold;position: relative;display: flex;font-size: 18px;padding-left: 30px;}
-.mailtxt_list_rowdown li .box_icoarea .ico_mail span:before {content:'';background: url(/cubersc/template/user/img/sub/ico_mail.png) center center no-repeat;url(/cubersc/template/user/img/q_baricon2.png) center 15px background: no-repeat;width: 24px;height: 14px;position: absolute;top: 3px;left: 0;background-size: contain;display: inline-block;vertical-align: top;}
+.mailtxt_list_rowdown li .box_icoarea .ico_mail span:before {content:'';background: url(../img/sub/ico_mail.png) center center no-repeat;url(../img/q_baricon2.png) center 15px background: no-repeat;width: 24px;height: 14px;position: absolute;top: 3px;left: 0;background-size: contain;display: inline-block;vertical-align: top;}
 .mailtxt_list_rowdown li .box_icoarea:after {content:'';width:1px;height:calc(100% - 60px);position: absolute;right: 0;top: 0; background-color:#ddd; margin:30px 0} 
 .mailtxt_list_rowdown li .box_descarea {height: 100%;line-height: 1.4;display: flex;align-items: start;flex-direction: column;border-left: 0;justify-content: center;}
 
@@ -3248,12 +3248,12 @@ right: 10px; top: 50%; transform: translateY(-50%);}
 
 .box_bg_incard .btns {margin: 0 0 30px !important;}
 .box_contsin { flex: 1;}
-.box_img.bg_condo { background: url(/cubersc/template/user/img/sub/img_bg_daemyungcondo.png) no-repeat; background-size: cover; width: 100%; height: 360px;}
-.box_img.bg_condo.br_ver_orange { background: url(/cubersc/template/user/img/sub/img_bg_daemyungcondo_orange.png) no-repeat; background-size: cover; width: 100%; height: 360px;}
+.box_img.bg_condo { background: url(../img/sub/img_bg_daemyungcondo.png) no-repeat; background-size: cover; width: 100%; height: 360px;}
+.box_img.bg_condo.br_ver_orange { background: url(../img/sub/img_bg_daemyungcondo_orange.png) no-repeat; background-size: cover; width: 100%; height: 360px;}
 .box_bg_incard { background: #fff; font-weight: 500; color: #666; box-shadow: 3px 3px 10px 0px rgba(47, 46, 44, 0.25);  width: 600px; height: 260px; font-size: 18px; line-height: 24px; text-align: center;margin: 0 auto; border-radius: 10px; display: flex; align-items: center; justify-content: center;}
 .box_bg_bltxt {padding: 15px; background: #f2f2f2; border-radius: 10px; width: 80%; display: block; margin: 0 auto;}
 .box_txts { margin-top: 15px;}
-.box_txts .txt_ico.call:before { content: ''; width: 20px;  height: 20px; display: inline-block; background: url(/cubersc/template/user/img/sub/ico_condocall.png) center center no-repeat; vertical-align: middle; margin-right: 10px;}
+.box_txts .txt_ico.call:before { content: ''; width: 20px;  height: 20px; display: inline-block; background: url(../img/sub/ico_condocall.png) center center no-repeat; vertical-align: middle; margin-right: 10px;}
 .box_txts:first-child {margin-top:0}
 /* .box_txts:first-child .list_contents {padding-top:0 !important;} */
 .box_txts .list_subcontents {margin-top: 5px;}
@@ -3267,16 +3267,16 @@ right: 10px; top: 50%; transform: translateY(-50%);}
 .box_step_threefigure ul:not(.box_info) li {width: 33.3%;max-width: 200px;text-align: center;padding: 40px 0 0;position: relative;}  
 .box_contarea .side-row .list_step_icofigure.type_4.new_5 li {  width: 20%;  margin-top: 20px !important;  padding: 0;}
 .box_step_threefigure ul.box_info li {width: 20%; padding: 0 20px;}
-.box_step_threefigure ul:not(.type_bigimg) li .box_topimg:before {content: '';background: url(/cubersc/template/user/img/sub/ico_narr_store.png) no-repeat;width: 30px;height: 30px;display: inline-block;position: absolute;top: 50%;left: -40%;transform: translateY(-50%);} 
+.box_step_threefigure ul:not(.type_bigimg) li .box_topimg:before {content: '';background: url(../img/sub/ico_narr_store.png) no-repeat;width: 30px;height: 30px;display: inline-block;position: absolute;top: 50%;left: -40%;transform: translateY(-50%);} 
 
 .box_step_threefigure ul li:first-child .box_topimg:before { content: normal; }
 .box_step_threefigure ul li em:not(.add_mtit) {background: #0074da;color: #fff;font-size: 14px;padding: 7px 15px;display: inline-block;border-radius: 15px;z-index: 10;position: relative;} 
 .box_step_threefigure ul li.pink em { background: #c6002c;}
 .box_step_threefigure ul li.pink .box_topimg {background: #ffe3ec;}
 .box_step_threefigure ul li.pink .box_btmtxt a {border-color: #c6002c;color: #c6002c;}
-.box_step_threefigure ul li.pink .box_btmtxt a:after {content: '';display: inline-block;vertical-align: inherit;margin-left: 5px;margin-top: 2px;background: url(/cubersc/template/user/img/sub/ico_rarr_pk.png) center center no-repeat !important;width: 12px !important;height: 12px !important;background-size: contain !important;}
+.box_step_threefigure ul li.pink .box_btmtxt a:after {content: '';display: inline-block;vertical-align: inherit;margin-left: 5px;margin-top: 2px;background: url(../img/sub/ico_rarr_pk.png) center center no-repeat !important;width: 12px !important;height: 12px !important;background-size: contain !important;}
 .box_step_threefigure ul li.pink .box_btmtxt a:hover {background: #c6002c;color: #fff;}
-.box_step_threefigure ul li.pink .box_btmtxt a:hover:after {background: url(/cubersc/template/user/img/sub/ico_rarr_w.png) center center no-repeat !important;width: 12px !important;height: 12px !important;background-size: contain !important;}
+.box_step_threefigure ul li.pink .box_btmtxt a:hover:after {background: url(../img/sub/ico_rarr_w.png) center center no-repeat !important;width: 12px !important;height: 12px !important;background-size: contain !important;}
 
 .box_step_threefigure ul li .box_topimg {background: #ddf1ff;width: 130px;height: 130px;display: flex;align-items: center;justify-content: center;border-radius: 100%;margin: -15px auto 15px;position: relative;} 
 .box_step_threefigure ul li .box_btmtxt { font-size: 17px; line-height: 24px; padding: 0 5px;} 
@@ -3296,7 +3296,7 @@ right: 10px; top: 50%; transform: translateY(-50%);}
 .box_step_threefigure ul.type_bigimg li + li {  border-left: 0; margin-left: 50px;}
 .box_step_threefigure ul.type_bigimg + .type_bigimg li {border-top: 0;}
 .box_step_threefigure ul.type_bigimg li {position:relative;}
-.box_step_threefigure ul.type_bigimg li:before {content: '';background: url(/cubersc/template/user/img/sub/ico_narr_store.png) no-repeat;width: 30px;height: 30px;display: inline-block;position: absolute;top: 50%;left: -40px; transform: translateY(-50%);} 
+.box_step_threefigure ul.type_bigimg li:before {content: '';background: url(../img/sub/ico_narr_store.png) no-repeat;width: 30px;height: 30px;display: inline-block;position: absolute;top: 50%;left: -40px; transform: translateY(-50%);} 
 .box_step_threefigure ul.type_bigimg li:first-child:before{content:normal;}
 .box_step_threefigure ul.type_bigimg li .box_topimg {height: 225px;background: none;margin: 20px auto;}
 .box_step_threefigure ul.type_bigimg li .box_btmtxt {padding: 20px 10px; border-top: 1px solid #ddd;    box-sizing: border-box;}
@@ -3317,7 +3317,7 @@ right: 10px; top: 50%; transform: translateY(-50%);}
 .box_step_newbigfigure ul .list_step_in {padding-left: 60px;}
 .box_step_newbigfigure ul.box_info li {width: 20%; padding: 0 20px;}
 .box_step_newbigfigure ul li {position:relative;width: auto;text-align: center;padding: 40px 0 0;position: relative;}  
-.box_step_newbigfigure ul li:before {content: '';background: url(/cubersc/template/user/img/sub/ico_step_simplearr.png) no-repeat center center;width: 30px;height: 30px;display: inline-block;position: absolute;top: 50%;left: 15px;} 
+.box_step_newbigfigure ul li:before {content: '';background: url(../img/sub/ico_step_simplearr.png) no-repeat center center;width: 30px;height: 30px;display: inline-block;position: absolute;top: 50%;left: 15px;} 
 
 
 .box_step_newbigfigure ul li:first-child:before { content: normal; }
@@ -3407,9 +3407,9 @@ ul.list_circleimg_wrap .box_desc span { font-size: 20px; line-height: 30px; }
 .subss_add .list_dot>li>span.form_left1 a { display: inline-block; vertical-align: top;/* margin-top: 3px; */ border-radius: 8px; width: auto !important; background: #fff; color: #383b73; } 
 .subss_add .list_dot>li>span.form_left1 a.ann_a1.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/sub/ico_bluearr.png) no-repeat !important;width: 8px !important; height: 10px !important; display: inline-block; margin: 0 0 0 10px; background-size: contain !important;}
 .subss_add .list_dot>li>span.form_left1 a.ann_a1.btn_pop {border-color: #2c7db3;width: auto !important;display: inline-block;padding-right: 20px;text-align: center;padding: 0;min-width: 100px;}
-.subss_add .list_dot>li>span.form_left1 a.down:after {display: inline-block;  vertical-align: top; width: 15px !important; height: 13px !important; background: url(/cubersc/template/user/img/ico_down_pp.png) center -1px no-repeat !important; background-size: contain !important; -webkit-transition: all .3s ease; transition: all .3s ease; margin: 8px 0 0 5px; } 
+.subss_add .list_dot>li>span.form_left1 a.down:after {display: inline-block;  vertical-align: top; width: 15px !important; height: 13px !important; background: url(../img/ico_down_pp.png) center -1px no-repeat !important; background-size: contain !important; -webkit-transition: all .3s ease; transition: all .3s ease; margin: 8px 0 0 5px; } 
 .subss_add .list_dot>li>span.form_left1 a:hover {background:#383b73;color:#fff;}
-.subss_add .list_dot>li>span.form_left1 a.down:hover:after{width: 15px !important; height: 13px !important; background: url(/cubersc/template/user/img/ico_down_w.png) center -1px no-repeat !important;background-size: contain !important;}
+.subss_add .list_dot>li>span.form_left1 a.down:hover:after{width: 15px !important; height: 13px !important; background: url(../img/ico_down_w.png) center -1px no-repeat !important;background-size: contain !important;}
 
 a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/sub/ico_bluearr.png) no-repeat !important;width: 8px !important; height: 10px !important; display: inline-block; margin: 0 0 0 10px; background-size: contain !important;}
 
@@ -3427,8 +3427,8 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 .box_circle_steps { padding-top: 40px;}
 .box_circle_steps .list_circle_steps {display: flex;  justify-content: center;}
 .box_circle_steps .list_circle_steps li {position: relative;text-align: center;padding: 0 50px;margin-top: 10px;}
-.box_circle_steps .list_circle_steps li:before { content: ''; background: url(/cubersc/template/user/img/sub/ico_asset_management_circle.png) no-repeat;width: 30px; height: 30px; display: inline-block; position: absolute; top: -40px; left: 50%; transform: translateX(-50%);}
-.box_circle_steps .list_circle_steps li:after {content: '';background: url(/cubersc/template/user/img/sub/ico_asset_management_arr.png) no-repeat;width: 11px;height: 15px;display: inline-block;position: absolute;top: -32px;right: 0;}
+.box_circle_steps .list_circle_steps li:before { content: ''; background: url(../img/sub/ico_asset_management_circle.png) no-repeat;width: 30px; height: 30px; display: inline-block; position: absolute; top: -40px; left: 50%; transform: translateX(-50%);}
+.box_circle_steps .list_circle_steps li:after {content: '';background: url(../img/sub/ico_asset_management_arr.png) no-repeat;width: 11px;height: 15px;display: inline-block;position: absolute;top: -32px;right: 0;}
 .box_circle_steps .list_circle_steps li:last-child:after {content:normal;}
 .box_circle_steps .list_circle_steps li:nth-child(1) > div:before { width: 50%; left: 50%;}
 .box_circle_steps .list_circle_steps li:nth-child(4) > div:before { width: 50%;}
@@ -3457,7 +3457,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 
 /* 횄�횈�쇒꺿�싀궰�꺠뮼™궗큄횄�싀궰㎴꺠뮼™궗큄횄�싀궰▣꺠뮼녳�쇒꺿�싀궰�꺠뮼™궗쨔횄짖창�슿�궰졗꺠뮼궰▣꺜▣™궗큄횂짭횄�싀궰뮨꺠뮼녳�쇒꺿�싀궰�꺠뮼™궗쨔횄�┚™궗흹횄�횂짖횄짖창�슿�끒씹꺿�싀궰▣꺠뮼녳�쇒꺿�싀궰�꺠뮼™궗큄횄�싀궰올꺠뮼™궗큄횄�싀궰시꺠뮼녳�쇒꺿�싀궰っ꺠뮼™궗큄횄�싀궰시꺠뮼궰▣꺜▣™궗큄횂짭횄�┚™궗흹횄�횈�쇒꺿�싀궰Γ꺠뮼™궗큄횄�싀궰띊꺠뮼™궗큄횄�싀궰졗꺠뮼녳�쇒꺿�싀궰�꺠뮼™궗짝횄�싀궰시꺠뮼™궗짝횄짖창�슿�™�왖▣꺠뮼녳�쇒꺿�싀궰�꺠뮼궰▣꺜▣™궗큄횂짭횄�싀궰졗꺠뮼궰▣꺜▣™�슿�끒씹꺿�싀궰▣꺠뮼녳�쇒꺿�싀궰Γ꺠뮼™궗큄횄�싀궰띊꺠뮼™궗큄횄�싀궰졗꺠뮼녳�쇒꺿�싀궰�꺠뮼™궗짝횄�싀궰시꺠뮼™궗짝횄짖창�슿�™�왖▣꺠뮼녳�쇒꺿�싀궰�꺠뮼™궗큄횄�싀궰걘꺠뮼궰▣꺜▣™궗큄횂짭횄�싀궰걘꺠뮼녳�쇒꺿�싀궰Γ꺠뮼™궗큄횄�싀궰띊꺠뮼™궗큄횄�싀궰졗꺠뮼녳�쇒꺿�싀궰�꺠뮼™궗짝횄�싀궰시꺠뮼™궗짝횄짖창�슿�™�왖▣꺠뮼녳�쇒꺿�싀궰ッ꺠뮼™궗큄횄�싀궰돤꺠뮼™궗큄횄�싀궰돤꺠뮼녳�쇒꺿�싀궰�꺠뮼™궗큄횄�싀궰올꺠뮼™궗큄횄�싀궰시꺠뮼녳�쇒꺿�싀궰っ꺠뮼™궗큄횄�싀궰뮨꺠뮼™궗큄횄�싀궰늘꺠뮼녳�쇒꺿�싀궰Γ꺠뮼™궗큄횄�싀궰띊꺠뮼™궗큄횄�싀궰졗꺠뮼녳�쇒꺿�싀궰�꺠뮼™궗짝횄�싀궰시꺠뮼™궗짝횄짖창�슿�™�왖▣꺠뮼녳�쇒꺿�싀궰ッ꺠뮼™궗큄횄�싀궰뮨꺠뮼™궗큄횄�싀궰겷꺠뮼녳�쇒꺿�싀궰Γ꺠뮼™궗큄횄�싀궰띊꺠뮼™궗큄횄�싀궰졗꺠뮼녳�쇒꺿�싀궰�꺠뮼™궗짝횄�싀궰시꺠뮼™궗짝횄짖창�슿�™�왖▣꺠뮼녳�쇒꺿�싀궰ッ꺠뮼™궗큄횄�싀궰돤꺠뮼™궗큄횄�싀궰돤꺠뮼녳�쇒꺿�싀궰�꺠뮼™궗큄횄�싀궰올꺠뮼™궗큄횄�싀궰시꺠뮼녳�쇒꺿�싀궰Γ꺠뮼™궗큄횄�싀궰띊꺠뮼™궗큄횄�싀궰졗꺠뮼녳�쇒꺿�싀궰�꺠뮼™궗짝횄�싀궰시꺠뮼™궗쨔횄짖창�슿�궰졗꺠뮼녳�쇒꺿�싀궰っ꺠뮼™궗큄횄�싀궰뼙꺠뮼궰▣꺜▣™궗큄횂짭횄�┚궰씹꺠뮼녳�쇒꺿�싀궰Γ꺠뮼™궗큄횄�싀궰띊꺠뮼™궗큄횄�싀궰졗꺠뮼녳�쇒꺿�싀궰�꺠뮼™궗큄횄�싀궰올꺠뮼™궗큄횄�싀궰� : box_clear */
 .mycontent .box .box-content.box_clear .bullet { position:relative; font-size: 20px;font-weight: 500; color: #666;margin-bottom: 15px;  line-height: 1.4; margin-bottom:15px;}
-.mycontent .box .box-content.box_clear .bullet:before { content: '' !important;  left: -20px; display: block; min-width: 7px; min-height: 7px; background: url(/cubersc/template/user/img/sub/tempo_bul.png) no-repeat center; background-size: contain; } 
+.mycontent .box .box-content.box_clear .bullet:before { content: '' !important;  left: -20px; display: block; min-width: 7px; min-height: 7px; background: url(../img/sub/tempo_bul.png) no-repeat center; background-size: contain; } 
 .mycontent .box .box-content.box_clear .hyphen {position:relative; display:block;font-size: 20px;font-weight:500;color: #666;line-height: 1.5;margin-left: 20px;}
 .mycontent .box .box-content.box_clear .hyphen:before {content: '-' !important;position: static;background: transparent;margin-right: 8px;margin-left: -15px;} 
 .mycontent .box .box-content.box_clear .empty {position:relative;display:block;font-size: 20px;font-weight:500;color: #666;line-height: 1.5;margin-left: 14px;}
@@ -3502,10 +3502,10 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 
 
 .btn_bank {font-size: 20px;font-weight: bold;width: 284px;height: 60px;display: flex;align-items: center;justify-content: center;background: #dcdcdc;color: #000;border-radius: 10px; -webkit-transition: all .3s ease;transition: all .3s ease;} 
-.btn_bank.shinhan i {width:30px;height:30px;background:url(/cubersc/template/user/img/sub/ico_bank_shinhan.png) no-repeat;background-size: contain;margin-right: 5px;}
-.btn_bank.woori i {width:31px;height:30px;background:url(/cubersc/template/user/img/sub/ico_bank_woori.png) no-repeat;background-size: contain;margin-right: 5px;}
-.btn_bank.citi i {width: 40px;height:40px;background:url(/cubersc/template/user/img/sub/ico_bank_citi_n.png) no-repeat;background-size: contain;margin-right: 5px;}
-.btn_bank.hana i {width: 30px;height: 30px;background:url(/cubersc/template/user/img/sub/hn-bank.png) no-repeat;background-size: contain;margin-right: 5px;}
+.btn_bank.shinhan i {width:30px;height:30px;background:url(../img/sub/ico_bank_shinhan.png) no-repeat;background-size: contain;margin-right: 5px;}
+.btn_bank.woori i {width:31px;height:30px;background:url(../img/sub/ico_bank_woori.png) no-repeat;background-size: contain;margin-right: 5px;}
+.btn_bank.citi i {width: 40px;height:40px;background:url(../img/sub/ico_bank_citi_n.png) no-repeat;background-size: contain;margin-right: 5px;}
+.btn_bank.hana i {width: 30px;height: 30px;background:url(../img/sub/hn-bank.png) no-repeat;background-size: contain;margin-right: 5px;}
 .btn_bank:hover { box-shadow: 3px 3px 10px 0px rgba(0,0,0,.5);}
 
 
@@ -3613,23 +3613,23 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 
 .subs .box_scrollarea .dbl_ico.sub_tit { padding-left: 90px !important;}
 
-.box_scrollarea .link_policy_0 .sub_tit:before { content: '';position: absolute; top: 0;  left: 40px;  width: 35px; height: 35px; background: url(/cubersc/template/user/img/sub/ico_policy1-1.png) no-repeat;  background-size: cover; z-index: 10;}
-.box_scrollarea .link_policy_0 .sub_tit:after { content: ''; background: url(/cubersc/template/user/img/sub/ico_policy1.png) no-repeat;}
-.box_scrollarea .link_policy_1 .sub_tit:after { content: ''; background: url(/cubersc/template/user/img/sub/ico_policy2.png) no-repeat;}
-.box_scrollarea .link_policy_2 .sub_tit:after { content: ''; background: url(/cubersc/template/user/img/sub/ico_policy3.png) no-repeat;}
-.box_scrollarea .link_policy_3 .sub_tit:after { content: ''; background: url(/cubersc/template/user/img/sub/ico_policy4.png) no-repeat;}
-.box_scrollarea .link_policy_4 .sub_tit:after { content: ''; background: url(/cubersc/template/user/img/sub/ico_policy5.png) no-repeat;}
-.box_scrollarea .link_policy_5 .sub_tit:after { content: ''; background: url(/cubersc/template/user/img/sub/ico_policy6-1.png) no-repeat;}
-.box_scrollarea .link_policy_5 .sub_tit:before { content: '';position: absolute; top: 0;  left: 40px;  width: 35px; height: 35px; background: url(/cubersc/template/user/img/sub/ico_policy6-2.png) no-repeat;  background-size: cover; z-index: 10;}
-.box_scrollarea .link_policy_6 .sub_tit:after { content: ''; background: url(/cubersc/template/user/img/sub/ico_policy7.png) no-repeat;}
-.box_scrollarea .link_policy_7 .sub_tit:after { content: ''; background: url(/cubersc/template/user/img/sub/ico_policy8.png) no-repeat;}
-.box_scrollarea .link_policy_8 .sub_tit:after { content: ''; background: url(/cubersc/template/user/img/sub/ico_policy9.png) no-repeat;}
-.box_scrollarea .link_policy_9 .sub_tit:after { content: ''; background: url(/cubersc/template/user/img/sub/ico_policy10.png) no-repeat;}
-.box_scrollarea .link_policy_10 .sub_tit:after { content: ''; background: url(/cubersc/template/user/img/sub/ico_policy11.png) no-repeat;}
-.box_scrollarea .link_policy_11 .sub_tit:after { content: ''; background: url(/cubersc/template/user/img/sub/ico_policy12.png) no-repeat;}
-.box_scrollarea .link_policy_12 .sub_tit:after { content: ''; background: url(/cubersc/template/user/img/sub/ico_policy13.png) no-repeat;}
-.box_scrollarea .link_policy_13 .sub_tit:after { content: ''; background: url(/cubersc/template/user/img/sub/ico_policy14.png) no-repeat;}
-.box_scrollarea .link_policy_14 .sub_tit:after { content: ''; background: url(/cubersc/template/user/img/sub/ico_policy15.png) no-repeat;}
+.box_scrollarea .link_policy_0 .sub_tit:before { content: '';position: absolute; top: 0;  left: 40px;  width: 35px; height: 35px; background: url(../img/sub/ico_policy1-1.png) no-repeat;  background-size: cover; z-index: 10;}
+.box_scrollarea .link_policy_0 .sub_tit:after { content: ''; background: url(../img/sub/ico_policy1.png) no-repeat;}
+.box_scrollarea .link_policy_1 .sub_tit:after { content: ''; background: url(../img/sub/ico_policy2.png) no-repeat;}
+.box_scrollarea .link_policy_2 .sub_tit:after { content: ''; background: url(../img/sub/ico_policy3.png) no-repeat;}
+.box_scrollarea .link_policy_3 .sub_tit:after { content: ''; background: url(../img/sub/ico_policy4.png) no-repeat;}
+.box_scrollarea .link_policy_4 .sub_tit:after { content: ''; background: url(../img/sub/ico_policy5.png) no-repeat;}
+.box_scrollarea .link_policy_5 .sub_tit:after { content: ''; background: url(../img/sub/ico_policy6-1.png) no-repeat;}
+.box_scrollarea .link_policy_5 .sub_tit:before { content: '';position: absolute; top: 0;  left: 40px;  width: 35px; height: 35px; background: url(../img/sub/ico_policy6-2.png) no-repeat;  background-size: cover; z-index: 10;}
+.box_scrollarea .link_policy_6 .sub_tit:after { content: ''; background: url(../img/sub/ico_policy7.png) no-repeat;}
+.box_scrollarea .link_policy_7 .sub_tit:after { content: ''; background: url(../img/sub/ico_policy8.png) no-repeat;}
+.box_scrollarea .link_policy_8 .sub_tit:after { content: ''; background: url(../img/sub/ico_policy9.png) no-repeat;}
+.box_scrollarea .link_policy_9 .sub_tit:after { content: ''; background: url(../img/sub/ico_policy10.png) no-repeat;}
+.box_scrollarea .link_policy_10 .sub_tit:after { content: ''; background: url(../img/sub/ico_policy11.png) no-repeat;}
+.box_scrollarea .link_policy_11 .sub_tit:after { content: ''; background: url(../img/sub/ico_policy12.png) no-repeat;}
+.box_scrollarea .link_policy_12 .sub_tit:after { content: ''; background: url(../img/sub/ico_policy13.png) no-repeat;}
+.box_scrollarea .link_policy_13 .sub_tit:after { content: ''; background: url(../img/sub/ico_policy14.png) no-repeat;}
+.box_scrollarea .link_policy_14 .sub_tit:after { content: ''; background: url(../img/sub/ico_policy15.png) no-repeat;}
 
 
 .box_scrollarea .sub_tit:after{content: ''; background-size: contain !important;  width: 35px !important;height: 35px !important;  top: 0px !important;}
@@ -3798,9 +3798,9 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 
 .ico-check-bt { border-radius: 100px; width: 300px; height: 78px; -webkit-transition: all .5s ease; transition: all .5s ease; } 
 .ico-check-bt button { position:relative; font-size: 28px; padding-right:40px; box-shadow: 5px 5px 10px, inset -3px -3px 10px #00000080, inset 3px 3px 10px #ffffff80; background-color: #383b73; color: #fff; width: 100%; height: 100%;  -webkit-transition: all .5s ease; transition: all .5s ease; } 
-.ico-check-bt button:after {content:''; background:url(/cubersc/template/user/img/sub/ico_top_btn_pp.png) no-repeat;  width:40px; height:40px; position:absolute;  right:22px;top:50%; transform: translateY(-50%);}
+.ico-check-bt button:after {content:''; background:url(../img/sub/ico_top_btn_pp.png) no-repeat;  width:40px; height:40px; position:absolute;  right:22px;top:50%; transform: translateY(-50%);}
 .ico-check-bt.blue button { background-color: #0074da; } 
-.ico-check-bt.blue button:after {background:url(/cubersc/template/user/img/sub/ico_top_btn_bl.png) no-repeat;}
+.ico-check-bt.blue button:after {background:url(../img/sub/ico_top_btn_bl.png) no-repeat;}
 .ico-check-bt button:hover {box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, .5);} 
 .ico-check-bt + .ico-check-bt { margin-left: 20px; } 
 
@@ -3811,7 +3811,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 .list_fourimgtxt_box > li { width: 25%;}
 .list_fourimgtxt_box .box_top { text-align: center; } 
 .list_fourimgtxt_box .box_top strong { font-size: 18px; line-height: 24px; font-weight: 500; } 
-.list_fourimgtxt_box .box_top .box_in { background: url(/cubersc/template/user/img/sub/img_bg_fourimg_circle.png) no-repeat; width: 200px; height: 200px; background-size: contain; display: flex; align-items: center; justify-content: center; flex-direction: column; margin: 0 auto; } 
+.list_fourimgtxt_box .box_top .box_in { background: url(../img/sub/img_bg_fourimg_circle.png) no-repeat; width: 200px; height: 200px; background-size: contain; display: flex; align-items: center; justify-content: center; flex-direction: column; margin: 0 auto; } 
 .list_fourimgtxt_box .box_top .box_in img { margin-top: 8px;}
 .list_fourimgtxt_box .box_btm span { display: flex; align-items: flex-start; font-size: 20px; line-height: 25px; padding-left: 10px; } 
 .list_fourimgtxt_box .box_btm { padding-top: 5px; } 
@@ -3917,7 +3917,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 .right_bus strong::before {
     content: "";
     display: block;
-    background: url(/cubersc/template/user/img/sub/blue_right_arrow_ico.png) no-repeat center;
+    background: url(../img/sub/blue_right_arrow_ico.png) no-repeat center;
     background-size: contain;
     width: 10px;
     height: 15px;
@@ -4106,7 +4106,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
     display: block;
     width: 14px;
     height: 12px;
-    background: url(/cubersc/template/user/img/sub/a_down.png) center center no-repeat;
+    background: url(../img/sub/a_down.png) center center no-repeat;
 }
 
 .container .content-all.ret #notice1 .box-content li .form_left1 {
@@ -4127,7 +4127,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
     right: 30px;
     width: 14px;
     height: 8px;
-    background: url(/cubersc/template/user/img/sub/s3_mybox_bottom.png) center center no-repeat;
+    background: url(../img/sub/s3_mybox_bottom.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -4135,7 +4135,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 
 
 .content-all .mycontent .box.on .title:before {
-    background: url(/cubersc/template/user/img/sub/s3_mybox_top.png) center center no-repeat;
+    background: url(../img/sub/s3_mybox_top.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -4223,7 +4223,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
     position: absolute;
     top: 12px;
     left: 0;
-    background: url(/cubersc/template/user/img/sub/smile.png) center center no-repeat;
+    background: url(../img/sub/smile.png) center center no-repeat;
     background-size: cover;
     width: 20px;
     height: 20px;
@@ -4307,36 +4307,36 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
     position: absolute;
     top: 5px;
     left: 0;
-    background: url(/cubersc/template/user/img/sub/person.png) center center no-repeat;
+    background: url(../img/sub/person.png) center center no-repeat;
     background-size: cover;
     width: 20px;
     height: 20px;
 }
 
 .containers .content-all .renew .icon-bull.two:before {
-    background: url(/cubersc/template/user/img/sub/won.png) center center no-repeat;
+    background: url(../img/sub/won.png) center center no-repeat;
     top: 5px;
 }
 
 .containers .content-all .renew .icon-bull.three:before {
-    background: url(/cubersc/template/user/img/sub/calendar.png) center center no-repeat;
+    background: url(../img/sub/calendar.png) center center no-repeat;
     top: 5px;
 }
 
 .containers .content-all .renew .icon-bull.four:before {
-    background: url(/cubersc/template/user/img/sub/pen.png) center center no-repeat;
+    background: url(../img/sub/pen.png) center center no-repeat;
     top: 5px;
 }
 
 .containers .content-all .renew .icon-bull.five:before {
     display: inline-block;
-    background: url(/cubersc/template/user/img/sub/money.png) center center no-repeat;
+    background: url(../img/sub/money.png) center center no-repeat;
     top: 5px;
 }
 
 .containers .content-all .renew .icon-bull.six:before {
     display: inline-block;
-    background: url(/cubersc/template/user/img/sub/smile.png) center center no-repeat;
+    background: url(../img/sub/smile.png) center center no-repeat;
     top: 5px;
 }
 
@@ -4730,7 +4730,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
     transform: translateY(-50%);
     width: 14px;
     height: 12px;
-    background: url(/cubersc/template/user/img/sub/a_down.png) center center no-repeat;
+    background: url(../img/sub/a_down.png) center center no-repeat;
 }
 
 .boxs_ann .box_ann:nth-child(3) {
@@ -4763,7 +4763,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
     display: inline-block;
    width: 15px !important;
     height: 13px !important;
-    background: url(/cubersc/template/user/img/ico_down_pp.png) center -1px no-repeat !important;
+    background: url(../img/ico_down_pp.png) center -1px no-repeat !important;
     background-size: contain !important;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
@@ -4774,7 +4774,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 .subss_add .ann_a1:hover:after {
   	width: 15px !important;
     height: 13px !important;
-    background: url(/cubersc/template/user/img/ico_down_w.png) center -1px no-repeat !important;
+    background: url(../img/ico_down_w.png) center -1px no-repeat !important;
     background-size: contain !important;
 }
 
@@ -4782,7 +4782,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
     content: "";
     width: 15px !important;
     height: 13px !important;
-    background: url(/cubersc/template/user/img/ico_down_pp.png) center -1px no-repeat !important;
+    background: url(../img/ico_down_pp.png) center -1px no-repeat !important;
     background-size: contain !important;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
@@ -4794,7 +4794,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 .box_contarea .box_btnwrap .ann_a1:hover:after{
 	width: 15px !important;
     height: 13px !important;
-    background: url(/cubersc/template/user/img/ico_down_w.png) center -1px no-repeat !important;
+    background: url(../img/ico_down_w.png) center -1px no-repeat !important;
     background-size: contain !important;
 }
 
@@ -4924,7 +4924,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
     left: 0;
     width: 8px;
     height: 8px;
-    background: url(/cubersc/template/user/img/sub/sss-bul.png) center center no-repeat;
+    background: url(../img/sub/sss-bul.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -4955,7 +4955,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
     left: 0;
     width: 8px;
     height: 8px;
-    background: url(/cubersc/template/user/img/sub/sss-bul.png) center center no-repeat;
+    background: url(../img/sub/sss-bul.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -4999,7 +4999,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
     left: -15px;
     width: 6px;
     height: 6px;
-    background: url(/cubersc/template/user/img/sub/sss-bul.png) center center no-repeat;
+    background: url(../img/sub/sss-bul.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -5094,7 +5094,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
     transform: translateY(-50%);
     width: 14px;
     height: 12px;
-    background: url(/cubersc/template/user/img/sub/a_next.png) center center no-repeat;
+    background: url(../img/sub/a_next.png) center center no-repeat;
 }
 
 .ret3_2 .ann_a2 {
@@ -5122,7 +5122,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
     transform: translateY(-50%);
     width: 14px;
     height: 12px;
-    background: url(/cubersc/template/user/img/sub/a_down.png) center center no-repeat;
+    background: url(../img/sub/a_down.png) center center no-repeat;
 }
 
 .ret3_2 .tabs-content1 .side-txt div:nth-child(2) {
@@ -5170,7 +5170,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 .box_contarea .icons-box>li>div:first-child { height: 100px; } 
 .box_grt { padding-top: 20px;}
 .box_thf { position:relative; display: flex; justify-content: space-between;}
-.box_thf:after {content: '';width: 25px;height: 25px;position: absolute;bottom: -15px;display: inline-block;vertical-align: top;background: url(/cubersc/template/user/img/sub/ico_btmarr.png) no-repeat;left: 50%;z-index: 10;transform: translateX(-50%);}
+.box_thf:after {content: '';width: 25px;height: 25px;position: absolute;bottom: -15px;display: inline-block;vertical-align: top;background: url(../img/sub/ico_btmarr.png) no-repeat;left: 50%;z-index: 10;transform: translateX(-50%);}
 .box_thf > .box_g {background: #f2f2f2;padding: 12px 10px;width: 48%;border-radius: 10px;font-size: 17px;display: flex;align-items: center;justify-content: center;}
 .box_bf { padding: 23px 26px;  background: #f5fbff;  margin-top: 10px; border-radius: 10px; font-size: 19px;font-weight: bold;  color: #0074da;}
 
@@ -5216,7 +5216,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 
 .box_iconotice_wrap {padding-top: 10px;} 
 .box_iconotice_wrap span { text-align:left; padding: 40px 0; font-size: 20px; line-height: 26px; display: block; } 
-.box_iconotice_wrap strong:before { content: ''; background: url(/cubersc/template/user/img/sub/ico_exmark.png) no-repeat; display: inline-block; width: 45px; height: 45px; background-size: contain; margin-right: 5px; vertical-align: sub; } 
+.box_iconotice_wrap strong:before { content: ''; background: url(../img/sub/ico_exmark.png) no-repeat; display: inline-block; width: 45px; height: 45px; background-size: contain; margin-right: 5px; vertical-align: sub; } 
 .box_iconotice_wrap strong { text-align:left; display: block; font-size: 26px; line-height: 40px; font-weight: bold; } 
 .box_iconotice_wrap.new_type { padding: 20px 0 20px;}
 .box_iconotice_wrap.new_type strong { font-size: 20px;}
@@ -5256,26 +5256,26 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 
 
 .bg_new_greeting {position:relative;width: 100%;height: 380px;margin-top: -80px;} 
-.bg_new_greeting:before { content: ''; width: 100000000000%; height:100%; display:inline-block; position:absolute; left: -1000000%; background: url(/cubersc/template/user/img/sub/bg_new_greetings.png) repeat; } 
+.bg_new_greeting:before { content: ''; width: 100000000000%; height:100%; display:inline-block; position:absolute; left: -1000000%; background: url(../img/sub/bg_new_greetings.png) repeat; } 
 .bg_new_greeting .box_inn { position: relative; display: flex;     overflow: hidden; align-items: center; justify-content: center; width: 100%; height: 100%; flex-direction: column; } 
 .bg_new_greeting .box_inn strong {color: #fff;font-size: 50px;line-height: 80px;font-weight: bold;} 
 .bg_new_greeting .box_inn span {font-size: 24px;line-height: 40px;color: #fff;text-align: center;padding-top: 35px;} 
 .bg_new_greeting .box_inn span em {font-weight:bold;}
-.bg_new_greeting .box_inn:before, .bg_new_greeting .box_inn:after { content: ''; display:inline-block;    width: 218px;  position:absolute; left:50%; top:0; transform:translateX(-50%); background: url(/cubersc/template/user/img/sub/bg_ico_greetings.png) center center no-repeat;}
+.bg_new_greeting .box_inn:before, .bg_new_greeting .box_inn:after { content: ''; display:inline-block;    width: 218px;  position:absolute; left:50%; top:0; transform:translateX(-50%); background: url(../img/sub/bg_ico_greetings.png) center center no-repeat;}
 .bg_new_greeting .box_inn:before {top: -5px;height: 60px;}
 .bg_new_greeting .box_inn:after {bottom: 0;height: 493px;background-position: bottom;transform: translate(170px);}
 
 .box_main_greet {width: 100%;height: 383px;overflow: hidden;margin-top: 145px;position: relative;} 
-.box_main_greet .main_greet_in { width:100%; height: 400px; background: url(/cubersc/template/user/img/sub/bg_main_greet.png) center bottom no-repeat; display: flex; justify-content: space-between; } 
+.box_main_greet .main_greet_in { width:100%; height: 400px; background: url(../img/sub/bg_main_greet.png) center bottom no-repeat; display: flex; justify-content: space-between; } 
 
 .b_half.main_txt {font-size: 34px;line-height: 55px;display: flex;align-items: center;justify-content: start;/* width: calc(100% - 540px); */height: 100%;padding: 0 110px;} 
 .b_half.main_txt strong {position:relative;font-weight:bold;text-align: center;padding: 0 45px;} 
 .b_half.main_txt strong em { color:#2f5c8f; font-weight:inherit; } 
 .b_half.chairman {position: absolute;width: 490px;height: 100%;z-index: 5;right: 0;} 
-.b_half.chairman .img_chairman { background: url(/cubersc/template/user/img/sub/img_greet_chairman.png) no-repeat; display: inline-block; width: 459px; height: 383px; position: relative; z-index: 10; background-size: cover; } 
+.b_half.chairman .img_chairman { background: url(../img/sub/img_greet_chairman.png) no-repeat; display: inline-block; width: 459px; height: 383px; position: relative; z-index: 10; background-size: cover; } 
 
-.b_half.main_txt strong:before {content:'';position:absolute;top: -25px;left: -25px;width:39px;height:28px;display:inline-block;vertical-align: top;background: url(/cubersc/template/user/img/sub/ico_greet_talk.png) no-repeat;} 
-.b_half.main_txt strong:after {content:'';position:absolute;top: -25px;right: -25px;width:39px;height:28px;display:inline-block;vertical-align: top;background: url(/cubersc/template/user/img/sub/ico_greet_talk2.png) no-repeat;} 
+.b_half.main_txt strong:before {content:'';position:absolute;top: -25px;left: -25px;width:39px;height:28px;display:inline-block;vertical-align: top;background: url(../img/sub/ico_greet_talk.png) no-repeat;} 
+.b_half.main_txt strong:after {content:'';position:absolute;top: -25px;right: -25px;width:39px;height:28px;display:inline-block;vertical-align: top;background: url(../img/sub/ico_greet_talk2.png) no-repeat;} 
 
 .box_greet_tit .tit_h4 {padding-top: 125px;font-size: 38px;line-height:73px;font-weight:bold;text-align:center;} 
 .list_new_greetcard { font-size:0 ; padding-top:85px;} 
@@ -5378,7 +5378,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
     left: -15px;
     width: 6px;
     height: 6px;
-    background: url(/cubersc/template/user/img/sub/sss-bul.png) center center no-repeat;
+    background: url(../img/sub/sss-bul.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -5724,7 +5724,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 .container .main_title h3::before {
     content: "";
     display: block;
-    background: url(/cubersc/template/user/img/sub/tit_icon1.png)no-repeat center;
+    background: url(../img/sub/tit_icon1.png)no-repeat center;
     background-size: cover;
     width: 16px;
     height: 16px;
@@ -5744,7 +5744,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 .container .inner .mains-title h1::after {
     content: "";
     display: block;
-    background: url(/cubersc/template/user/img/sub/h1-bullet.png) no-repeat center;
+    background: url(../img/sub/h1-bullet.png) no-repeat center;
     background-size: cover;
     width: 23px;
     height: 5px;
@@ -5855,7 +5855,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 .container .main_wrap .main_content li:first-child .btn-wrap a::after {
     content: "";
     display: block;
-    background: url(/cubersc/template/user/img/sub/a_next.png) no-repeat center;
+    background: url(../img/sub/a_next.png) no-repeat center;
     background-size: cover;
     width: 14px;
     height: 12px;
@@ -5864,7 +5864,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 .container .main_wrap .btn-wrap a::after {
     content: "";
     display: block;
-    background: url(/cubersc/template/user/img/sub/a_down.png) no-repeat center;
+    background: url(../img/sub/a_down.png) no-repeat center;
     background-size: cover;
     width: 14px;
     height: 12px;
@@ -5904,7 +5904,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 .container .sub_txt p::before {
     content: "";
     display: block;
-    background: url(/cubersc/template/user/img/sub/med-bull.png) no-repeat center;
+    background: url(../img/sub/med-bull.png) no-repeat center;
     background-size: cover;
     width: 8px;
     height: 12px;
@@ -5928,7 +5928,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 .container .sub_txt .sub_item span::before {
     content: "";
     display: inline-block;
-    background: url(/cubersc/template/user/img/sub/sss-bul.png) no-repeat center;
+    background: url(../img/sub/sss-bul.png) no-repeat center;
     background-size: cover;
     width: 8px;
     height: 8px;
@@ -5939,12 +5939,12 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
     margin-bottom: 20px;
 }
 
-.box_figureban_wrap {width: 100%;height: 228px;display: block;border-radius: 10px;background: #f2f2f2 url(/cubersc/template/user/img/sub/img_content_recruit.png) no-repeat;background-position: right bottom;background-position-x: 95%;}
-.box_figureban_wrap.healthychill {width: 100%;height: 228px;display: block;border-radius: 10px;background: #f2f2f2 url(/cubersc/template/user/img/sub/img_content_healthychill.png) no-repeat;background-position: right bottom;background-position-x: 95%;}
-.box_figureban_wrap.healthychill2 {width: 100%;height: 228px;display: block;border-radius: 10px;background: #f2f2f2 url(/cubersc/template/user/img/sub/img_content_healthychill2.png) no-repeat;background-position: right bottom;background-position-x: 95%;}
-.box_figureban_wrap.knowledge {width: 100%;height: 228px;display: block;border-radius: 10px;background: #f2f2f2 url(/cubersc/template/user/img/sub/img_content_knowledge.png) no-repeat;background-position: right bottom;background-position-x: 95%;}
-.box_figureban_wrap.economy {width: 100%;height: 228px;display: block;border-radius: 10px;background: #f2f2f2 url(/cubersc/template/user/img/sub/img_content_economy.png) no-repeat;background-position: right bottom;background-position-x: 95%;}
-.box_figureban_wrap.startup {width: 100%;height: 228px;display: block;border-radius: 10px;background: #f2f2f2 url(/cubersc/template/user/img/sub/img_content_startup.png) no-repeat;background-position: right bottom;background-position-x: 95%;}
+.box_figureban_wrap {width: 100%;height: 228px;display: block;border-radius: 10px;background: #f2f2f2 url(../img/sub/img_content_recruit.png) no-repeat;background-position: right bottom;background-position-x: 95%;}
+.box_figureban_wrap.healthychill {width: 100%;height: 228px;display: block;border-radius: 10px;background: #f2f2f2 url(../img/sub/img_content_healthychill.png) no-repeat;background-position: right bottom;background-position-x: 95%;}
+.box_figureban_wrap.healthychill2 {width: 100%;height: 228px;display: block;border-radius: 10px;background: #f2f2f2 url(../img/sub/img_content_healthychill2.png) no-repeat;background-position: right bottom;background-position-x: 95%;}
+.box_figureban_wrap.knowledge {width: 100%;height: 228px;display: block;border-radius: 10px;background: #f2f2f2 url(../img/sub/img_content_knowledge.png) no-repeat;background-position: right bottom;background-position-x: 95%;}
+.box_figureban_wrap.economy {width: 100%;height: 228px;display: block;border-radius: 10px;background: #f2f2f2 url(../img/sub/img_content_economy.png) no-repeat;background-position: right bottom;background-position-x: 95%;}
+.box_figureban_wrap.startup {width: 100%;height: 228px;display: block;border-radius: 10px;background: #f2f2f2 url(../img/sub/img_content_startup.png) no-repeat;background-position: right bottom;background-position-x: 95%;}
 
 .box_figureban_wrap .box_txt { width: 100%; height: 100%;  max-width: 100% !important; display: flex; align-items: center; justify-content: start;}
 .box_figureban_wrap .box_txt strong { padding: 0 40px; font-size: 30px;line-height: 45px;}
@@ -6020,35 +6020,35 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 .txt_sub span.txt_bul:before { content: '';width: 7px;height: 7px;  background: #0083a0; display: inline-block;  vertical-align: top; border-radius: 10px;  margin: 25px 8px 0;}
 .txt_sub i { font-size: 22px; font-weight: bold; color: #000;margin-bottom: 10px; font-style: normal;}
 .txt_sub b { display: block; font-size: 28px;  color: #000;  line-height: 1.5;}
-.txt_sub em { display: block; background: url(/cubersc/template/user/img/sub/ico_bmk_sub.png) no-repeat center;background-size: contain; width: 90px;  height: 80px; background-repeat: no-repeat !important;}
+.txt_sub em { display: block; background: url(../img/sub/ico_bmk_sub.png) no-repeat center;background-size: contain; width: 90px;  height: 80px; background-repeat: no-repeat !important;}
 
 .txt_sub em.rental_80 {
-    background: url(/cubersc/template/user/img/sub/ico_bmk_sub_80.png) no-repeat center;
+    background: url(../img/sub/ico_bmk_sub_80.png) no-repeat center;
     background-size: contain;
 }
 
 .txt_sub em.rental_90 { 
-    background: url(/cubersc/template/user/img/sub/ico_bmk_sub_90.png) no-repeat center;
+    background: url(../img/sub/ico_bmk_sub_90.png) no-repeat center;
     background-size: contain;
 }
 
 .txt_sub em.rental_95 {
-    background: url(/cubersc/template/user/img/sub/ico_bmk_sub_95.png) no-repeat center;
+    background: url(../img/sub/ico_bmk_sub_95.png) no-repeat center;
     background-size: contain;
 }
 
 .txt_sub em.ico_prepayment {
-    background: url(/cubersc/template/user/img/sub/sub_bank_money_ico_02.png);
+    background: url(../img/sub/sub_bank_money_ico_02.png);
     background-size: contain;
 }
 
 .txt_sub em.ico_bank {
-    background: url(/cubersc/template/user/img/sub/sub_bank_money_ico_03.png);
+    background: url(../img/sub/sub_bank_money_ico_03.png);
     background-size: contain;
 }
 
 .txt_sub em.ico_welfarework{
-    background: url(/cubersc/template/user/img/sub/sub_bank_money_ico_04.png);
+    background: url(../img/sub/sub_bank_money_ico_04.png);
     background-size: contain;
 }
 
@@ -6432,7 +6432,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 .sub_tab_wrap .item_right .item_step li::after {
     content: "";
     display: block;
-    background: url(/cubersc/template/user/img/sub/tab_arrow.png) no-repeat center;
+    background: url(../img/sub/tab_arrow.png) no-repeat center;
     background-size: contain;
     width: 27px;
     height: 50px;
@@ -6585,7 +6585,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 .dot::before {
     content: "";
     display: inline-block;
-    background: url(/cubersc/template/user/img/sub/sss-bul.png) no-repeat center;
+    background: url(../img/sub/sss-bul.png) no-repeat center;
     background-size: cover;
     width: 7px;
     height: 7px;
@@ -7006,7 +7006,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 .global_step_wrap li::after {
     content: "";
     display: block;
-    background: url(/cubersc/template/user/img/sub/tab_arrow.png) no-repeat center;
+    background: url(../img/sub/tab_arrow.png) no-repeat center;
     background-size: contain;
     width: 27px;
     height: 50px;
@@ -7109,7 +7109,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 .row_box_list .row_box_txt p::before {
     content: "";
     display: block;
-    background: url(/cubersc/template/user/img/sub/row_box_list_style.png) no-repeat center;
+    background: url(../img/sub/row_box_list_style.png) no-repeat center;
     width: 5px;
     height: 5px;
 }
@@ -7160,7 +7160,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 .compare_wrap li .item_center p::after {
     content: "";
     display: block;
-    background: url(/cubersc/template/user/img/sub/compare_next_img.png) no-repeat center;
+    background: url(../img/sub/compare_next_img.png) no-repeat center;
     background-size: contain;
     width: 47px;
     height: 34px;
@@ -7278,7 +7278,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 .history_header li strong::after {
     content: "";
     display: block;
-    background: url(/cubersc/template/user/img/sub/history_gray_point.png) no-repeat center;
+    background: url(../img/sub/history_gray_point.png) no-repeat center;
     background-size: contain;
     width: 10px;
     height: 10px;
@@ -7291,7 +7291,7 @@ a.btn_linkmove.btn_pop:after {content: '';  background: url(/cubersc/mngr/img/su
 .history_header li.active strong::after {
     content: "";
     display: block;
-    background: url(/cubersc/template/user/img/sub/history_blue_point.png) no-repeat center;
+    background: url(../img/sub/history_blue_point.png) no-repeat center;
     background-size: contain;
     width: 19px;
     height: 18px;
@@ -8345,7 +8345,7 @@ display: none !important;
     display: block;
     min-width: 7px;
     min-height: 7px;
-    background: url(/cubersc/template/user/img/sub/tempo_bul.png) no-repeat center;
+    background: url(../img/sub/tempo_bul.png) no-repeat center;
     background-size: contain;
 }
 
@@ -8360,7 +8360,7 @@ display: none !important;
     display: block;
     width: 14px;
     height: 8px;
-    background: url(/cubersc/template/user/img/sub/tempo_arrow.png) no-repeat center;
+    background: url(../img/sub/tempo_arrow.png) no-repeat center;
     background-size: contain;
     position: absolute;
     right: 0;
@@ -8373,7 +8373,7 @@ display: none !important;
     display: block;
     width: 10px;
     height: 15px;
-    background: url(/cubersc/template/user/img/sub/blue_right_arrow_ico.png) no-repeat center;
+    background: url(../img/sub/blue_right_arrow_ico.png) no-repeat center;
     background-size: contain;
 }
 
@@ -8427,7 +8427,7 @@ display: none !important;
 .tempo_button button::after {
 	content:"";
 	display:block;
-	background:url(/cubersc/template/user/img/sub/a_next.png) no-repeat center;
+	background:url(../img/sub/a_next.png) no-repeat center;
 	background-size: contain;
 	width:14px;
 	height:12px;
@@ -8538,7 +8538,7 @@ display: none !important;
 .header_title h5::after {
     content: "";
     display: block;
-    background: url(/cubersc/template/user/img/sub/h1-bullet.png) no-repeat center;
+    background: url(../img/sub/h1-bullet.png) no-repeat center;
     background-size: cover;
     width: 23px;
     height: 5px;
@@ -8575,7 +8575,7 @@ display: none !important;
 .txt_title h6::before {
     content: "";
     display: inline-block;
-    background: url(/cubersc/template/user/img/sub/tit_icon1.png) no-repeat center;
+    background: url(../img/sub/tit_icon1.png) no-repeat center;
     background-size: cover;
     width: 16px;
     height: 16px;
@@ -8608,7 +8608,7 @@ display: none !important;
 .apply_btn button::after {
     content: "";
     display: inline-block;
-    background: url(/cubersc/template/user/img/sub/a_next.png) no-repeat center;
+    background: url(../img/sub/a_next.png) no-repeat center;
     background-size: cover;
     width: 14px;
     height: 12px;
@@ -8618,7 +8618,7 @@ display: none !important;
 .down_btn button::after {
     content: "";
     display: inline-block;
-    background: url(/cubersc/template/user/img/sub/a_down.png) no-repeat center;
+    background: url(../img/sub/a_down.png) no-repeat center;
     background-size: cover;
     width: 14px;
     height: 14px;
@@ -8744,7 +8744,7 @@ display: none !important;
 .content_txt .txt>strong::before {
     content: "";
     display: inline-block;
-    background: url(/cubersc/template/user/img/sub/tit_sub_icon1.png) no-repeat center;
+    background: url(../img/sub/tit_sub_icon1.png) no-repeat center;
     background-size: cover;
     width: 10px;
     height: 15px;
@@ -8766,7 +8766,7 @@ display: none !important;
 .content_txt .txt>p::before {
     content: "";
     display: inline-block;
-    background: url(/cubersc/template/user/img/sub/sss-bul.png) no-repeat center;
+    background: url(../img/sub/sss-bul.png) no-repeat center;
     background-size: cover;
     width: 7px;
     height: 7px;
@@ -8922,7 +8922,7 @@ display: none !important;
 select {
     height: 48px;
     width: 380px;
-    background: #fff url(/cubersc/template/user/img/sub/s3_mybox_bottom.png) right center no-repeat;
+    background: #fff url(../img/sub/s3_mybox_bottom.png) right center no-repeat;
     cursor: pointer;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -10028,7 +10028,7 @@ select {
     .box_greet_imgaddtxt .box_row_flex.right .txt {width: 100%;padding: 15px 20px 0 0;} 
 
     .box_percent_view {width: 240px;height: 246px;margin: 50px auto;} 
-    .box_percent_view .add_desct { background: url(/cubersc/template/user/img/sub/img_add_desct-m.png) no-repeat; right: auto; width: 169px; height: 82px; background-size: cover; top: auto; left: 50%; transform: translateX(-50%); bottom: -40px; font-size: 16px; line-height: 22px; padding: 15px 10px 10px 0; } 
+    .box_percent_view .add_desct { background: url(../img/sub/img_add_desct-m.png) no-repeat; right: auto; width: 169px; height: 82px; background-size: cover; top: auto; left: 50%; transform: translateX(-50%); bottom: -40px; font-size: 16px; line-height: 22px; padding: 15px 10px 10px 0; } 
     .box_percent_view .txt_percentbig {width: 100%;height: 240px;font-size: 40px;line-height: 50px;} 
 
     .box_normaltxt_center {padding-top: 50px;font-size: 20px;line-height: 38px;}    
@@ -10067,7 +10067,7 @@ select {
 	.box_circle_steps .list_circle_steps li > div:before { width: 2px; height: 100%; top: 0;}	
 	.box_circle_steps .list_circle_steps li:nth-child(1) > div:before { left: 0; width: 2px;top: 14px;}
 	.box_circle_steps .list_circle_steps li:nth-child(4) > div:before { height: 0;}	
-	.box_circle_steps .list_circle_steps li:after {content: '';width: 8px;height: 11px;background: url(/cubersc/template/user/img/sub/ico_asset_management_arr-m.png) no-repeat;background-size: cover;right: auto;left: -3px;top: 50%;}
+	.box_circle_steps .list_circle_steps li:after {content: '';width: 8px;height: 11px;background: url(../img/sub/ico_asset_management_arr-m.png) no-repeat;background-size: cover;right: auto;left: -3px;top: 50%;}
 	.box_circle_steps .list_circle_steps li {padding: 0 0 30px 35px;margin: 0;}	
 	.list_circle_steps p {clear: both;  text-align: left; padding-top: 0;}
 	.list_circle_steps .badge {float: left;margin: 0 0 15px 0;}
@@ -11009,7 +11009,7 @@ select {
     .box_ngraph_tit span {font-size:16px;}
 
     .box_percent_view { width: 188px; height: 194px; margin: 50px auto; } 
-    .box_percent_view .add_desct { background: url(/cubersc/template/user/img/sub/img_add_desct-m.png) no-repeat; right: auto; width: 169px; height: 82px; background-size: cover; top: auto; left: 50%; transform: translateX(-50%); bottom: -40px; font-size: 16px; line-height: 22px; padding: 15px 10px 10px 0; } 
+    .box_percent_view .add_desct { background: url(../img/sub/img_add_desct-m.png) no-repeat; right: auto; width: 169px; height: 82px; background-size: cover; top: auto; left: 50%; transform: translateX(-50%); bottom: -40px; font-size: 16px; line-height: 22px; padding: 15px 10px 10px 0; } 
     .box_percent_view .txt_percentbig { width: 188px; height: 185px; font-size: 40px; line-height: 50px; } 
     
     .list_freeveiw_allmenu li {width: 50%;height: 85px;}
@@ -11052,7 +11052,7 @@ select {
     .box_contarea .subss .h-step .be-bg {min-width: auto;margin-bottom: 15px;}
     .box_contarea .icons-box li {width: 20%;transition: width .5s;}    
 
-    .box_circlebg_area {/* background: url(/cubersc/template/user/img/sub/img_figure_megastudy-m.png) no-repeat; */background-size: contain;height: 290px;width: 285px;display: flex;flex-wrap: wrap;justify-content: space-around;align-items: start;} 
+    .box_circlebg_area {/* background: url(../img/sub/img_figure_megastudy-m.png) no-repeat; */background-size: contain;height: 290px;width: 285px;display: flex;flex-wrap: wrap;justify-content: space-around;align-items: start;} 
 	.box_circlebg_area li {width: 50%;height: 50%;display: flex;align-items: center;flex-direction: column;justify-content: center;margin: 0 -10px;} 
 	.box_circlebg_area li:nth-child(1) {padding-left: 0;padding-top: 0;}
 	.box_circlebg_area li:nth-child(2) {padding-left: 0px;width: 50%;padding-top: 0;}
