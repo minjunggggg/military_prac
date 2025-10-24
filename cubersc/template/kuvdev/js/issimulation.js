@@ -41,7 +41,7 @@ $(document).ready(function () {
                 alert("로그인 후 이용가능합니다.");
                 location.href = "/web/contents/webLogin.do";
             } else {
-                alert("api오류\ncode:" + request.status + "\n" + "message:" + request.responseText + "\n");
+                // alert("api오류\ncode:" + request.status + "\n" + "message:" + request.responseText + "\n");
             }
         },
     });
@@ -293,7 +293,7 @@ function startSerch() {
         },
         error: function (request, status, error) {
             //api 중단될때
-            alert("api오류\ncode:" + request.status + "\n" + "message:" + request.responseText + "\n");
+            // alert("api오류\ncode:" + request.status + "\n" + "message:" + request.responseText + "\n");
         },
     });
 }

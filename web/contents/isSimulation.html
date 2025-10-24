@@ -78,160 +78,6 @@
         <script type="text/javascript" src="/cubersc/template/user/js/content.js"></script>
         <script type="text/javascript" src="/cubersc/template/kuvdev/js/quickChat.js"></script>
 
-        <script>
-            // 아래와 같이 사용
-            // <a href="javascript:void(0);" title="개인정보변경" onclick="downimg2();return false;"><img src="/cubersc/template/user/img/sub/s3_v_icon3.png" alt="개인정보변경 아이콘"><span>개인정보변경</span></a>
-
-            function toPrint() {
-                // 서브 상단 옵션 프린터 용도
-                html2canvas(document.querySelector(".w")).then(function (canvas) {
-                    var dataUrl = canvas.toDataURL(); //attempt to save base64 string to server using this var
-                    var windowContent = "<!DOCTYPE html>";
-                    windowContent += "<html>";
-                    windowContent += "<head>";
-                    windowContent += "<style> @page { margin:0; } @media print {img {width: 100%;}  #contents {padding:0;}}</style>";
-                    windowContent += "</head>";
-                    windowContent += '<body style="padding:0px;margin:0px;text-align:center;">';
-                    windowContent += '<img style="width:90%;margin:0;padding:0" src="' + dataUrl + '">';
-                    windowContent += "</body>";
-                    windowContent += "</html>";
-                    var printWin = window.open("", "", "width=800,height=800");
-                    printWin.document.open();
-                    printWin.document.write(windowContent);
-                    printWin.document.close();
-
-                    setTimeout(function () {
-                        printWin.focus();
-                        printWin.print();
-                        printWin.close();
-                    }, 10);
-                });
-            }
-
-            function toPrintSub(ClassName) {
-                // 서브 내부 버튼 출력 용도
-                var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
-                if (!isMobile) {
-                    if (ClassName == "beta-orgcertlist") {
-                        // 원친징수 명세서(저축증명서 출력)
-                        var sub = ".box_pdfarea";
-                    } else if (ClassName == "beta-income_specification") {
-                        var sub = ".h-wincont";
-                        var $captureContainer = $("<div>").css({
-                            paddingTop: "50px",
-                            display: "flex",
-                            width: "60%",
-                            alignItems: "center",
-                            margin: "auto",
-                            letterSpacing: "0",
-                        });
-                        var $contA = $("." + ClassName + " " + sub + "").clone();
-                        $contA.css({
-                            display: "flex",
-                            flexDirection: "column",
-                            alignItems: "center",
-                        });
-                        $contA.find("td").css("letter-spacing", "0");
-                        $captureContainer.append($contA);
-                        $("body").append($captureContainer);
-                        $(".box_loading").show();
-                        html2canvas($captureContainer).then(function (canvas) {
-                            var dataUrl = canvas.toDataURL(); //attempt to save base64 string to server using this var
-                            $captureContainer.remove();
-                            $(".box_loading").hide();
-                            var windowContent = "<!DOCTYPE html>";
-                            windowContent += "<html>";
-                            windowContent += "<head>";
-                            windowContent += "<style> @page { margin:0; } @media print {img {width: 100%;}  #contents {padding:0;}}</style>";
-                            windowContent += "</head>";
-                            windowContent += '<body style="padding:0px;margin:0px;text-align:center;">';
-                            if (ClassName == "beta-income_specification") {
-                                windowContent += '<img style="width:75%;margin:0;padding:0" src="' + dataUrl + '">';
-                            } else {
-                                windowContent += '<img style="width:100%;margin:0;padding:0" src="' + dataUrl + '">';
-                            }
-                            windowContent += "</body>";
-                            windowContent += "</html>";
-                            var printWin = window.open("", "", "width=800,height=800");
-                            printWin.document.open();
-                            printWin.document.write(windowContent);
-                            printWin.document.close();
-
-                            setTimeout(function () {
-                                printWin.focus();
-                                printWin.print();
-                                printWin.close();
-                            }, 10);
-                        });
-
-                        return;
-                    } else {
-                        var sub = ".help-w";
-                    }
-                    html2canvas($("." + ClassName + "").find("" + sub + "")).then(function (canvas) {
-                        var dataUrl = canvas.toDataURL(); //attempt to save base64 string to server using this var
-                        var windowContent = "<!DOCTYPE html>";
-                        windowContent += "<html>";
-                        windowContent += "<head>";
-                        windowContent += "<style> @page { margin:0; } @media print {img {width: 100%;}  #contents {padding:0;}}</style>";
-                        windowContent += "</head>";
-                        windowContent += '<body style="padding:0px;margin:0px;text-align:center;">';
-                        if (ClassName == "beta-income_specification") {
-                            windowContent += '<img style="width:75%;margin:0;padding:0" src="' + dataUrl + '">';
-                        } else {
-                            windowContent += '<img style="width:100%;margin:0;padding:0" src="' + dataUrl + '">';
-                        }
-                        windowContent += "</body>";
-                        windowContent += "</html>";
-                        var printWin = window.open("", "", "width=800,height=800");
-                        printWin.document.open();
-                        printWin.document.write(windowContent);
-                        printWin.document.close();
-
-                        setTimeout(function () {
-                            printWin.focus();
-                            printWin.print();
-                            printWin.close();
-                        }, 10);
-                    });
-                }
-            }
-
-            function toPrintSubSm(ClassName) {
-                // 회원증 출력만
-                var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
-                if (!isMobile) {
-                    //모바일이 아닌 경우 스크립트
-                    if (ClassName == "help-membershipcard_kr") {
-                        var sub = ".h-wincont";
-                    } else {
-                        var sub = ".help-w";
-                    }
-                    html2canvas($("." + ClassName + "").find("" + sub + "")).then(function (canvas) {
-                        var dataUrl = canvas.toDataURL(); //attempt to save base64 string to server using this var
-                        var windowContent = "<!DOCTYPE html>";
-                        windowContent += "<html>";
-                        windowContent += "<head>";
-                        windowContent += "<style> @page { margin:0; } @media print {img {width: 100%;}  #contents {padding:0;}}</style>";
-                        windowContent += "</head>";
-                        windowContent += '<body style="padding:0px;margin:0px;text-align:center;v">';
-                        windowContent += '<img style="width:50%;margin:0;padding:0" src="' + dataUrl + '">';
-                        windowContent += "</body>";
-                        windowContent += "</html>";
-                        var printWin = window.open("", "", "width=800,height=800");
-                        printWin.document.open();
-                        printWin.document.write(windowContent);
-                        printWin.document.close();
-
-                        setTimeout(function () {
-                            printWin.focus();
-                            printWin.print();
-                            printWin.close();
-                        }, 10);
-                    });
-                }
-            }
-        </script>
         <!-- 캡쳐기능 E -->
 
         <script></script>
@@ -3658,7 +3504,7 @@
                                                         </ul>
                                                     </li>
                                                     <li class="nav2 for installmentsaving on act" id="installmentsaving" href="javascript:;">
-                                                        <a href="javascript:;" title="현역/예비역 회원 저축(적립형)" name="0" tabindex="0"><span>현역/예비역 회원 저축(적립형)</span></a>
+                                                        <a href="javascript:;" title="현역/예비역 회원 저축(적립형)" name="0" tabindex="0"><span>청년간부내일준비적금</span></a>
                                                         <ul class="nav3s on last_ul" href="javascript:;">
                                                             <li class="nav3 one de4 iGuide" id="iGuide" href="javascript:;">
                                                                 <a href="/web/contents/i-Details.do" title="제도안내" name="0" tabindex="0"><span>제도안내</span></a>
@@ -4660,7 +4506,7 @@
                                     var shareURL = "http://www.facebook.com/sharer/sharer.php?u=" + nowUrl;
                                     window.open(shareURL);
                                 } else if (sns == "kakao") {
-                                /*
+                                    /*
         else if(sns == 'twitter'){
             var shareURL = "https://twitter.com/intent/tweet?text=" + nowTitle + "&url=" + nowUrl;
             window.open(shareURL);
@@ -4703,8 +4549,8 @@
                                                 <!-- 탭 구분 -->
                                                 <ul class="notice-tab tab_type2">
                                                     <!-- 탭 메뉴 2개 : tab_type2 -->
-                                                    <li data-tab="notice1" class="tab active" id="notice" data-taxtype="txtn" style="border-bottom-left-radius: 10px; border-top-left-radius: 10px"><a href="javascript:;" title="선택됨">현역/예비역 회원저축(적립형) 예상금액보기</a></li>
-                                                    <li data-tab="notice1" class="tab" data-taxtype="ntax"><a href="javascript:;" title="">현역/예비역 회원저축(적립형) 비과세종합저축 예상금액보기</a></li>
+                                                    <li data-tab="notice1" class="tab active" id="notice" data-taxtype="txtn" style="border-bottom-left-radius: 10px; border-top-left-radius: 10px"><a href="javascript:;" title="선택됨">청년간부내일준비적금 예상금액보기</a></li>
+                                                    <li data-tab="notice1" class="tab" data-taxtype="ntax"><a href="javascript:;" title="">청년간부내일준비적금 비과세종합저축 예상금액보기</a></li>
                                                 </ul>
                                                 <!-- /탭 구분 -->
                                                 <!-- 본문 -->
@@ -4714,14 +4560,14 @@
                                                         <div class="top-txt mgt">
                                                             <!-- 나에게 필요한 <span id="myTitle">현역/예비역 회원저축(적립형)</span>금은? 이자율까지 계산해서<br> -->
                                                             라이프 사이클별 목돈마련을 위한<br />
-                                                            <span class="spec"><span id="title1">현역/예비역 회원저축(적립형)</span> 예상금액을 조회하세요.</span>
+                                                            <span class="spec"><span id="title1">청년간부내일준비적금</span> 예상금액을 조회하세요.</span>
                                                         </div>
                                                     </div>
                                                     <div class="mycontent nosss rrt">
                                                         <div class="box-one one01">
                                                             <div class="box pb center box_simple_topsimul">
                                                                 <div class="chch down five">
-                                                                    <p class="only"><span id="title2">현역/예비역 회원저축(적립형)</span> 예상금액조회</p>
+                                                                    <p class="only"><span id="title2">청년간부내일준비적금</span> 예상금액조회</p>
                                                                     <div class="col4 total_4">
                                                                         <!-- 4개인 경우, total_4 -->
                                                                         <div class="total line wc">
@@ -4881,7 +4727,7 @@
                                                                             <p class="pc_tbltxt">(단위 : 원)</p>
                                                                             <table class="no_mgb">
                                                                                 <caption>
-                                                                                    현역/예비역 회원저축(적립형) 지급 예정 내역
+                                                                                    청년간부내일준비적금 지급 예정 내역
                                                                                 </caption>
 
                                                                                 <thead>
@@ -5374,16 +5220,14 @@
             <!-- ***** 회원자격 조회 ***** -->
         </script>
         <style href="javascript:;">
-            <!--//	
-.help_member_inquiries .wrap_btns .bl_btn {
+            /* .help_member_inquiries .wrap_btns .bl_btn {
                 width: 100%;
                 cursor: pointer;
             }
             .help_payment_apply .wrap_btns .bl_btn {
                 width: 100%;
                 cursor: pointer;
-            }
-            //-->
+            } */
         </style>
         <!-- 휴대전화번호 인증하기  -->
         <div class="help-bg help_member_inquiries" id="help" href="javascript:;">
