@@ -68,22 +68,22 @@ $(document).ready(function () {
         }
     });
 
-    // $(".visual .v-slider").slick({
-    //     // 메인 슬라이드
-    //     infinite: true,
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     arrows: true,
-    //     prevArrow: $(".v-prev"),
-    //     nextArrow: $(".v-next"),
-    //     dots: true,
-    //     autoplay: true,
-    //     pauseOnFocus: false,
-    //     pauseOnHover: false,
-    //     fade: true,
-    //     //speed: 700
-    //     speed: 300,
-    // });
+    $(".visual .v-slider").slick({
+        // 메인 슬라이드
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        prevArrow: $(".v-prev"),
+        nextArrow: $(".v-next"),
+        dots: true,
+        autoplay: true,
+        pauseOnFocus: false,
+        pauseOnHover: false,
+        fade: true,
+        //speed: 700
+        speed: 300,
+    });
 
     $(".v-prev").click(function () {
         $(".visual .v-slider").slick("slickPrev");
@@ -157,55 +157,55 @@ $(document).ready(function () {
         $(".two-area .tab-slider").slick("setPosition");
     });
 
-    // $(".two-area:not(.new-two-area) .tab-slider").slick({
-    //     // 저축대여 슬라이드
-    //     infinite: true,
-    //     slidesToShow: 4,
-    //     slidesToScroll: 1,
-    //     arrows: true,
-    //     prevArrow: "<button type='button' class='two-prev'>이전</button>",
-    //     nextArrow: "<button type='button' class='two-next'>다음</button>",
-    //     dots: false,
-    //     autoplay: false,
-    //     speed: 700,
-    //     responsive: [
-    //         {
-    //             breakpoint: 1341,
-    //             settings: {
-    //                 slidesToShow: 3,
-    //             },
-    //         },
-    //         {
-    //             breakpoint: 1025,
-    //             settings: {
-    //                 slidesToShow: 2,
-    //             },
-    //         },
-    //         {
-    //             breakpoint: 1001,
-    //             settings: {
-    //                 slidesToShow: 2,
-    //                 dots: true,
-    //             },
-    //         },
-    //         /*{
-    //                         breakpoint: 521,
-    //                         settings: {
-    //                             slidesToShow: 4,
-    //                             arrows : false,
-    //                             dots : true,
-    //                         }
-    //                     },
-    //                     {
-    //                         breakpoint: 436,
-    //                         settings: {
-    //                             slidesToShow: 3,
-    //                             arrows : false,
-    //                             dots : true,
-    //                         }
-    //                     }*/
-    //     ],
-    // });
+    $(".two-area:not(.new-two-area) .tab-slider").slick({
+        // 저축대여 슬라이드
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: true,
+        prevArrow: "<button type='button' class='two-prev'>이전</button>",
+        nextArrow: "<button type='button' class='two-next'>다음</button>",
+        dots: false,
+        autoplay: false,
+        speed: 700,
+        responsive: [
+            {
+                breakpoint: 1341,
+                settings: {
+                    slidesToShow: 3,
+                },
+            },
+            {
+                breakpoint: 1025,
+                settings: {
+                    slidesToShow: 2,
+                },
+            },
+            {
+                breakpoint: 1001,
+                settings: {
+                    slidesToShow: 2,
+                    dots: true,
+                },
+            },
+            /*{
+                            breakpoint: 521,
+                            settings: {
+                                slidesToShow: 4,
+                                arrows : false,
+                                dots : true,
+                            }
+                        },
+                        {
+                            breakpoint: 436,
+                            settings: {
+                                slidesToShow: 3,
+                                arrows : false,
+                                dots : true,
+                            }
+                        }*/
+        ],
+    });
 
     $(".two-area.new-two-area .tab-slider").slick({
         // 저축대여 슬라이드
@@ -217,7 +217,7 @@ $(document).ready(function () {
         nextArrow: $(".for-next2"),
         dots: false,
         autoplay: true,
-        //fade : true,
+        fade: true,
         pauseOnFocus: false,
         pauseOnHover: false,
         speed: 300,

@@ -525,18 +525,18 @@ border-radius:100%; z-index:3; cursor: pointer;}
 }
 
 
-.simul .box_simullink_wrap .simul_ico01 { background:url("/cubersc/template/user/img/sub/ico_quicksimul01.png") no-repeat;	 }
-.simul .box_simullink_wrap li.simul_01 a:hover .simul_ico01{ background:url("/cubersc/template/user/img/sub/ico_quicksimul01_w.png") no-repeat;}
-.simul .box_simullink_wrap .simul_ico02 { background:url("/cubersc/template/user/img/sub/ico_quicksimul02.png") no-repeat;  }
-.simul .box_simullink_wrap li.simul_02 a:hover .simul_ico02 { background:url("/cubersc/template/user/img/sub/ico_quicksimul02_w.png") no-repeat; }
-.simul .box_simullink_wrap .simul_ico03 { background:url("/cubersc/template/user/img/sub/ico_quicksimul03.png") no-repeat;  }
-.simul .box_simullink_wrap li.simul_03 a:hover .simul_ico03 { background:url("/cubersc/template/user/img/sub/ico_quicksimul03_w.png") no-repeat; }
-.simul .box_simullink_wrap .simul_ico04 { background:url("/cubersc/template/user/img/sub/ico_quicksimul04.png") no-repeat;  }
-.simul .box_simullink_wrap li.simul_04 a:hover .simul_ico04 { background:url("/cubersc/template/user/img/sub/ico_quicksimul04_w.png") no-repeat; }
-.simul .box_simullink_wrap .simul_ico05 { background:url("/cubersc/template/user/img/sub/ico_quicksimul05.png") no-repeat;  }
-.simul .box_simullink_wrap li.simul_05 a:hover .simul_ico05 { background:url("/cubersc/template/user/img/sub/ico_quicksimul05_w.png") no-repeat; }
-.simul .box_simullink_wrap .simul_ico06 { background:url("/cubersc/template/user/img/sub/ico_quicksimul06.png") no-repeat;  }
-.simul .box_simullink_wrap li.simul_06 a:hover .simul_ico06 { background:url("/cubersc/template/user/img/sub/ico_quicksimul06_w.png") no-repeat; }
+.simul .box_simullink_wrap .simul_ico01 { background:url("../img/sub/ico_quicksimul01.png") no-repeat;	 }
+.simul .box_simullink_wrap li.simul_01 a:hover .simul_ico01{ background:url("../img/sub/ico_quicksimul01_w.png") no-repeat;}
+.simul .box_simullink_wrap .simul_ico02 { background:url("../img/sub/ico_quicksimul02.png") no-repeat;  }
+.simul .box_simullink_wrap li.simul_02 a:hover .simul_ico02 { background:url("../img/sub/ico_quicksimul02_w.png") no-repeat; }
+.simul .box_simullink_wrap .simul_ico03 { background:url("../img/sub/ico_quicksimul03.png") no-repeat;  }
+.simul .box_simullink_wrap li.simul_03 a:hover .simul_ico03 { background:url("../img/sub/ico_quicksimul03_w.png") no-repeat; }
+.simul .box_simullink_wrap .simul_ico04 { background:url("../img/sub/ico_quicksimul04.png") no-repeat;  }
+.simul .box_simullink_wrap li.simul_04 a:hover .simul_ico04 { background:url("../img/sub/ico_quicksimul04_w.png") no-repeat; }
+.simul .box_simullink_wrap .simul_ico05 { background:url("../img/sub/ico_quicksimul05.png") no-repeat;  }
+.simul .box_simullink_wrap li.simul_05 a:hover .simul_ico05 { background:url("../img/sub/ico_quicksimul05_w.png") no-repeat; }
+.simul .box_simullink_wrap .simul_ico06 { background:url("../img/sub/ico_quicksimul06.png") no-repeat;  }
+.simul .box_simullink_wrap li.simul_06 a:hover .simul_ico06 { background:url("../img/sub/ico_quicksimul06_w.png") no-repeat; }
 
 
 .simul .simul-box .simul-close {
@@ -1527,14 +1527,14 @@ background: linear-gradient(248deg, rgba(235,244,247,1) 0%, rgba(240,249,255,1) 
 .box_viewinfowrap .slick-dots li:first-child { margin-left: 0; }
 
 .box_viewinfowrap .login_slide_btnwrap { position: absolute; top: 50%; width: 100%; z-index: 10; font-size: 12px; display: flex; justify-content: space-between; padding: 0 40px; }
-.login_slide_btnwrap .slick-arrow { cursor:pointer; width: 12px; height: 22px; display: inline-block; background: url(/cubersc/mngr/img/sub/ico_parr_grey.png) no-repeat; background-position: center center; background-size: contain; }
-.login_slide_btnwrap .slick-arrow.btn_lnext { background: url(/cubersc/mngr/img/sub/ico_narr_grey.png) no-repeat; background-position: center center; background-size: contain; }
-.login_slide_btnwrap .slick-arrow.btn_lprev:hover{background: url(/cubersc/mngr/img/sub/ico_parr.png) no-repeat; background-position: center center; background-size: contain;}
-.login_slide_btnwrap .slick-arrow.btn_lnext:hover{background: url(/cubersc/mngr/img/sub/ico_narr.png) no-repeat; background-position: center center; background-size: contain;}
+.login_slide_btnwrap .slick-arrow { cursor:pointer; width: 12px; height: 22px; display: inline-block; background: url(../../../cubersc/mngr/img/sub/ico_parr_grey.png) no-repeat; background-position: center center; background-size: contain; }
+.login_slide_btnwrap .slick-arrow.btn_lnext { background: url(../../../cubersc/mngr/img/sub/ico_narr_grey.png) no-repeat; background-position: center center; background-size: contain; }
+.login_slide_btnwrap .slick-arrow.btn_lprev:hover{background: url(../../../cubersc/mngr/img/sub/ico_parr.png) no-repeat; background-position: center center; background-size: contain;}
+.login_slide_btnwrap .slick-arrow.btn_lnext:hover{background: url(../../../cubersc/mngr/img/sub/ico_narr.png) no-repeat; background-position: center center; background-size: contain;}
 
 .box_viewinfowrap .login_controlarea { display: flex; position: absolute; top: 35px; width: 100%;justify-content: flex-end;  max-width: 324px;}
-.box_viewinfowrap .btn_lcontrol { cursor:pointer; width: 6px; height: 8px; display: inline-block; background: url(/cubersc/mngr/img/sub/ico_play.png) no-repeat; background-position: center center; background-size: contain;}
-.box_viewinfowrap .btn_lcontrol.l-Pause { background: url(/cubersc/mngr/img/sub/ico_pause.png) no-repeat; background-position: center center; background-size: contain;}
+.box_viewinfowrap .btn_lcontrol { cursor:pointer; width: 6px; height: 8px; display: inline-block; background: url(../../../cubersc/mngr/img/sub/ico_play.png) no-repeat; background-position: center center; background-size: contain;}
+.box_viewinfowrap .btn_lcontrol.l-Pause { background: url(../../../cubersc/mngr/img/sub/ico_pause.png) no-repeat; background-position: center center; background-size: contain;}
 
 
 .box_addlogwrap { padding: 0 32px; font-size: 14px;}
@@ -4768,28 +4768,28 @@ input.chk_top:checked + label:before {
     font-family: 'Noto Sans KR';
     font-style: normal;
     font-weight: 300;
-    src: url(/cubersc/template/user/font/NotoSansKR-Light.woff2) format('woff2'), url(/cubersc/template/user/font/NotoSansKR-Light.woff) format('woff'), url(/cubersc/template/user/font/NotoSansKR-Light.otf) format('opentype');
+    src: url(../font/NotoSansKR-Light.woff2) format('woff2'), url(../font/NotoSansKR-Light.woff) format('woff'), url(../font/NotoSansKR-Light.otf) format('opentype');
 }
 
 @font-face {
     font-family: 'Noto Sans KR';
     font-style: normal;
     font-weight: 400;
-    src: url(/cubersc/template/user/font/NotoSansKR-Regular.woff2) format('woff2'), url(/cubersc/template/user/font/NotoSansKR-Regular.woff) format('woff'), url(/cubersc/template/user/font/NotoSansKR-Regular.otf) format('opentype');
+    src: url(../font/NotoSansKR-Regular.woff2) format('woff2'), url(../font/NotoSansKR-Regular.woff) format('woff'), url(../font/NotoSansKR-Regular.otf) format('opentype');
 }
 
 @font-face {
     font-family: 'Noto Sans KR';
     font-style: normal;
     font-weight: 500;
-    src: url(/cubersc/template/user/font/NotoSansKR-Medium.woff2) format('woff2'), url(/cubersc/template/user/font/NotoSansKR-Medium.woff) format('woff'), url(/cubersc/template/user/font/NotoSansKR-Medium.otf) format('opentype');
+    src: url(../font/NotoSansKR-Medium.woff2) format('woff2'), url(../font/NotoSansKR-Medium.woff) format('woff'), url(../font/NotoSansKR-Medium.otf) format('opentype');
 }
 
 @font-face {
     font-family: 'Noto Sans KR';
     font-style: normal;
     font-weight: bold;
-    src: url(/cubersc/template/user/font/NotoSansKR-Bold.woff2) format('woff2'), url(/cubersc/template/user/font/NotoSansKR-Bold.woff) format('woff'), url(/cubersc/template/user/font/NotoSansKR-Bold.otf) format('opentype');
+    src: url(../font/NotoSansKR-Bold.woff2) format('woff2'), url(../font/NotoSansKR-Bold.woff) format('woff'), url(../font/NotoSansKR-Bold.otf) format('opentype');
 }
 
 
@@ -4815,7 +4815,7 @@ input.chk_top:checked + label:before {
 .cont_halfarea:first-child {border-top: 2px solid #000;}
 .cont_halfarea strong { position: relative;font-weight: bold; font-size: 18px; line-height: 28px; padding-bottom: 30px; display: block; }
 .cont_halfbox .box_icoarea {position: absolute; right: 0;}
-.cont_halfbox .box_ico { width: 30px; height: 31px; background: url("/cubersc/template/user/img/sub/ico_sale_apartment.png") no-repeat; display: inline-block; background-size: contain; }
+.cont_halfbox .box_ico { width: 30px; height: 31px; background: url("../img/sub/ico_sale_apartment.png") no-repeat; display: inline-block; background-size: contain; }
 .cont_halfbox .box_ico.ofs { background: url(../img/sub/ico_sale_officetels.png) no-repeat; width: 35px; height: 30px; background-size: contain;}
 .cont_halfbox .box_ico.str { background: url(../img/sub/ico_sale_store.png) no-repeat; width: 30px; height: 30px; background-size: contain;}
 .cont_descbox { overflow: hidden; }
